@@ -27,3 +27,6 @@
 ### 1. Install Dependencies
 ```bash
 pip install -r requirements.txt
+pip install -r requirements.txt
+python engine.py
+streamlit run app.py
