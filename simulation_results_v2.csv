@@ -1,0 +1,1027 @@
+fleet_size,architecture,isl_topology,terminal,time_min,satellite,sat_lat,sat_lon,relay_satellite,relay_lat,relay_lon,dist_term_km,isl_distance_km,link_snr_db,terminal_visible,authorized_visible,route_available,critical_latency_ms,regular_delivery_min,queue_depth_mb,next_pass_wait_min,handover_transfer_s
+12,regenerative,rf_intra_plane,North Sea Wind Farm,0,LYNQ-01,55.5,2.0,LYNQ-11,47.565,-2.562,135.1,936.6,14.2,True,True,True,92.5,30.5,6.7,26.0,3.4
+12,regenerative,rf_intra_plane,North Sea Wind Farm,5,LYNQ-01,59.895,2.119,LYNQ-08,44.718,9.933,403.0,1766.3,13.6,True,False,True,105.9,28.3,8.7,23.8,3.4
+12,regenerative,rf_intra_plane,North Sea Wind Farm,10,LYNQ-10,59.221,-3.103,LYNQ-08,47.951,15.123,507.0,1726.1,13.4,True,False,True,106.9,26.0,10.7,21.5,3.4
+12,regenerative,rf_intra_plane,North Sea Wind Farm,15,LYNQ-10,54.793,-2.675,LYNQ-04,48.147,2.396,427.7,817.7,13.5,False,False,False,,23.7,12.7,19.2,3.4
+12,regenerative,rf_intra_plane,North Sea Wind Farm,20,LYNQ-04,52.234,5.865,LYNQ-10,50.443,-0.289,481.6,471.4,13.4,True,True,False,,30.5,11.4,26.0,3.4
+12,regenerative,rf_intra_plane,North Sea Wind Farm,25,LYNQ-04,56.677,7.432,LYNQ-10,46.643,3.915,240.9,1141.4,14.0,True,True,True,96.4,28.3,10.1,23.8,3.4
+12,regenerative,rf_intra_plane,North Sea Wind Farm,30,LYNQ-04,60.991,7.044,LYNQ-10,43.809,9.6,554.0,1918.0,13.3,True,False,True,109.8,26.0,12.1,21.5,3.4
+12,regenerative,rf_intra_plane,North Sea Wind Farm,35,LYNQ-09,58.076,2.031,LYNQ-03,45.627,3.976,212.6,1390.5,14.0,True,False,True,98.9,23.7,14.1,19.2,3.4
+12,regenerative,rf_intra_plane,North Sea Wind Farm,40,LYNQ-09,53.621,2.975,LYNQ-03,49.162,8.693,305.7,634.6,13.8,True,False,True,91.4,30.5,16.1,26.0,3.4
+12,regenerative,rf_intra_plane,North Sea Wind Farm,45,LYNQ-03,53.388,11.678,LYNQ-09,49.371,5.862,615.0,601.6,13.1,False,False,False,,28.3,18.1,23.8,3.4
+12,regenerative,rf_intra_plane,North Sea Wind Farm,50,LYNQ-03,57.844,12.727,LYNQ-09,45.789,10.496,578.2,1349.0,13.2,True,True,True,103.5,26.0,16.8,21.5,3.4
+12,regenerative,rf_intra_plane,North Sea Wind Farm,55,LYNQ-12,61.205,7.786,LYNQ-02,43.693,4.827,592.2,1957.1,13.2,True,False,True,110.8,23.7,18.8,19.2,3.4
+12,regenerative,rf_intra_plane,North Sea Wind Farm,60,LYNQ-12,56.911,7.299,LYNQ-02,46.467,10.577,237.6,1182.7,14.0,True,False,True,96.8,30.5,20.8,26.0,3.4
+12,regenerative,rf_intra_plane,North Sea Wind Farm,65,LYNQ-12,52.463,8.761,LYNQ-02,50.225,14.869,547.9,491.6,13.3,True,False,False,,28.3,22.8,23.8,3.4
+12,regenerative,rf_intra_plane,North Sea Wind Farm,70,LYNQ-08,52.234,-4.065,LYNQ-12,48.346,12.135,672.9,1226.2,13.0,True,True,True,103.4,26.0,21.5,21.5,3.4
+12,regenerative,rf_intra_plane,North Sea Wind Farm,75,LYNQ-02,58.994,17.887,LYNQ-08,48.147,-0.596,899.7,1705.0,12.5,False,False,False,,23.7,23.5,19.2,3.4
+12,regenerative,rf_intra_plane,North Sea Wind Farm,80,LYNQ-11,60.117,12.686,LYNQ-08,44.862,4.518,678.3,1781.0,13.0,True,False,True,110.0,30.5,25.5,26.0,3.4
+12,regenerative,rf_intra_plane,North Sea Wind Farm,85,LYNQ-07,59.895,-0.319,LYNQ-11,55.736,12.703,454.8,897.0,13.5,True,False,True,96.5,28.3,27.5,23.8,3.4
+12,regenerative,rf_intra_plane,North Sea Wind Farm,90,LYNQ-07,55.5,-0.2,LYNQ-11,51.328,14.681,252.0,1087.0,13.9,True,True,True,95.9,26.0,26.2,21.5,3.4
+12,regenerative,rf_intra_plane,Energy Platform Alpha,0,LYNQ-01,55.5,2.0,LYNQ-11,47.565,-2.562,304.1,936.6,13.8,True,True,True,94.9,30.5,7.6,26.0,3.4
+12,regenerative,rf_intra_plane,Energy Platform Alpha,5,LYNQ-01,59.895,2.119,LYNQ-08,44.718,9.933,195.7,1766.3,14.1,True,False,True,103.0,28.3,10.5,23.8,3.4
+12,regenerative,rf_intra_plane,Energy Platform Alpha,10,LYNQ-10,59.221,-3.103,LYNQ-08,47.951,15.123,273.1,1726.1,13.9,True,False,True,103.7,26.0,13.4,21.5,3.4
+12,regenerative,rf_intra_plane,Energy Platform Alpha,15,LYNQ-10,54.793,-2.675,LYNQ-04,48.147,2.396,447.1,817.7,13.5,False,False,False,,23.7,16.3,19.2,3.4
+12,regenerative,rf_intra_plane,Energy Platform Alpha,20,LYNQ-04,52.234,5.865,LYNQ-10,50.443,-0.289,726.0,471.4,12.9,True,True,False,,30.5,15.9,26.0,3.4
+12,regenerative,rf_intra_plane,Energy Platform Alpha,25,LYNQ-04,56.677,7.432,LYNQ-10,46.643,3.915,409.4,1141.4,13.6,True,True,True,98.7,28.3,15.5,23.8,3.4
+12,regenerative,rf_intra_plane,Energy Platform Alpha,30,LYNQ-04,60.991,7.044,LYNQ-10,43.809,9.6,451.9,1918.0,13.5,True,False,True,108.4,26.0,18.4,21.5,3.4
+12,regenerative,rf_intra_plane,Energy Platform Alpha,35,LYNQ-09,58.076,2.031,LYNQ-03,45.627,3.976,50.7,1390.5,14.4,True,False,True,96.6,23.7,21.3,19.2,3.4
+12,regenerative,rf_intra_plane,Energy Platform Alpha,40,LYNQ-09,53.621,2.975,LYNQ-03,49.162,8.693,521.0,634.6,13.3,True,False,True,94.4,30.5,24.2,26.0,3.4
+12,regenerative,rf_intra_plane,Energy Platform Alpha,45,LYNQ-03,53.388,11.678,LYNQ-09,49.371,5.862,844.2,601.6,12.6,False,False,False,,28.3,27.1,23.8,3.4
+12,regenerative,rf_intra_plane,Energy Platform Alpha,50,LYNQ-03,57.844,12.727,LYNQ-09,45.789,10.496,679.1,1349.0,13.0,True,True,True,104.9,26.0,26.7,21.5,3.4
+12,regenerative,rf_intra_plane,Energy Platform Alpha,55,LYNQ-12,61.205,7.786,LYNQ-02,43.693,4.827,497.7,1957.1,13.4,True,False,True,109.5,23.7,29.6,19.2,3.4
+12,regenerative,rf_intra_plane,Energy Platform Alpha,60,LYNQ-12,56.911,7.299,LYNQ-02,46.467,10.577,390.9,1182.7,13.6,True,False,True,99.0,30.5,32.5,26.0,3.4
+12,regenerative,rf_intra_plane,Energy Platform Alpha,65,LYNQ-08,56.677,-5.632,LYNQ-12,52.463,8.761,442.3,1036.7,13.5,True,False,False,,28.3,35.4,23.8,3.4
+12,regenerative,rf_intra_plane,Energy Platform Alpha,70,LYNQ-08,52.234,-4.065,LYNQ-12,48.346,12.135,742.2,1226.2,12.9,True,True,True,104.4,26.0,35.0,21.5,3.4
+12,regenerative,rf_intra_plane,Energy Platform Alpha,75,LYNQ-11,63.996,14.511,LYNQ-08,48.147,-0.596,959.5,1984.6,12.4,False,False,False,,23.7,37.9,19.2,3.4
+12,regenerative,rf_intra_plane,Energy Platform Alpha,80,LYNQ-07,63.811,1.416,LYNQ-08,44.862,4.518,624.0,2116.0,13.1,True,False,True,113.1,30.5,40.8,26.0,3.4
+12,regenerative,rf_intra_plane,Energy Platform Alpha,85,LYNQ-07,59.895,-0.319,LYNQ-11,55.736,12.703,207.5,897.0,14.0,True,False,True,93.1,28.3,43.7,23.8,3.4
+12,regenerative,rf_intra_plane,Energy Platform Alpha,90,LYNQ-07,55.5,-0.2,LYNQ-11,51.328,14.681,312.0,1087.0,13.8,True,True,True,96.8,26.0,43.3,21.5,3.4
+12,regenerative,optical_cross_plane,North Sea Wind Farm,0,LYNQ-01,55.5,2.0,LYNQ-11,47.565,-2.562,135.1,936.6,14.2,True,True,True,83.5,28.0,6.7,26.0,1.8
+12,regenerative,optical_cross_plane,North Sea Wind Farm,5,LYNQ-01,59.895,2.119,LYNQ-08,44.718,9.933,403.0,1766.3,13.6,True,False,True,96.9,25.8,7.3,23.8,1.8
+12,regenerative,optical_cross_plane,North Sea Wind Farm,10,LYNQ-10,59.221,-3.103,LYNQ-08,47.951,15.123,507.0,1726.1,13.4,True,False,True,97.9,23.5,7.9,21.5,1.8
+12,regenerative,optical_cross_plane,North Sea Wind Farm,15,LYNQ-10,54.793,-2.675,LYNQ-04,48.147,2.396,427.7,817.7,13.5,False,False,False,,21.2,9.9,19.2,1.8
+12,regenerative,optical_cross_plane,North Sea Wind Farm,20,LYNQ-04,52.234,5.865,LYNQ-10,50.443,-0.289,481.6,471.4,13.4,True,True,True,82.9,28.0,8.6,26.0,1.8
+12,regenerative,optical_cross_plane,North Sea Wind Farm,25,LYNQ-04,56.677,7.432,LYNQ-10,46.643,3.915,240.9,1141.4,14.0,True,True,True,87.4,25.8,7.3,23.8,1.8
+12,regenerative,optical_cross_plane,North Sea Wind Farm,30,LYNQ-04,60.991,7.044,LYNQ-10,43.809,9.6,554.0,1918.0,13.3,True,False,True,100.8,23.5,7.9,21.5,1.8
+12,regenerative,optical_cross_plane,North Sea Wind Farm,35,LYNQ-09,58.076,2.031,LYNQ-03,45.627,3.976,212.6,1390.5,14.0,True,False,False,,21.2,9.9,19.2,1.8
+12,regenerative,optical_cross_plane,North Sea Wind Farm,40,LYNQ-09,53.621,2.975,LYNQ-03,49.162,8.693,305.7,634.6,13.8,True,False,True,82.4,28.0,10.5,26.0,1.8
+12,regenerative,optical_cross_plane,North Sea Wind Farm,45,LYNQ-03,53.388,11.678,LYNQ-09,49.371,5.862,615.0,601.6,13.1,False,False,False,,25.8,12.5,23.8,1.8
+12,regenerative,optical_cross_plane,North Sea Wind Farm,50,LYNQ-03,57.844,12.727,LYNQ-09,45.789,10.496,578.2,1349.0,13.2,True,True,True,94.5,23.5,11.2,21.5,1.8
+12,regenerative,optical_cross_plane,North Sea Wind Farm,55,LYNQ-12,61.205,7.786,LYNQ-02,43.693,4.827,592.2,1957.1,13.2,True,False,True,101.8,21.2,11.8,19.2,1.8
+12,regenerative,optical_cross_plane,North Sea Wind Farm,60,LYNQ-12,56.911,7.299,LYNQ-02,46.467,10.577,237.6,1182.7,14.0,True,False,True,87.8,28.0,12.4,26.0,1.8
+12,regenerative,optical_cross_plane,North Sea Wind Farm,65,LYNQ-12,52.463,8.761,LYNQ-02,50.225,14.869,547.9,491.6,13.3,True,False,True,84.1,25.8,13.0,23.8,1.8
+12,regenerative,optical_cross_plane,North Sea Wind Farm,70,LYNQ-08,52.234,-4.065,LYNQ-12,48.346,12.135,672.9,1226.2,13.0,True,True,True,94.4,23.5,11.7,21.5,1.8
+12,regenerative,optical_cross_plane,North Sea Wind Farm,75,LYNQ-02,58.994,17.887,LYNQ-08,48.147,-0.596,899.7,1705.0,12.5,False,False,False,,21.2,13.7,19.2,1.8
+12,regenerative,optical_cross_plane,North Sea Wind Farm,80,LYNQ-11,60.117,12.686,LYNQ-08,44.862,4.518,678.3,1781.0,13.0,True,False,True,101.0,28.0,14.3,26.0,1.8
+12,regenerative,optical_cross_plane,North Sea Wind Farm,85,LYNQ-07,59.895,-0.319,LYNQ-11,55.736,12.703,454.8,897.0,13.5,True,False,True,87.5,25.8,14.9,23.8,1.8
+12,regenerative,optical_cross_plane,North Sea Wind Farm,90,LYNQ-07,55.5,-0.2,LYNQ-11,51.328,14.681,252.0,1087.0,13.9,True,True,True,86.9,23.5,13.6,21.5,1.8
+12,regenerative,optical_cross_plane,Energy Platform Alpha,0,LYNQ-01,55.5,2.0,LYNQ-11,47.565,-2.562,304.1,936.6,13.8,True,True,True,85.9,28.0,7.6,26.0,1.8
+12,regenerative,optical_cross_plane,Energy Platform Alpha,5,LYNQ-01,59.895,2.119,LYNQ-08,44.718,9.933,195.7,1766.3,14.1,True,False,True,94.0,25.8,9.1,23.8,1.8
+12,regenerative,optical_cross_plane,Energy Platform Alpha,10,LYNQ-10,59.221,-3.103,LYNQ-08,47.951,15.123,273.1,1726.1,13.9,True,False,True,94.7,23.5,10.6,21.5,1.8
+12,regenerative,optical_cross_plane,Energy Platform Alpha,15,LYNQ-10,54.793,-2.675,LYNQ-04,48.147,2.396,447.1,817.7,13.5,False,False,False,,21.2,13.5,19.2,1.8
+12,regenerative,optical_cross_plane,Energy Platform Alpha,20,LYNQ-04,52.234,5.865,LYNQ-10,50.443,-0.289,726.0,471.4,12.9,True,True,True,86.4,28.0,13.1,26.0,1.8
+12,regenerative,optical_cross_plane,Energy Platform Alpha,25,LYNQ-04,56.677,7.432,LYNQ-10,46.643,3.915,409.4,1141.4,13.6,True,True,True,89.7,25.8,12.7,23.8,1.8
+12,regenerative,optical_cross_plane,Energy Platform Alpha,30,LYNQ-04,60.991,7.044,LYNQ-10,43.809,9.6,451.9,1918.0,13.5,True,False,True,99.4,23.5,14.2,21.5,1.8
+12,regenerative,optical_cross_plane,Energy Platform Alpha,35,LYNQ-09,58.076,2.031,LYNQ-03,45.627,3.976,50.7,1390.5,14.4,True,False,False,,21.2,17.1,19.2,1.8
+12,regenerative,optical_cross_plane,Energy Platform Alpha,40,LYNQ-09,53.621,2.975,LYNQ-03,49.162,8.693,521.0,634.6,13.3,True,False,True,85.4,28.0,18.6,26.0,1.8
+12,regenerative,optical_cross_plane,Energy Platform Alpha,45,LYNQ-03,53.388,11.678,LYNQ-09,49.371,5.862,844.2,601.6,12.6,False,False,False,,25.8,21.5,23.8,1.8
+12,regenerative,optical_cross_plane,Energy Platform Alpha,50,LYNQ-03,57.844,12.727,LYNQ-09,45.789,10.496,679.1,1349.0,13.0,True,True,True,95.9,23.5,21.1,21.5,1.8
+12,regenerative,optical_cross_plane,Energy Platform Alpha,55,LYNQ-12,61.205,7.786,LYNQ-02,43.693,4.827,497.7,1957.1,13.4,True,False,True,100.5,21.2,22.6,19.2,1.8
+12,regenerative,optical_cross_plane,Energy Platform Alpha,60,LYNQ-12,56.911,7.299,LYNQ-02,46.467,10.577,390.9,1182.7,13.6,True,False,True,90.0,28.0,24.1,26.0,1.8
+12,regenerative,optical_cross_plane,Energy Platform Alpha,65,LYNQ-08,56.677,-5.632,LYNQ-12,52.463,8.761,442.3,1036.7,13.5,True,False,True,89.0,25.8,25.6,23.8,1.8
+12,regenerative,optical_cross_plane,Energy Platform Alpha,70,LYNQ-08,52.234,-4.065,LYNQ-12,48.346,12.135,742.2,1226.2,12.9,True,True,True,95.4,23.5,25.2,21.5,1.8
+12,regenerative,optical_cross_plane,Energy Platform Alpha,75,LYNQ-11,63.996,14.511,LYNQ-08,48.147,-0.596,959.5,1984.6,12.4,False,False,False,,21.2,28.1,19.2,1.8
+12,regenerative,optical_cross_plane,Energy Platform Alpha,80,LYNQ-07,63.811,1.416,LYNQ-08,44.862,4.518,624.0,2116.0,13.1,True,False,True,104.1,28.0,29.6,26.0,1.8
+12,regenerative,optical_cross_plane,Energy Platform Alpha,85,LYNQ-07,59.895,-0.319,LYNQ-11,55.736,12.703,207.5,897.0,14.0,True,False,True,84.1,25.8,31.1,23.8,1.8
+12,regenerative,optical_cross_plane,Energy Platform Alpha,90,LYNQ-07,55.5,-0.2,LYNQ-11,51.328,14.681,312.0,1087.0,13.8,True,True,True,87.8,23.5,30.7,21.5,1.8
+12,regenerative,hybrid,North Sea Wind Farm,0,LYNQ-01,55.5,2.0,LYNQ-11,47.565,-2.562,135.1,936.6,14.2,True,True,True,87.5,28.0,6.7,26.0,2.4
+12,regenerative,hybrid,North Sea Wind Farm,5,LYNQ-01,59.895,2.119,LYNQ-08,44.718,9.933,403.0,1766.3,13.6,True,False,True,100.9,25.8,7.3,23.8,2.4
+12,regenerative,hybrid,North Sea Wind Farm,10,LYNQ-10,59.221,-3.103,LYNQ-08,47.951,15.123,507.0,1726.1,13.4,True,False,True,101.9,23.5,7.9,21.5,2.4
+12,regenerative,hybrid,North Sea Wind Farm,15,LYNQ-10,54.793,-2.675,LYNQ-04,48.147,2.396,427.7,817.7,13.5,False,False,False,,21.2,9.9,19.2,2.4
+12,regenerative,hybrid,North Sea Wind Farm,20,LYNQ-04,52.234,5.865,LYNQ-10,50.443,-0.289,481.6,471.4,13.4,True,True,True,86.9,28.0,8.6,26.0,2.4
+12,regenerative,hybrid,North Sea Wind Farm,25,LYNQ-04,56.677,7.432,LYNQ-10,46.643,3.915,240.9,1141.4,14.0,True,True,True,91.4,25.8,7.3,23.8,2.4
+12,regenerative,hybrid,North Sea Wind Farm,30,LYNQ-04,60.991,7.044,LYNQ-10,43.809,9.6,554.0,1918.0,13.3,True,False,True,104.8,23.5,7.9,21.5,2.4
+12,regenerative,hybrid,North Sea Wind Farm,35,LYNQ-09,58.076,2.031,LYNQ-03,45.627,3.976,212.6,1390.5,14.0,True,False,True,93.9,21.2,8.5,19.2,2.4
+12,regenerative,hybrid,North Sea Wind Farm,40,LYNQ-09,53.621,2.975,LYNQ-03,49.162,8.693,305.7,634.6,13.8,True,False,True,86.4,28.0,9.1,26.0,2.4
+12,regenerative,hybrid,North Sea Wind Farm,45,LYNQ-03,53.388,11.678,LYNQ-09,49.371,5.862,615.0,601.6,13.1,False,False,False,,25.8,11.1,23.8,2.4
+12,regenerative,hybrid,North Sea Wind Farm,50,LYNQ-03,57.844,12.727,LYNQ-09,45.789,10.496,578.2,1349.0,13.2,True,True,True,98.5,23.5,9.8,21.5,2.4
+12,regenerative,hybrid,North Sea Wind Farm,55,LYNQ-12,61.205,7.786,LYNQ-02,43.693,4.827,592.2,1957.1,13.2,True,False,True,105.8,21.2,10.4,19.2,2.4
+12,regenerative,hybrid,North Sea Wind Farm,60,LYNQ-12,56.911,7.299,LYNQ-02,46.467,10.577,237.6,1182.7,14.0,True,False,True,91.8,28.0,11.0,26.0,2.4
+12,regenerative,hybrid,North Sea Wind Farm,65,LYNQ-12,52.463,8.761,LYNQ-02,50.225,14.869,547.9,491.6,13.3,True,False,True,88.1,25.8,11.6,23.8,2.4
+12,regenerative,hybrid,North Sea Wind Farm,70,LYNQ-08,52.234,-4.065,LYNQ-12,48.346,12.135,672.9,1226.2,13.0,True,True,True,98.4,23.5,10.3,21.5,2.4
+12,regenerative,hybrid,North Sea Wind Farm,75,LYNQ-02,58.994,17.887,LYNQ-08,48.147,-0.596,899.7,1705.0,12.5,False,False,False,,21.2,12.3,19.2,2.4
+12,regenerative,hybrid,North Sea Wind Farm,80,LYNQ-11,60.117,12.686,LYNQ-08,44.862,4.518,678.3,1781.0,13.0,True,False,True,105.0,28.0,12.9,26.0,2.4
+12,regenerative,hybrid,North Sea Wind Farm,85,LYNQ-07,59.895,-0.319,LYNQ-11,55.736,12.703,454.8,897.0,13.5,True,False,True,91.5,25.8,13.5,23.8,2.4
+12,regenerative,hybrid,North Sea Wind Farm,90,LYNQ-07,55.5,-0.2,LYNQ-11,51.328,14.681,252.0,1087.0,13.9,True,True,True,90.9,23.5,12.2,21.5,2.4
+12,regenerative,hybrid,Energy Platform Alpha,0,LYNQ-01,55.5,2.0,LYNQ-11,47.565,-2.562,304.1,936.6,13.8,True,True,True,89.9,28.0,7.6,26.0,2.4
+12,regenerative,hybrid,Energy Platform Alpha,5,LYNQ-01,59.895,2.119,LYNQ-08,44.718,9.933,195.7,1766.3,14.1,True,False,True,98.0,25.8,9.1,23.8,2.4
+12,regenerative,hybrid,Energy Platform Alpha,10,LYNQ-10,59.221,-3.103,LYNQ-08,47.951,15.123,273.1,1726.1,13.9,True,False,True,98.7,23.5,10.6,21.5,2.4
+12,regenerative,hybrid,Energy Platform Alpha,15,LYNQ-10,54.793,-2.675,LYNQ-04,48.147,2.396,447.1,817.7,13.5,False,False,False,,21.2,13.5,19.2,2.4
+12,regenerative,hybrid,Energy Platform Alpha,20,LYNQ-04,52.234,5.865,LYNQ-10,50.443,-0.289,726.0,471.4,12.9,True,True,True,90.4,28.0,13.1,26.0,2.4
+12,regenerative,hybrid,Energy Platform Alpha,25,LYNQ-04,56.677,7.432,LYNQ-10,46.643,3.915,409.4,1141.4,13.6,True,True,True,93.7,25.8,12.7,23.8,2.4
+12,regenerative,hybrid,Energy Platform Alpha,30,LYNQ-04,60.991,7.044,LYNQ-10,43.809,9.6,451.9,1918.0,13.5,True,False,True,103.4,23.5,14.2,21.5,2.4
+12,regenerative,hybrid,Energy Platform Alpha,35,LYNQ-09,58.076,2.031,LYNQ-03,45.627,3.976,50.7,1390.5,14.4,True,False,True,91.6,21.2,15.7,19.2,2.4
+12,regenerative,hybrid,Energy Platform Alpha,40,LYNQ-09,53.621,2.975,LYNQ-03,49.162,8.693,521.0,634.6,13.3,True,False,True,89.4,28.0,17.2,26.0,2.4
+12,regenerative,hybrid,Energy Platform Alpha,45,LYNQ-03,53.388,11.678,LYNQ-09,49.371,5.862,844.2,601.6,12.6,False,False,False,,25.8,20.1,23.8,2.4
+12,regenerative,hybrid,Energy Platform Alpha,50,LYNQ-03,57.844,12.727,LYNQ-09,45.789,10.496,679.1,1349.0,13.0,True,True,True,99.9,23.5,19.7,21.5,2.4
+12,regenerative,hybrid,Energy Platform Alpha,55,LYNQ-12,61.205,7.786,LYNQ-02,43.693,4.827,497.7,1957.1,13.4,True,False,True,104.5,21.2,21.2,19.2,2.4
+12,regenerative,hybrid,Energy Platform Alpha,60,LYNQ-12,56.911,7.299,LYNQ-02,46.467,10.577,390.9,1182.7,13.6,True,False,True,94.0,28.0,22.7,26.0,2.4
+12,regenerative,hybrid,Energy Platform Alpha,65,LYNQ-08,56.677,-5.632,LYNQ-12,52.463,8.761,442.3,1036.7,13.5,True,False,True,93.0,25.8,24.2,23.8,2.4
+12,regenerative,hybrid,Energy Platform Alpha,70,LYNQ-08,52.234,-4.065,LYNQ-12,48.346,12.135,742.2,1226.2,12.9,True,True,True,99.4,23.5,23.8,21.5,2.4
+12,regenerative,hybrid,Energy Platform Alpha,75,LYNQ-11,63.996,14.511,LYNQ-08,48.147,-0.596,959.5,1984.6,12.4,False,False,False,,21.2,26.7,19.2,2.4
+12,regenerative,hybrid,Energy Platform Alpha,80,LYNQ-07,63.811,1.416,LYNQ-08,44.862,4.518,624.0,2116.0,13.1,True,False,True,108.1,28.0,28.2,26.0,2.4
+12,regenerative,hybrid,Energy Platform Alpha,85,LYNQ-07,59.895,-0.319,LYNQ-11,55.736,12.703,207.5,897.0,14.0,True,False,True,88.1,25.8,29.7,23.8,2.4
+12,regenerative,hybrid,Energy Platform Alpha,90,LYNQ-07,55.5,-0.2,LYNQ-11,51.328,14.681,312.0,1087.0,13.8,True,True,True,91.8,23.5,29.3,21.5,2.4
+12,functional_split,rf_intra_plane,North Sea Wind Farm,0,LYNQ-01,55.5,2.0,LYNQ-11,47.565,-2.562,135.1,936.6,14.2,True,True,True,104.5,30.5,6.7,26.0,3.4
+12,functional_split,rf_intra_plane,North Sea Wind Farm,5,LYNQ-01,59.895,2.119,LYNQ-08,44.718,9.933,403.0,1766.3,13.6,True,False,True,117.9,28.3,8.7,23.8,3.4
+12,functional_split,rf_intra_plane,North Sea Wind Farm,10,LYNQ-10,59.221,-3.103,LYNQ-08,47.951,15.123,507.0,1726.1,13.4,True,False,True,118.9,26.0,10.7,21.5,3.4
+12,functional_split,rf_intra_plane,North Sea Wind Farm,15,LYNQ-10,54.793,-2.675,LYNQ-04,48.147,2.396,427.7,817.7,13.5,False,False,False,,23.7,12.7,19.2,3.4
+12,functional_split,rf_intra_plane,North Sea Wind Farm,20,LYNQ-04,52.234,5.865,LYNQ-10,50.443,-0.289,481.6,471.4,13.4,True,True,False,,30.5,11.4,26.0,3.4
+12,functional_split,rf_intra_plane,North Sea Wind Farm,25,LYNQ-04,56.677,7.432,LYNQ-10,46.643,3.915,240.9,1141.4,14.0,True,True,True,108.4,28.3,10.1,23.8,3.4
+12,functional_split,rf_intra_plane,North Sea Wind Farm,30,LYNQ-04,60.991,7.044,LYNQ-10,43.809,9.6,554.0,1918.0,13.3,True,False,True,121.8,26.0,12.1,21.5,3.4
+12,functional_split,rf_intra_plane,North Sea Wind Farm,35,LYNQ-09,58.076,2.031,LYNQ-03,45.627,3.976,212.6,1390.5,14.0,True,False,True,110.9,23.7,14.1,19.2,3.4
+12,functional_split,rf_intra_plane,North Sea Wind Farm,40,LYNQ-09,53.621,2.975,LYNQ-03,49.162,8.693,305.7,634.6,13.8,True,False,True,103.4,30.5,16.1,26.0,3.4
+12,functional_split,rf_intra_plane,North Sea Wind Farm,45,LYNQ-03,53.388,11.678,LYNQ-09,49.371,5.862,615.0,601.6,13.1,False,False,False,,28.3,18.1,23.8,3.4
+12,functional_split,rf_intra_plane,North Sea Wind Farm,50,LYNQ-03,57.844,12.727,LYNQ-09,45.789,10.496,578.2,1349.0,13.2,True,True,True,115.5,26.0,16.8,21.5,3.4
+12,functional_split,rf_intra_plane,North Sea Wind Farm,55,LYNQ-12,61.205,7.786,LYNQ-02,43.693,4.827,592.2,1957.1,13.2,True,False,True,122.8,23.7,18.8,19.2,3.4
+12,functional_split,rf_intra_plane,North Sea Wind Farm,60,LYNQ-12,56.911,7.299,LYNQ-02,46.467,10.577,237.6,1182.7,14.0,True,False,True,108.8,30.5,20.8,26.0,3.4
+12,functional_split,rf_intra_plane,North Sea Wind Farm,65,LYNQ-12,52.463,8.761,LYNQ-02,50.225,14.869,547.9,491.6,13.3,True,False,False,,28.3,22.8,23.8,3.4
+12,functional_split,rf_intra_plane,North Sea Wind Farm,70,LYNQ-08,52.234,-4.065,LYNQ-12,48.346,12.135,672.9,1226.2,13.0,True,True,True,115.4,26.0,21.5,21.5,3.4
+12,functional_split,rf_intra_plane,North Sea Wind Farm,75,LYNQ-02,58.994,17.887,LYNQ-08,48.147,-0.596,899.7,1705.0,12.5,False,False,False,,23.7,23.5,19.2,3.4
+12,functional_split,rf_intra_plane,North Sea Wind Farm,80,LYNQ-11,60.117,12.686,LYNQ-08,44.862,4.518,678.3,1781.0,13.0,True,False,True,122.0,30.5,25.5,26.0,3.4
+12,functional_split,rf_intra_plane,North Sea Wind Farm,85,LYNQ-07,59.895,-0.319,LYNQ-11,55.736,12.703,454.8,897.0,13.5,True,False,True,108.5,28.3,27.5,23.8,3.4
+12,functional_split,rf_intra_plane,North Sea Wind Farm,90,LYNQ-07,55.5,-0.2,LYNQ-11,51.328,14.681,252.0,1087.0,13.9,True,True,True,107.9,26.0,26.2,21.5,3.4
+12,functional_split,rf_intra_plane,Energy Platform Alpha,0,LYNQ-01,55.5,2.0,LYNQ-11,47.565,-2.562,304.1,936.6,13.8,True,True,True,106.9,30.5,7.6,26.0,3.4
+12,functional_split,rf_intra_plane,Energy Platform Alpha,5,LYNQ-01,59.895,2.119,LYNQ-08,44.718,9.933,195.7,1766.3,14.1,True,False,True,115.0,28.3,10.5,23.8,3.4
+12,functional_split,rf_intra_plane,Energy Platform Alpha,10,LYNQ-10,59.221,-3.103,LYNQ-08,47.951,15.123,273.1,1726.1,13.9,True,False,True,115.7,26.0,13.4,21.5,3.4
+12,functional_split,rf_intra_plane,Energy Platform Alpha,15,LYNQ-10,54.793,-2.675,LYNQ-04,48.147,2.396,447.1,817.7,13.5,False,False,False,,23.7,16.3,19.2,3.4
+12,functional_split,rf_intra_plane,Energy Platform Alpha,20,LYNQ-04,52.234,5.865,LYNQ-10,50.443,-0.289,726.0,471.4,12.9,True,True,False,,30.5,15.9,26.0,3.4
+12,functional_split,rf_intra_plane,Energy Platform Alpha,25,LYNQ-04,56.677,7.432,LYNQ-10,46.643,3.915,409.4,1141.4,13.6,True,True,True,110.7,28.3,15.5,23.8,3.4
+12,functional_split,rf_intra_plane,Energy Platform Alpha,30,LYNQ-04,60.991,7.044,LYNQ-10,43.809,9.6,451.9,1918.0,13.5,True,False,True,120.4,26.0,18.4,21.5,3.4
+12,functional_split,rf_intra_plane,Energy Platform Alpha,35,LYNQ-09,58.076,2.031,LYNQ-03,45.627,3.976,50.7,1390.5,14.4,True,False,True,108.6,23.7,21.3,19.2,3.4
+12,functional_split,rf_intra_plane,Energy Platform Alpha,40,LYNQ-09,53.621,2.975,LYNQ-03,49.162,8.693,521.0,634.6,13.3,True,False,True,106.4,30.5,24.2,26.0,3.4
+12,functional_split,rf_intra_plane,Energy Platform Alpha,45,LYNQ-03,53.388,11.678,LYNQ-09,49.371,5.862,844.2,601.6,12.6,False,False,False,,28.3,27.1,23.8,3.4
+12,functional_split,rf_intra_plane,Energy Platform Alpha,50,LYNQ-03,57.844,12.727,LYNQ-09,45.789,10.496,679.1,1349.0,13.0,True,True,True,116.9,26.0,26.7,21.5,3.4
+12,functional_split,rf_intra_plane,Energy Platform Alpha,55,LYNQ-12,61.205,7.786,LYNQ-02,43.693,4.827,497.7,1957.1,13.4,True,False,True,121.5,23.7,29.6,19.2,3.4
+12,functional_split,rf_intra_plane,Energy Platform Alpha,60,LYNQ-12,56.911,7.299,LYNQ-02,46.467,10.577,390.9,1182.7,13.6,True,False,True,111.0,30.5,32.5,26.0,3.4
+12,functional_split,rf_intra_plane,Energy Platform Alpha,65,LYNQ-08,56.677,-5.632,LYNQ-12,52.463,8.761,442.3,1036.7,13.5,True,False,False,,28.3,35.4,23.8,3.4
+12,functional_split,rf_intra_plane,Energy Platform Alpha,70,LYNQ-08,52.234,-4.065,LYNQ-12,48.346,12.135,742.2,1226.2,12.9,True,True,True,116.4,26.0,35.0,21.5,3.4
+12,functional_split,rf_intra_plane,Energy Platform Alpha,75,LYNQ-11,63.996,14.511,LYNQ-08,48.147,-0.596,959.5,1984.6,12.4,False,False,False,,23.7,37.9,19.2,3.4
+12,functional_split,rf_intra_plane,Energy Platform Alpha,80,LYNQ-07,63.811,1.416,LYNQ-08,44.862,4.518,624.0,2116.0,13.1,True,False,True,125.1,30.5,40.8,26.0,3.4
+12,functional_split,rf_intra_plane,Energy Platform Alpha,85,LYNQ-07,59.895,-0.319,LYNQ-11,55.736,12.703,207.5,897.0,14.0,True,False,True,105.1,28.3,43.7,23.8,3.4
+12,functional_split,rf_intra_plane,Energy Platform Alpha,90,LYNQ-07,55.5,-0.2,LYNQ-11,51.328,14.681,312.0,1087.0,13.8,True,True,True,108.8,26.0,43.3,21.5,3.4
+12,functional_split,optical_cross_plane,North Sea Wind Farm,0,LYNQ-01,55.5,2.0,LYNQ-11,47.565,-2.562,135.1,936.6,14.2,True,True,True,95.5,28.0,6.7,26.0,1.8
+12,functional_split,optical_cross_plane,North Sea Wind Farm,5,LYNQ-01,59.895,2.119,LYNQ-08,44.718,9.933,403.0,1766.3,13.6,True,False,True,108.9,25.8,7.3,23.8,1.8
+12,functional_split,optical_cross_plane,North Sea Wind Farm,10,LYNQ-10,59.221,-3.103,LYNQ-08,47.951,15.123,507.0,1726.1,13.4,True,False,True,109.9,23.5,7.9,21.5,1.8
+12,functional_split,optical_cross_plane,North Sea Wind Farm,15,LYNQ-10,54.793,-2.675,LYNQ-04,48.147,2.396,427.7,817.7,13.5,False,False,False,,21.2,9.9,19.2,1.8
+12,functional_split,optical_cross_plane,North Sea Wind Farm,20,LYNQ-04,52.234,5.865,LYNQ-10,50.443,-0.289,481.6,471.4,13.4,True,True,True,94.9,28.0,8.6,26.0,1.8
+12,functional_split,optical_cross_plane,North Sea Wind Farm,25,LYNQ-04,56.677,7.432,LYNQ-10,46.643,3.915,240.9,1141.4,14.0,True,True,True,99.4,25.8,7.3,23.8,1.8
+12,functional_split,optical_cross_plane,North Sea Wind Farm,30,LYNQ-04,60.991,7.044,LYNQ-10,43.809,9.6,554.0,1918.0,13.3,True,False,True,112.8,23.5,7.9,21.5,1.8
+12,functional_split,optical_cross_plane,North Sea Wind Farm,35,LYNQ-09,58.076,2.031,LYNQ-03,45.627,3.976,212.6,1390.5,14.0,True,False,False,,21.2,9.9,19.2,1.8
+12,functional_split,optical_cross_plane,North Sea Wind Farm,40,LYNQ-09,53.621,2.975,LYNQ-03,49.162,8.693,305.7,634.6,13.8,True,False,True,94.4,28.0,10.5,26.0,1.8
+12,functional_split,optical_cross_plane,North Sea Wind Farm,45,LYNQ-03,53.388,11.678,LYNQ-09,49.371,5.862,615.0,601.6,13.1,False,False,False,,25.8,12.5,23.8,1.8
+12,functional_split,optical_cross_plane,North Sea Wind Farm,50,LYNQ-03,57.844,12.727,LYNQ-09,45.789,10.496,578.2,1349.0,13.2,True,True,True,106.5,23.5,11.2,21.5,1.8
+12,functional_split,optical_cross_plane,North Sea Wind Farm,55,LYNQ-12,61.205,7.786,LYNQ-02,43.693,4.827,592.2,1957.1,13.2,True,False,True,113.8,21.2,11.8,19.2,1.8
+12,functional_split,optical_cross_plane,North Sea Wind Farm,60,LYNQ-12,56.911,7.299,LYNQ-02,46.467,10.577,237.6,1182.7,14.0,True,False,True,99.8,28.0,12.4,26.0,1.8
+12,functional_split,optical_cross_plane,North Sea Wind Farm,65,LYNQ-12,52.463,8.761,LYNQ-02,50.225,14.869,547.9,491.6,13.3,True,False,True,96.1,25.8,13.0,23.8,1.8
+12,functional_split,optical_cross_plane,North Sea Wind Farm,70,LYNQ-08,52.234,-4.065,LYNQ-12,48.346,12.135,672.9,1226.2,13.0,True,True,True,106.4,23.5,11.7,21.5,1.8
+12,functional_split,optical_cross_plane,North Sea Wind Farm,75,LYNQ-02,58.994,17.887,LYNQ-08,48.147,-0.596,899.7,1705.0,12.5,False,False,False,,21.2,13.7,19.2,1.8
+12,functional_split,optical_cross_plane,North Sea Wind Farm,80,LYNQ-11,60.117,12.686,LYNQ-08,44.862,4.518,678.3,1781.0,13.0,True,False,True,113.0,28.0,14.3,26.0,1.8
+12,functional_split,optical_cross_plane,North Sea Wind Farm,85,LYNQ-07,59.895,-0.319,LYNQ-11,55.736,12.703,454.8,897.0,13.5,True,False,True,99.5,25.8,14.9,23.8,1.8
+12,functional_split,optical_cross_plane,North Sea Wind Farm,90,LYNQ-07,55.5,-0.2,LYNQ-11,51.328,14.681,252.0,1087.0,13.9,True,True,True,98.9,23.5,13.6,21.5,1.8
+12,functional_split,optical_cross_plane,Energy Platform Alpha,0,LYNQ-01,55.5,2.0,LYNQ-11,47.565,-2.562,304.1,936.6,13.8,True,True,True,97.9,28.0,7.6,26.0,1.8
+12,functional_split,optical_cross_plane,Energy Platform Alpha,5,LYNQ-01,59.895,2.119,LYNQ-08,44.718,9.933,195.7,1766.3,14.1,True,False,True,106.0,25.8,9.1,23.8,1.8
+12,functional_split,optical_cross_plane,Energy Platform Alpha,10,LYNQ-10,59.221,-3.103,LYNQ-08,47.951,15.123,273.1,1726.1,13.9,True,False,True,106.7,23.5,10.6,21.5,1.8
+12,functional_split,optical_cross_plane,Energy Platform Alpha,15,LYNQ-10,54.793,-2.675,LYNQ-04,48.147,2.396,447.1,817.7,13.5,False,False,False,,21.2,13.5,19.2,1.8
+12,functional_split,optical_cross_plane,Energy Platform Alpha,20,LYNQ-04,52.234,5.865,LYNQ-10,50.443,-0.289,726.0,471.4,12.9,True,True,True,98.4,28.0,13.1,26.0,1.8
+12,functional_split,optical_cross_plane,Energy Platform Alpha,25,LYNQ-04,56.677,7.432,LYNQ-10,46.643,3.915,409.4,1141.4,13.6,True,True,True,101.7,25.8,12.7,23.8,1.8
+12,functional_split,optical_cross_plane,Energy Platform Alpha,30,LYNQ-04,60.991,7.044,LYNQ-10,43.809,9.6,451.9,1918.0,13.5,True,False,True,111.4,23.5,14.2,21.5,1.8
+12,functional_split,optical_cross_plane,Energy Platform Alpha,35,LYNQ-09,58.076,2.031,LYNQ-03,45.627,3.976,50.7,1390.5,14.4,True,False,False,,21.2,17.1,19.2,1.8
+12,functional_split,optical_cross_plane,Energy Platform Alpha,40,LYNQ-09,53.621,2.975,LYNQ-03,49.162,8.693,521.0,634.6,13.3,True,False,True,97.4,28.0,18.6,26.0,1.8
+12,functional_split,optical_cross_plane,Energy Platform Alpha,45,LYNQ-03,53.388,11.678,LYNQ-09,49.371,5.862,844.2,601.6,12.6,False,False,False,,25.8,21.5,23.8,1.8
+12,functional_split,optical_cross_plane,Energy Platform Alpha,50,LYNQ-03,57.844,12.727,LYNQ-09,45.789,10.496,679.1,1349.0,13.0,True,True,True,107.9,23.5,21.1,21.5,1.8
+12,functional_split,optical_cross_plane,Energy Platform Alpha,55,LYNQ-12,61.205,7.786,LYNQ-02,43.693,4.827,497.7,1957.1,13.4,True,False,True,112.5,21.2,22.6,19.2,1.8
+12,functional_split,optical_cross_plane,Energy Platform Alpha,60,LYNQ-12,56.911,7.299,LYNQ-02,46.467,10.577,390.9,1182.7,13.6,True,False,True,102.0,28.0,24.1,26.0,1.8
+12,functional_split,optical_cross_plane,Energy Platform Alpha,65,LYNQ-08,56.677,-5.632,LYNQ-12,52.463,8.761,442.3,1036.7,13.5,True,False,True,101.0,25.8,25.6,23.8,1.8
+12,functional_split,optical_cross_plane,Energy Platform Alpha,70,LYNQ-08,52.234,-4.065,LYNQ-12,48.346,12.135,742.2,1226.2,12.9,True,True,True,107.4,23.5,25.2,21.5,1.8
+12,functional_split,optical_cross_plane,Energy Platform Alpha,75,LYNQ-11,63.996,14.511,LYNQ-08,48.147,-0.596,959.5,1984.6,12.4,False,False,False,,21.2,28.1,19.2,1.8
+12,functional_split,optical_cross_plane,Energy Platform Alpha,80,LYNQ-07,63.811,1.416,LYNQ-08,44.862,4.518,624.0,2116.0,13.1,True,False,True,116.1,28.0,29.6,26.0,1.8
+12,functional_split,optical_cross_plane,Energy Platform Alpha,85,LYNQ-07,59.895,-0.319,LYNQ-11,55.736,12.703,207.5,897.0,14.0,True,False,True,96.1,25.8,31.1,23.8,1.8
+12,functional_split,optical_cross_plane,Energy Platform Alpha,90,LYNQ-07,55.5,-0.2,LYNQ-11,51.328,14.681,312.0,1087.0,13.8,True,True,True,99.8,23.5,30.7,21.5,1.8
+12,functional_split,hybrid,North Sea Wind Farm,0,LYNQ-01,55.5,2.0,LYNQ-11,47.565,-2.562,135.1,936.6,14.2,True,True,True,99.5,28.0,6.7,26.0,2.4
+12,functional_split,hybrid,North Sea Wind Farm,5,LYNQ-01,59.895,2.119,LYNQ-08,44.718,9.933,403.0,1766.3,13.6,True,False,True,112.9,25.8,7.3,23.8,2.4
+12,functional_split,hybrid,North Sea Wind Farm,10,LYNQ-10,59.221,-3.103,LYNQ-08,47.951,15.123,507.0,1726.1,13.4,True,False,True,113.9,23.5,7.9,21.5,2.4
+12,functional_split,hybrid,North Sea Wind Farm,15,LYNQ-10,54.793,-2.675,LYNQ-04,48.147,2.396,427.7,817.7,13.5,False,False,False,,21.2,9.9,19.2,2.4
+12,functional_split,hybrid,North Sea Wind Farm,20,LYNQ-04,52.234,5.865,LYNQ-10,50.443,-0.289,481.6,471.4,13.4,True,True,True,98.9,28.0,8.6,26.0,2.4
+12,functional_split,hybrid,North Sea Wind Farm,25,LYNQ-04,56.677,7.432,LYNQ-10,46.643,3.915,240.9,1141.4,14.0,True,True,True,103.4,25.8,7.3,23.8,2.4
+12,functional_split,hybrid,North Sea Wind Farm,30,LYNQ-04,60.991,7.044,LYNQ-10,43.809,9.6,554.0,1918.0,13.3,True,False,True,116.8,23.5,7.9,21.5,2.4
+12,functional_split,hybrid,North Sea Wind Farm,35,LYNQ-09,58.076,2.031,LYNQ-03,45.627,3.976,212.6,1390.5,14.0,True,False,True,105.9,21.2,8.5,19.2,2.4
+12,functional_split,hybrid,North Sea Wind Farm,40,LYNQ-09,53.621,2.975,LYNQ-03,49.162,8.693,305.7,634.6,13.8,True,False,True,98.4,28.0,9.1,26.0,2.4
+12,functional_split,hybrid,North Sea Wind Farm,45,LYNQ-03,53.388,11.678,LYNQ-09,49.371,5.862,615.0,601.6,13.1,False,False,False,,25.8,11.1,23.8,2.4
+12,functional_split,hybrid,North Sea Wind Farm,50,LYNQ-03,57.844,12.727,LYNQ-09,45.789,10.496,578.2,1349.0,13.2,True,True,True,110.5,23.5,9.8,21.5,2.4
+12,functional_split,hybrid,North Sea Wind Farm,55,LYNQ-12,61.205,7.786,LYNQ-02,43.693,4.827,592.2,1957.1,13.2,True,False,True,117.8,21.2,10.4,19.2,2.4
+12,functional_split,hybrid,North Sea Wind Farm,60,LYNQ-12,56.911,7.299,LYNQ-02,46.467,10.577,237.6,1182.7,14.0,True,False,True,103.8,28.0,11.0,26.0,2.4
+12,functional_split,hybrid,North Sea Wind Farm,65,LYNQ-12,52.463,8.761,LYNQ-02,50.225,14.869,547.9,491.6,13.3,True,False,True,100.1,25.8,11.6,23.8,2.4
+12,functional_split,hybrid,North Sea Wind Farm,70,LYNQ-08,52.234,-4.065,LYNQ-12,48.346,12.135,672.9,1226.2,13.0,True,True,True,110.4,23.5,10.3,21.5,2.4
+12,functional_split,hybrid,North Sea Wind Farm,75,LYNQ-02,58.994,17.887,LYNQ-08,48.147,-0.596,899.7,1705.0,12.5,False,False,False,,21.2,12.3,19.2,2.4
+12,functional_split,hybrid,North Sea Wind Farm,80,LYNQ-11,60.117,12.686,LYNQ-08,44.862,4.518,678.3,1781.0,13.0,True,False,True,117.0,28.0,12.9,26.0,2.4
+12,functional_split,hybrid,North Sea Wind Farm,85,LYNQ-07,59.895,-0.319,LYNQ-11,55.736,12.703,454.8,897.0,13.5,True,False,True,103.5,25.8,13.5,23.8,2.4
+12,functional_split,hybrid,North Sea Wind Farm,90,LYNQ-07,55.5,-0.2,LYNQ-11,51.328,14.681,252.0,1087.0,13.9,True,True,True,102.9,23.5,12.2,21.5,2.4
+12,functional_split,hybrid,Energy Platform Alpha,0,LYNQ-01,55.5,2.0,LYNQ-11,47.565,-2.562,304.1,936.6,13.8,True,True,True,101.9,28.0,7.6,26.0,2.4
+12,functional_split,hybrid,Energy Platform Alpha,5,LYNQ-01,59.895,2.119,LYNQ-08,44.718,9.933,195.7,1766.3,14.1,True,False,True,110.0,25.8,9.1,23.8,2.4
+12,functional_split,hybrid,Energy Platform Alpha,10,LYNQ-10,59.221,-3.103,LYNQ-08,47.951,15.123,273.1,1726.1,13.9,True,False,True,110.7,23.5,10.6,21.5,2.4
+12,functional_split,hybrid,Energy Platform Alpha,15,LYNQ-10,54.793,-2.675,LYNQ-04,48.147,2.396,447.1,817.7,13.5,False,False,False,,21.2,13.5,19.2,2.4
+12,functional_split,hybrid,Energy Platform Alpha,20,LYNQ-04,52.234,5.865,LYNQ-10,50.443,-0.289,726.0,471.4,12.9,True,True,True,102.4,28.0,13.1,26.0,2.4
+12,functional_split,hybrid,Energy Platform Alpha,25,LYNQ-04,56.677,7.432,LYNQ-10,46.643,3.915,409.4,1141.4,13.6,True,True,True,105.7,25.8,12.7,23.8,2.4
+12,functional_split,hybrid,Energy Platform Alpha,30,LYNQ-04,60.991,7.044,LYNQ-10,43.809,9.6,451.9,1918.0,13.5,True,False,True,115.4,23.5,14.2,21.5,2.4
+12,functional_split,hybrid,Energy Platform Alpha,35,LYNQ-09,58.076,2.031,LYNQ-03,45.627,3.976,50.7,1390.5,14.4,True,False,True,103.6,21.2,15.7,19.2,2.4
+12,functional_split,hybrid,Energy Platform Alpha,40,LYNQ-09,53.621,2.975,LYNQ-03,49.162,8.693,521.0,634.6,13.3,True,False,True,101.4,28.0,17.2,26.0,2.4
+12,functional_split,hybrid,Energy Platform Alpha,45,LYNQ-03,53.388,11.678,LYNQ-09,49.371,5.862,844.2,601.6,12.6,False,False,False,,25.8,20.1,23.8,2.4
+12,functional_split,hybrid,Energy Platform Alpha,50,LYNQ-03,57.844,12.727,LYNQ-09,45.789,10.496,679.1,1349.0,13.0,True,True,True,111.9,23.5,19.7,21.5,2.4
+12,functional_split,hybrid,Energy Platform Alpha,55,LYNQ-12,61.205,7.786,LYNQ-02,43.693,4.827,497.7,1957.1,13.4,True,False,True,116.5,21.2,21.2,19.2,2.4
+12,functional_split,hybrid,Energy Platform Alpha,60,LYNQ-12,56.911,7.299,LYNQ-02,46.467,10.577,390.9,1182.7,13.6,True,False,True,106.0,28.0,22.7,26.0,2.4
+12,functional_split,hybrid,Energy Platform Alpha,65,LYNQ-08,56.677,-5.632,LYNQ-12,52.463,8.761,442.3,1036.7,13.5,True,False,True,105.0,25.8,24.2,23.8,2.4
+12,functional_split,hybrid,Energy Platform Alpha,70,LYNQ-08,52.234,-4.065,LYNQ-12,48.346,12.135,742.2,1226.2,12.9,True,True,True,111.4,23.5,23.8,21.5,2.4
+12,functional_split,hybrid,Energy Platform Alpha,75,LYNQ-11,63.996,14.511,LYNQ-08,48.147,-0.596,959.5,1984.6,12.4,False,False,False,,21.2,26.7,19.2,2.4
+12,functional_split,hybrid,Energy Platform Alpha,80,LYNQ-07,63.811,1.416,LYNQ-08,44.862,4.518,624.0,2116.0,13.1,True,False,True,120.1,28.0,28.2,26.0,2.4
+12,functional_split,hybrid,Energy Platform Alpha,85,LYNQ-07,59.895,-0.319,LYNQ-11,55.736,12.703,207.5,897.0,14.0,True,False,True,100.1,25.8,29.7,23.8,2.4
+12,functional_split,hybrid,Energy Platform Alpha,90,LYNQ-07,55.5,-0.2,LYNQ-11,51.328,14.681,312.0,1087.0,13.8,True,True,True,103.8,23.5,29.3,21.5,2.4
+12,bent_pipe,rf_intra_plane,North Sea Wind Farm,0,LYNQ-01,55.5,2.0,LYNQ-11,47.565,-2.562,135.1,936.6,14.2,True,True,True,112.5,30.5,6.7,26.0,3.4
+12,bent_pipe,rf_intra_plane,North Sea Wind Farm,5,LYNQ-01,59.895,2.119,LYNQ-08,44.718,9.933,403.0,1766.3,13.6,True,False,False,,28.3,8.7,23.8,3.4
+12,bent_pipe,rf_intra_plane,North Sea Wind Farm,10,LYNQ-10,59.221,-3.103,LYNQ-08,47.951,15.123,507.0,1726.1,13.4,True,False,False,,26.0,10.7,21.5,3.4
+12,bent_pipe,rf_intra_plane,North Sea Wind Farm,15,LYNQ-10,54.793,-2.675,LYNQ-04,48.147,2.396,427.7,817.7,13.5,False,False,False,,23.7,12.7,19.2,3.4
+12,bent_pipe,rf_intra_plane,North Sea Wind Farm,20,LYNQ-04,52.234,5.865,LYNQ-10,50.443,-0.289,481.6,471.4,13.4,True,True,True,111.9,30.5,11.4,26.0,3.4
+12,bent_pipe,rf_intra_plane,North Sea Wind Farm,25,LYNQ-04,56.677,7.432,LYNQ-10,46.643,3.915,240.9,1141.4,14.0,True,True,True,116.4,28.3,10.1,23.8,3.4
+12,bent_pipe,rf_intra_plane,North Sea Wind Farm,30,LYNQ-04,60.991,7.044,LYNQ-10,43.809,9.6,554.0,1918.0,13.3,True,False,False,,26.0,12.1,21.5,3.4
+12,bent_pipe,rf_intra_plane,North Sea Wind Farm,35,LYNQ-09,58.076,2.031,LYNQ-03,45.627,3.976,212.6,1390.5,14.0,True,False,False,,23.7,14.1,19.2,3.4
+12,bent_pipe,rf_intra_plane,North Sea Wind Farm,40,LYNQ-09,53.621,2.975,LYNQ-03,49.162,8.693,305.7,634.6,13.8,True,False,False,,30.5,16.1,26.0,3.4
+12,bent_pipe,rf_intra_plane,North Sea Wind Farm,45,LYNQ-03,53.388,11.678,LYNQ-09,49.371,5.862,615.0,601.6,13.1,False,False,False,,28.3,18.1,23.8,3.4
+12,bent_pipe,rf_intra_plane,North Sea Wind Farm,50,LYNQ-03,57.844,12.727,LYNQ-09,45.789,10.496,578.2,1349.0,13.2,True,True,True,123.5,26.0,16.8,21.5,3.4
+12,bent_pipe,rf_intra_plane,North Sea Wind Farm,55,LYNQ-12,61.205,7.786,LYNQ-02,43.693,4.827,592.2,1957.1,13.2,True,False,False,,23.7,18.8,19.2,3.4
+12,bent_pipe,rf_intra_plane,North Sea Wind Farm,60,LYNQ-12,56.911,7.299,LYNQ-02,46.467,10.577,237.6,1182.7,14.0,True,False,False,,30.5,20.8,26.0,3.4
+12,bent_pipe,rf_intra_plane,North Sea Wind Farm,65,LYNQ-12,52.463,8.761,LYNQ-02,50.225,14.869,547.9,491.6,13.3,True,False,False,,28.3,22.8,23.8,3.4
+12,bent_pipe,rf_intra_plane,North Sea Wind Farm,70,LYNQ-08,52.234,-4.065,LYNQ-12,48.346,12.135,672.9,1226.2,13.0,True,True,True,123.4,26.0,21.5,21.5,3.4
+12,bent_pipe,rf_intra_plane,North Sea Wind Farm,75,LYNQ-02,58.994,17.887,LYNQ-08,48.147,-0.596,899.7,1705.0,12.5,False,False,False,,23.7,23.5,19.2,3.4
+12,bent_pipe,rf_intra_plane,North Sea Wind Farm,80,LYNQ-11,60.117,12.686,LYNQ-08,44.862,4.518,678.3,1781.0,13.0,True,False,False,,30.5,25.5,26.0,3.4
+12,bent_pipe,rf_intra_plane,North Sea Wind Farm,85,LYNQ-07,59.895,-0.319,LYNQ-11,55.736,12.703,454.8,897.0,13.5,True,False,False,,28.3,27.5,23.8,3.4
+12,bent_pipe,rf_intra_plane,North Sea Wind Farm,90,LYNQ-07,55.5,-0.2,LYNQ-11,51.328,14.681,252.0,1087.0,13.9,True,True,True,115.9,26.0,26.2,21.5,3.4
+12,bent_pipe,rf_intra_plane,Energy Platform Alpha,0,LYNQ-01,55.5,2.0,LYNQ-11,47.565,-2.562,304.1,936.6,13.8,True,True,True,114.9,30.5,7.6,26.0,3.4
+12,bent_pipe,rf_intra_plane,Energy Platform Alpha,5,LYNQ-01,59.895,2.119,LYNQ-08,44.718,9.933,195.7,1766.3,14.1,True,False,False,,28.3,10.5,23.8,3.4
+12,bent_pipe,rf_intra_plane,Energy Platform Alpha,10,LYNQ-10,59.221,-3.103,LYNQ-08,47.951,15.123,273.1,1726.1,13.9,True,False,False,,26.0,13.4,21.5,3.4
+12,bent_pipe,rf_intra_plane,Energy Platform Alpha,15,LYNQ-10,54.793,-2.675,LYNQ-04,48.147,2.396,447.1,817.7,13.5,False,False,False,,23.7,16.3,19.2,3.4
+12,bent_pipe,rf_intra_plane,Energy Platform Alpha,20,LYNQ-04,52.234,5.865,LYNQ-10,50.443,-0.289,726.0,471.4,12.9,True,True,True,115.4,30.5,15.9,26.0,3.4
+12,bent_pipe,rf_intra_plane,Energy Platform Alpha,25,LYNQ-04,56.677,7.432,LYNQ-10,46.643,3.915,409.4,1141.4,13.6,True,True,True,118.7,28.3,15.5,23.8,3.4
+12,bent_pipe,rf_intra_plane,Energy Platform Alpha,30,LYNQ-04,60.991,7.044,LYNQ-10,43.809,9.6,451.9,1918.0,13.5,True,False,False,,26.0,18.4,21.5,3.4
+12,bent_pipe,rf_intra_plane,Energy Platform Alpha,35,LYNQ-09,58.076,2.031,LYNQ-03,45.627,3.976,50.7,1390.5,14.4,True,False,False,,23.7,21.3,19.2,3.4
+12,bent_pipe,rf_intra_plane,Energy Platform Alpha,40,LYNQ-09,53.621,2.975,LYNQ-03,49.162,8.693,521.0,634.6,13.3,True,False,False,,30.5,24.2,26.0,3.4
+12,bent_pipe,rf_intra_plane,Energy Platform Alpha,45,LYNQ-03,53.388,11.678,LYNQ-09,49.371,5.862,844.2,601.6,12.6,False,False,False,,28.3,27.1,23.8,3.4
+12,bent_pipe,rf_intra_plane,Energy Platform Alpha,50,LYNQ-03,57.844,12.727,LYNQ-09,45.789,10.496,679.1,1349.0,13.0,True,True,True,124.9,26.0,26.7,21.5,3.4
+12,bent_pipe,rf_intra_plane,Energy Platform Alpha,55,LYNQ-12,61.205,7.786,LYNQ-02,43.693,4.827,497.7,1957.1,13.4,True,False,False,,23.7,29.6,19.2,3.4
+12,bent_pipe,rf_intra_plane,Energy Platform Alpha,60,LYNQ-12,56.911,7.299,LYNQ-02,46.467,10.577,390.9,1182.7,13.6,True,False,False,,30.5,32.5,26.0,3.4
+12,bent_pipe,rf_intra_plane,Energy Platform Alpha,65,LYNQ-08,56.677,-5.632,LYNQ-12,52.463,8.761,442.3,1036.7,13.5,True,False,False,,28.3,35.4,23.8,3.4
+12,bent_pipe,rf_intra_plane,Energy Platform Alpha,70,LYNQ-08,52.234,-4.065,LYNQ-12,48.346,12.135,742.2,1226.2,12.9,True,True,True,124.4,26.0,35.0,21.5,3.4
+12,bent_pipe,rf_intra_plane,Energy Platform Alpha,75,LYNQ-11,63.996,14.511,LYNQ-08,48.147,-0.596,959.5,1984.6,12.4,False,False,False,,23.7,37.9,19.2,3.4
+12,bent_pipe,rf_intra_plane,Energy Platform Alpha,80,LYNQ-07,63.811,1.416,LYNQ-08,44.862,4.518,624.0,2116.0,13.1,True,False,False,,30.5,40.8,26.0,3.4
+12,bent_pipe,rf_intra_plane,Energy Platform Alpha,85,LYNQ-07,59.895,-0.319,LYNQ-11,55.736,12.703,207.5,897.0,14.0,True,False,False,,28.3,43.7,23.8,3.4
+12,bent_pipe,rf_intra_plane,Energy Platform Alpha,90,LYNQ-07,55.5,-0.2,LYNQ-11,51.328,14.681,312.0,1087.0,13.8,True,True,True,116.8,26.0,43.3,21.5,3.4
+12,bent_pipe,optical_cross_plane,North Sea Wind Farm,0,LYNQ-01,55.5,2.0,LYNQ-11,47.565,-2.562,135.1,936.6,14.2,True,True,True,112.5,28.0,6.7,26.0,1.8
+12,bent_pipe,optical_cross_plane,North Sea Wind Farm,5,LYNQ-01,59.895,2.119,LYNQ-08,44.718,9.933,403.0,1766.3,13.6,True,False,False,,25.8,8.7,23.8,1.8
+12,bent_pipe,optical_cross_plane,North Sea Wind Farm,10,LYNQ-10,59.221,-3.103,LYNQ-08,47.951,15.123,507.0,1726.1,13.4,True,False,False,,23.5,10.7,21.5,1.8
+12,bent_pipe,optical_cross_plane,North Sea Wind Farm,15,LYNQ-10,54.793,-2.675,LYNQ-04,48.147,2.396,427.7,817.7,13.5,False,False,False,,21.2,12.7,19.2,1.8
+12,bent_pipe,optical_cross_plane,North Sea Wind Farm,20,LYNQ-04,52.234,5.865,LYNQ-10,50.443,-0.289,481.6,471.4,13.4,True,True,True,111.9,28.0,11.4,26.0,1.8
+12,bent_pipe,optical_cross_plane,North Sea Wind Farm,25,LYNQ-04,56.677,7.432,LYNQ-10,46.643,3.915,240.9,1141.4,14.0,True,True,True,116.4,25.8,10.1,23.8,1.8
+12,bent_pipe,optical_cross_plane,North Sea Wind Farm,30,LYNQ-04,60.991,7.044,LYNQ-10,43.809,9.6,554.0,1918.0,13.3,True,False,False,,23.5,12.1,21.5,1.8
+12,bent_pipe,optical_cross_plane,North Sea Wind Farm,35,LYNQ-09,58.076,2.031,LYNQ-03,45.627,3.976,212.6,1390.5,14.0,True,False,False,,21.2,14.1,19.2,1.8
+12,bent_pipe,optical_cross_plane,North Sea Wind Farm,40,LYNQ-09,53.621,2.975,LYNQ-03,49.162,8.693,305.7,634.6,13.8,True,False,False,,28.0,16.1,26.0,1.8
+12,bent_pipe,optical_cross_plane,North Sea Wind Farm,45,LYNQ-03,53.388,11.678,LYNQ-09,49.371,5.862,615.0,601.6,13.1,False,False,False,,25.8,18.1,23.8,1.8
+12,bent_pipe,optical_cross_plane,North Sea Wind Farm,50,LYNQ-03,57.844,12.727,LYNQ-09,45.789,10.496,578.2,1349.0,13.2,True,True,True,123.5,23.5,16.8,21.5,1.8
+12,bent_pipe,optical_cross_plane,North Sea Wind Farm,55,LYNQ-12,61.205,7.786,LYNQ-02,43.693,4.827,592.2,1957.1,13.2,True,False,False,,21.2,18.8,19.2,1.8
+12,bent_pipe,optical_cross_plane,North Sea Wind Farm,60,LYNQ-12,56.911,7.299,LYNQ-02,46.467,10.577,237.6,1182.7,14.0,True,False,False,,28.0,20.8,26.0,1.8
+12,bent_pipe,optical_cross_plane,North Sea Wind Farm,65,LYNQ-12,52.463,8.761,LYNQ-02,50.225,14.869,547.9,491.6,13.3,True,False,False,,25.8,22.8,23.8,1.8
+12,bent_pipe,optical_cross_plane,North Sea Wind Farm,70,LYNQ-08,52.234,-4.065,LYNQ-12,48.346,12.135,672.9,1226.2,13.0,True,True,True,123.4,23.5,21.5,21.5,1.8
+12,bent_pipe,optical_cross_plane,North Sea Wind Farm,75,LYNQ-02,58.994,17.887,LYNQ-08,48.147,-0.596,899.7,1705.0,12.5,False,False,False,,21.2,23.5,19.2,1.8
+12,bent_pipe,optical_cross_plane,North Sea Wind Farm,80,LYNQ-11,60.117,12.686,LYNQ-08,44.862,4.518,678.3,1781.0,13.0,True,False,False,,28.0,25.5,26.0,1.8
+12,bent_pipe,optical_cross_plane,North Sea Wind Farm,85,LYNQ-07,59.895,-0.319,LYNQ-11,55.736,12.703,454.8,897.0,13.5,True,False,False,,25.8,27.5,23.8,1.8
+12,bent_pipe,optical_cross_plane,North Sea Wind Farm,90,LYNQ-07,55.5,-0.2,LYNQ-11,51.328,14.681,252.0,1087.0,13.9,True,True,True,115.9,23.5,26.2,21.5,1.8
+12,bent_pipe,optical_cross_plane,Energy Platform Alpha,0,LYNQ-01,55.5,2.0,LYNQ-11,47.565,-2.562,304.1,936.6,13.8,True,True,True,114.9,28.0,7.6,26.0,1.8
+12,bent_pipe,optical_cross_plane,Energy Platform Alpha,5,LYNQ-01,59.895,2.119,LYNQ-08,44.718,9.933,195.7,1766.3,14.1,True,False,False,,25.8,10.5,23.8,1.8
+12,bent_pipe,optical_cross_plane,Energy Platform Alpha,10,LYNQ-10,59.221,-3.103,LYNQ-08,47.951,15.123,273.1,1726.1,13.9,True,False,False,,23.5,13.4,21.5,1.8
+12,bent_pipe,optical_cross_plane,Energy Platform Alpha,15,LYNQ-10,54.793,-2.675,LYNQ-04,48.147,2.396,447.1,817.7,13.5,False,False,False,,21.2,16.3,19.2,1.8
+12,bent_pipe,optical_cross_plane,Energy Platform Alpha,20,LYNQ-04,52.234,5.865,LYNQ-10,50.443,-0.289,726.0,471.4,12.9,True,True,True,115.4,28.0,15.9,26.0,1.8
+12,bent_pipe,optical_cross_plane,Energy Platform Alpha,25,LYNQ-04,56.677,7.432,LYNQ-10,46.643,3.915,409.4,1141.4,13.6,True,True,True,118.7,25.8,15.5,23.8,1.8
+12,bent_pipe,optical_cross_plane,Energy Platform Alpha,30,LYNQ-04,60.991,7.044,LYNQ-10,43.809,9.6,451.9,1918.0,13.5,True,False,False,,23.5,18.4,21.5,1.8
+12,bent_pipe,optical_cross_plane,Energy Platform Alpha,35,LYNQ-09,58.076,2.031,LYNQ-03,45.627,3.976,50.7,1390.5,14.4,True,False,False,,21.2,21.3,19.2,1.8
+12,bent_pipe,optical_cross_plane,Energy Platform Alpha,40,LYNQ-09,53.621,2.975,LYNQ-03,49.162,8.693,521.0,634.6,13.3,True,False,False,,28.0,24.2,26.0,1.8
+12,bent_pipe,optical_cross_plane,Energy Platform Alpha,45,LYNQ-03,53.388,11.678,LYNQ-09,49.371,5.862,844.2,601.6,12.6,False,False,False,,25.8,27.1,23.8,1.8
+12,bent_pipe,optical_cross_plane,Energy Platform Alpha,50,LYNQ-03,57.844,12.727,LYNQ-09,45.789,10.496,679.1,1349.0,13.0,True,True,True,124.9,23.5,26.7,21.5,1.8
+12,bent_pipe,optical_cross_plane,Energy Platform Alpha,55,LYNQ-12,61.205,7.786,LYNQ-02,43.693,4.827,497.7,1957.1,13.4,True,False,False,,21.2,29.6,19.2,1.8
+12,bent_pipe,optical_cross_plane,Energy Platform Alpha,60,LYNQ-12,56.911,7.299,LYNQ-02,46.467,10.577,390.9,1182.7,13.6,True,False,False,,28.0,32.5,26.0,1.8
+12,bent_pipe,optical_cross_plane,Energy Platform Alpha,65,LYNQ-08,56.677,-5.632,LYNQ-12,52.463,8.761,442.3,1036.7,13.5,True,False,False,,25.8,35.4,23.8,1.8
+12,bent_pipe,optical_cross_plane,Energy Platform Alpha,70,LYNQ-08,52.234,-4.065,LYNQ-12,48.346,12.135,742.2,1226.2,12.9,True,True,True,124.4,23.5,35.0,21.5,1.8
+12,bent_pipe,optical_cross_plane,Energy Platform Alpha,75,LYNQ-11,63.996,14.511,LYNQ-08,48.147,-0.596,959.5,1984.6,12.4,False,False,False,,21.2,37.9,19.2,1.8
+12,bent_pipe,optical_cross_plane,Energy Platform Alpha,80,LYNQ-07,63.811,1.416,LYNQ-08,44.862,4.518,624.0,2116.0,13.1,True,False,False,,28.0,40.8,26.0,1.8
+12,bent_pipe,optical_cross_plane,Energy Platform Alpha,85,LYNQ-07,59.895,-0.319,LYNQ-11,55.736,12.703,207.5,897.0,14.0,True,False,False,,25.8,43.7,23.8,1.8
+12,bent_pipe,optical_cross_plane,Energy Platform Alpha,90,LYNQ-07,55.5,-0.2,LYNQ-11,51.328,14.681,312.0,1087.0,13.8,True,True,True,116.8,23.5,43.3,21.5,1.8
+12,bent_pipe,hybrid,North Sea Wind Farm,0,LYNQ-01,55.5,2.0,LYNQ-11,47.565,-2.562,135.1,936.6,14.2,True,True,True,112.5,28.0,6.7,26.0,2.4
+12,bent_pipe,hybrid,North Sea Wind Farm,5,LYNQ-01,59.895,2.119,LYNQ-08,44.718,9.933,403.0,1766.3,13.6,True,False,False,,25.8,8.7,23.8,2.4
+12,bent_pipe,hybrid,North Sea Wind Farm,10,LYNQ-10,59.221,-3.103,LYNQ-08,47.951,15.123,507.0,1726.1,13.4,True,False,False,,23.5,10.7,21.5,2.4
+12,bent_pipe,hybrid,North Sea Wind Farm,15,LYNQ-10,54.793,-2.675,LYNQ-04,48.147,2.396,427.7,817.7,13.5,False,False,False,,21.2,12.7,19.2,2.4
+12,bent_pipe,hybrid,North Sea Wind Farm,20,LYNQ-04,52.234,5.865,LYNQ-10,50.443,-0.289,481.6,471.4,13.4,True,True,True,111.9,28.0,11.4,26.0,2.4
+12,bent_pipe,hybrid,North Sea Wind Farm,25,LYNQ-04,56.677,7.432,LYNQ-10,46.643,3.915,240.9,1141.4,14.0,True,True,True,116.4,25.8,10.1,23.8,2.4
+12,bent_pipe,hybrid,North Sea Wind Farm,30,LYNQ-04,60.991,7.044,LYNQ-10,43.809,9.6,554.0,1918.0,13.3,True,False,False,,23.5,12.1,21.5,2.4
+12,bent_pipe,hybrid,North Sea Wind Farm,35,LYNQ-09,58.076,2.031,LYNQ-03,45.627,3.976,212.6,1390.5,14.0,True,False,False,,21.2,14.1,19.2,2.4
+12,bent_pipe,hybrid,North Sea Wind Farm,40,LYNQ-09,53.621,2.975,LYNQ-03,49.162,8.693,305.7,634.6,13.8,True,False,False,,28.0,16.1,26.0,2.4
+12,bent_pipe,hybrid,North Sea Wind Farm,45,LYNQ-03,53.388,11.678,LYNQ-09,49.371,5.862,615.0,601.6,13.1,False,False,False,,25.8,18.1,23.8,2.4
+12,bent_pipe,hybrid,North Sea Wind Farm,50,LYNQ-03,57.844,12.727,LYNQ-09,45.789,10.496,578.2,1349.0,13.2,True,True,True,123.5,23.5,16.8,21.5,2.4
+12,bent_pipe,hybrid,North Sea Wind Farm,55,LYNQ-12,61.205,7.786,LYNQ-02,43.693,4.827,592.2,1957.1,13.2,True,False,False,,21.2,18.8,19.2,2.4
+12,bent_pipe,hybrid,North Sea Wind Farm,60,LYNQ-12,56.911,7.299,LYNQ-02,46.467,10.577,237.6,1182.7,14.0,True,False,False,,28.0,20.8,26.0,2.4
+12,bent_pipe,hybrid,North Sea Wind Farm,65,LYNQ-12,52.463,8.761,LYNQ-02,50.225,14.869,547.9,491.6,13.3,True,False,False,,25.8,22.8,23.8,2.4
+12,bent_pipe,hybrid,North Sea Wind Farm,70,LYNQ-08,52.234,-4.065,LYNQ-12,48.346,12.135,672.9,1226.2,13.0,True,True,True,123.4,23.5,21.5,21.5,2.4
+12,bent_pipe,hybrid,North Sea Wind Farm,75,LYNQ-02,58.994,17.887,LYNQ-08,48.147,-0.596,899.7,1705.0,12.5,False,False,False,,21.2,23.5,19.2,2.4
+12,bent_pipe,hybrid,North Sea Wind Farm,80,LYNQ-11,60.117,12.686,LYNQ-08,44.862,4.518,678.3,1781.0,13.0,True,False,False,,28.0,25.5,26.0,2.4
+12,bent_pipe,hybrid,North Sea Wind Farm,85,LYNQ-07,59.895,-0.319,LYNQ-11,55.736,12.703,454.8,897.0,13.5,True,False,False,,25.8,27.5,23.8,2.4
+12,bent_pipe,hybrid,North Sea Wind Farm,90,LYNQ-07,55.5,-0.2,LYNQ-11,51.328,14.681,252.0,1087.0,13.9,True,True,True,115.9,23.5,26.2,21.5,2.4
+12,bent_pipe,hybrid,Energy Platform Alpha,0,LYNQ-01,55.5,2.0,LYNQ-11,47.565,-2.562,304.1,936.6,13.8,True,True,True,114.9,28.0,7.6,26.0,2.4
+12,bent_pipe,hybrid,Energy Platform Alpha,5,LYNQ-01,59.895,2.119,LYNQ-08,44.718,9.933,195.7,1766.3,14.1,True,False,False,,25.8,10.5,23.8,2.4
+12,bent_pipe,hybrid,Energy Platform Alpha,10,LYNQ-10,59.221,-3.103,LYNQ-08,47.951,15.123,273.1,1726.1,13.9,True,False,False,,23.5,13.4,21.5,2.4
+12,bent_pipe,hybrid,Energy Platform Alpha,15,LYNQ-10,54.793,-2.675,LYNQ-04,48.147,2.396,447.1,817.7,13.5,False,False,False,,21.2,16.3,19.2,2.4
+12,bent_pipe,hybrid,Energy Platform Alpha,20,LYNQ-04,52.234,5.865,LYNQ-10,50.443,-0.289,726.0,471.4,12.9,True,True,True,115.4,28.0,15.9,26.0,2.4
+12,bent_pipe,hybrid,Energy Platform Alpha,25,LYNQ-04,56.677,7.432,LYNQ-10,46.643,3.915,409.4,1141.4,13.6,True,True,True,118.7,25.8,15.5,23.8,2.4
+12,bent_pipe,hybrid,Energy Platform Alpha,30,LYNQ-04,60.991,7.044,LYNQ-10,43.809,9.6,451.9,1918.0,13.5,True,False,False,,23.5,18.4,21.5,2.4
+12,bent_pipe,hybrid,Energy Platform Alpha,35,LYNQ-09,58.076,2.031,LYNQ-03,45.627,3.976,50.7,1390.5,14.4,True,False,False,,21.2,21.3,19.2,2.4
+12,bent_pipe,hybrid,Energy Platform Alpha,40,LYNQ-09,53.621,2.975,LYNQ-03,49.162,8.693,521.0,634.6,13.3,True,False,False,,28.0,24.2,26.0,2.4
+12,bent_pipe,hybrid,Energy Platform Alpha,45,LYNQ-03,53.388,11.678,LYNQ-09,49.371,5.862,844.2,601.6,12.6,False,False,False,,25.8,27.1,23.8,2.4
+12,bent_pipe,hybrid,Energy Platform Alpha,50,LYNQ-03,57.844,12.727,LYNQ-09,45.789,10.496,679.1,1349.0,13.0,True,True,True,124.9,23.5,26.7,21.5,2.4
+12,bent_pipe,hybrid,Energy Platform Alpha,55,LYNQ-12,61.205,7.786,LYNQ-02,43.693,4.827,497.7,1957.1,13.4,True,False,False,,21.2,29.6,19.2,2.4
+12,bent_pipe,hybrid,Energy Platform Alpha,60,LYNQ-12,56.911,7.299,LYNQ-02,46.467,10.577,390.9,1182.7,13.6,True,False,False,,28.0,32.5,26.0,2.4
+12,bent_pipe,hybrid,Energy Platform Alpha,65,LYNQ-08,56.677,-5.632,LYNQ-12,52.463,8.761,442.3,1036.7,13.5,True,False,False,,25.8,35.4,23.8,2.4
+12,bent_pipe,hybrid,Energy Platform Alpha,70,LYNQ-08,52.234,-4.065,LYNQ-12,48.346,12.135,742.2,1226.2,12.9,True,True,True,124.4,23.5,35.0,21.5,2.4
+12,bent_pipe,hybrid,Energy Platform Alpha,75,LYNQ-11,63.996,14.511,LYNQ-08,48.147,-0.596,959.5,1984.6,12.4,False,False,False,,21.2,37.9,19.2,2.4
+12,bent_pipe,hybrid,Energy Platform Alpha,80,LYNQ-07,63.811,1.416,LYNQ-08,44.862,4.518,624.0,2116.0,13.1,True,False,False,,28.0,40.8,26.0,2.4
+12,bent_pipe,hybrid,Energy Platform Alpha,85,LYNQ-07,59.895,-0.319,LYNQ-11,55.736,12.703,207.5,897.0,14.0,True,False,False,,25.8,43.7,23.8,2.4
+12,bent_pipe,hybrid,Energy Platform Alpha,90,LYNQ-07,55.5,-0.2,LYNQ-11,51.328,14.681,312.0,1087.0,13.8,True,True,True,116.8,23.5,43.3,21.5,2.4
+30,regenerative,rf_intra_plane,North Sea Wind Farm,0,LYNQ-01,55.5,2.0,LYNQ-19,44.578,8.58,135.1,1300.8,16.0,True,True,True,90.8,15.5,5.1,11.0,3.4
+30,regenerative,rf_intra_plane,North Sea Wind Farm,5,LYNQ-01,59.895,2.119,LYNQ-10,51.553,2.313,403.0,927.7,15.4,True,True,True,90.2,13.3,4.0,8.8,3.4
+30,regenerative,rf_intra_plane,North Sea Wind Farm,10,LYNQ-10,55.971,4.189,LYNQ-09,47.951,1.123,57.8,916.0,16.2,True,True,True,85.2,11.0,4.0,6.5,3.4
+30,regenerative,rf_intra_plane,North Sea Wind Farm,15,LYNQ-10,60.338,4.104,LYNQ-09,52.006,4.687,444.6,927.2,15.3,True,True,True,90.7,8.7,4.0,4.2,3.4
+30,regenerative,rf_intra_plane,North Sea Wind Farm,20,LYNQ-09,56.442,6.356,LYNQ-08,48.346,3.665,173.0,918.4,15.9,True,True,False,,15.5,4.0,11.0,3.4
+30,regenerative,rf_intra_plane,North Sea Wind Farm,25,LYNQ-22,58.537,-0.039,LYNQ-08,52.463,7.039,324.3,808.3,15.6,True,True,True,87.7,13.3,4.0,8.8,3.4
+30,regenerative,rf_intra_plane,North Sea Wind Farm,30,LYNQ-08,56.911,8.501,LYNQ-07,48.75,6.188,309.1,920.5,15.6,True,True,True,88.8,11.0,4.0,6.5,3.4
+30,regenerative,rf_intra_plane,North Sea Wind Farm,35,LYNQ-21,58.076,2.031,LYNQ-22,49.795,3.386,212.6,925.0,15.8,True,True,True,87.5,8.7,4.0,4.2,3.4
+30,regenerative,rf_intra_plane,North Sea Wind Farm,40,LYNQ-21,53.621,2.975,LYNQ-06,49.162,8.693,305.7,634.6,15.6,True,True,True,85.4,15.5,4.0,11.0,3.4
+30,regenerative,rf_intra_plane,North Sea Wind Farm,45,LYNQ-30,57.612,4.122,LYNQ-21,49.371,5.862,144.5,923.5,16.0,False,True,False,,13.3,4.0,8.8,3.4
+30,regenerative,rf_intra_plane,North Sea Wind Farm,50,LYNQ-30,53.156,5.273,LYNQ-05,49.582,11.178,371.9,570.6,15.5,True,True,True,85.6,11.0,4.0,6.5,3.4
+30,regenerative,rf_intra_plane,North Sea Wind Farm,55,LYNQ-29,57.145,6.234,LYNQ-30,48.955,8.357,186.0,921.6,15.9,True,True,True,87.1,8.7,4.0,4.2,3.4
+30,regenerative,rf_intra_plane,North Sea Wind Farm,60,LYNQ-29,52.693,7.593,LYNQ-04,50.009,13.644,483.0,515.1,15.2,True,True,True,86.5,15.5,4.0,11.0,3.4
+30,regenerative,rf_intra_plane,North Sea Wind Farm,65,LYNQ-28,56.677,8.368,LYNQ-29,48.547,10.871,297.8,919.5,15.6,True,True,False,,13.3,4.0,8.8,3.4
+30,regenerative,rf_intra_plane,North Sea Wind Farm,70,LYNQ-18,56.442,-4.556,LYNQ-28,52.234,9.935,498.7,1046.7,15.2,True,True,True,92.9,11.0,4.0,6.5,3.4
+30,regenerative,rf_intra_plane,North Sea Wind Farm,75,LYNQ-27,56.207,10.525,LYNQ-28,48.147,13.404,430.7,917.3,15.3,True,True,True,90.4,8.7,4.0,4.2,3.4
+30,regenerative,rf_intra_plane,North Sea Wind Farm,80,LYNQ-17,55.971,-2.389,LYNQ-18,47.951,0.677,370.0,916.0,15.5,True,True,True,89.6,15.5,4.0,11.0,3.4
+30,regenerative,rf_intra_plane,North Sea Wind Farm,85,LYNQ-16,59.895,-0.319,LYNQ-17,51.553,-0.513,454.8,927.7,15.3,True,True,True,90.9,13.3,4.0,8.8,3.4
+30,regenerative,rf_intra_plane,North Sea Wind Farm,90,LYNQ-16,55.5,-0.2,LYNQ-17,47.565,3.238,252.0,913.5,15.7,True,True,True,87.9,11.0,4.0,6.5,3.4
+30,regenerative,rf_intra_plane,Energy Platform Alpha,0,LYNQ-01,55.5,2.0,LYNQ-19,44.578,8.58,304.1,1300.8,15.6,True,True,True,93.1,15.5,6.0,11.0,3.4
+30,regenerative,rf_intra_plane,Energy Platform Alpha,5,LYNQ-01,59.895,2.119,LYNQ-10,51.553,2.313,195.7,927.7,15.9,True,True,True,87.3,13.3,4.0,8.8,3.4
+30,regenerative,rf_intra_plane,Energy Platform Alpha,10,LYNQ-10,55.971,4.189,LYNQ-09,47.951,1.123,306.6,916.0,15.6,True,True,True,88.7,11.0,4.0,6.5,3.4
+30,regenerative,rf_intra_plane,Energy Platform Alpha,15,LYNQ-23,58.994,-2.087,LYNQ-09,52.006,4.687,209.9,885.4,15.8,True,True,True,87.0,8.7,4.0,4.2,3.4
+30,regenerative,rf_intra_plane,Energy Platform Alpha,20,LYNQ-09,56.442,6.356,LYNQ-08,48.346,3.665,366.0,918.4,15.5,True,True,False,,15.5,4.0,11.0,3.4
+30,regenerative,rf_intra_plane,Energy Platform Alpha,25,LYNQ-22,58.537,-0.039,LYNQ-08,52.463,7.039,81.4,808.3,16.1,True,True,True,84.3,13.3,4.0,8.8,3.4
+30,regenerative,rf_intra_plane,Energy Platform Alpha,30,LYNQ-22,54.089,0.699,LYNQ-07,48.75,6.188,458.2,704.7,15.3,True,True,True,88.3,11.0,4.0,6.5,3.4
+30,regenerative,rf_intra_plane,Energy Platform Alpha,35,LYNQ-21,58.076,2.031,LYNQ-22,49.795,3.386,50.7,925.0,16.2,True,True,True,85.2,8.7,4.0,4.2,3.4
+30,regenerative,rf_intra_plane,Energy Platform Alpha,40,LYNQ-30,61.838,4.907,LYNQ-06,49.162,8.693,453.8,1428.9,15.3,True,False,True,96.7,15.5,6.5,11.0,3.4
+30,regenerative,rf_intra_plane,Energy Platform Alpha,45,LYNQ-30,57.612,4.122,LYNQ-21,49.371,5.862,184.6,923.5,15.9,False,True,False,,13.3,4.5,8.8,3.4
+30,regenerative,rf_intra_plane,Energy Platform Alpha,50,LYNQ-29,61.418,6.822,LYNQ-05,49.582,11.178,476.0,1343.7,15.2,True,False,True,96.0,11.0,7.0,6.5,3.4
+30,regenerative,rf_intra_plane,Energy Platform Alpha,55,LYNQ-29,57.145,6.234,LYNQ-30,48.955,8.357,321.4,921.6,15.6,True,True,True,89.0,8.7,5.0,4.2,3.4
+30,regenerative,rf_intra_plane,Energy Platform Alpha,60,LYNQ-19,56.911,-6.701,LYNQ-29,52.693,7.593,492.3,1026.5,15.2,True,True,True,92.6,15.5,4.0,11.0,3.4
+30,regenerative,rf_intra_plane,Energy Platform Alpha,65,LYNQ-18,60.775,-4.269,LYNQ-29,48.547,10.871,420.8,1663.8,15.4,True,False,False,,13.3,6.5,8.8,3.4
+30,regenerative,rf_intra_plane,Energy Platform Alpha,70,LYNQ-18,56.442,-4.556,LYNQ-28,52.234,9.935,396.8,1046.7,15.4,True,True,True,91.5,11.0,4.5,6.5,3.4
+30,regenerative,rf_intra_plane,Energy Platform Alpha,75,LYNQ-17,60.338,-2.304,LYNQ-28,48.147,13.404,310.0,1687.7,15.6,True,True,True,97.7,8.7,4.0,4.2,3.4
+30,regenerative,rf_intra_plane,Energy Platform Alpha,80,LYNQ-17,55.971,-2.389,LYNQ-18,47.951,0.677,329.2,916.0,15.6,True,True,True,89.0,15.5,4.0,11.0,3.4
+30,regenerative,rf_intra_plane,Energy Platform Alpha,85,LYNQ-16,59.895,-0.319,LYNQ-17,51.553,-0.513,207.5,927.7,15.8,True,True,True,87.4,13.3,4.0,8.8,3.4
+30,regenerative,rf_intra_plane,Energy Platform Alpha,90,LYNQ-16,55.5,-0.2,LYNQ-17,47.565,3.238,312.0,913.5,15.6,True,True,True,88.7,11.0,4.0,6.5,3.4
+30,regenerative,optical_cross_plane,North Sea Wind Farm,0,LYNQ-01,55.5,2.0,LYNQ-19,44.578,8.58,135.1,1300.8,16.0,True,True,True,81.8,13.0,5.1,11.0,1.8
+30,regenerative,optical_cross_plane,North Sea Wind Farm,5,LYNQ-01,59.895,2.119,LYNQ-10,51.553,2.313,403.0,927.7,15.4,True,True,True,81.2,10.8,4.0,8.8,1.8
+30,regenerative,optical_cross_plane,North Sea Wind Farm,10,LYNQ-10,55.971,4.189,LYNQ-09,47.951,1.123,57.8,916.0,16.2,True,True,True,76.2,8.5,4.0,6.5,1.8
+30,regenerative,optical_cross_plane,North Sea Wind Farm,15,LYNQ-10,60.338,4.104,LYNQ-09,52.006,4.687,444.6,927.2,15.3,True,True,True,81.7,6.2,4.0,4.2,1.8
+30,regenerative,optical_cross_plane,North Sea Wind Farm,20,LYNQ-09,56.442,6.356,LYNQ-08,48.346,3.665,173.0,918.4,15.9,True,True,True,77.8,13.0,4.0,11.0,1.8
+30,regenerative,optical_cross_plane,North Sea Wind Farm,25,LYNQ-22,58.537,-0.039,LYNQ-08,52.463,7.039,324.3,808.3,15.6,True,True,True,78.7,10.8,4.0,8.8,1.8
+30,regenerative,optical_cross_plane,North Sea Wind Farm,30,LYNQ-08,56.911,8.501,LYNQ-07,48.75,6.188,309.1,920.5,15.6,True,True,True,79.8,8.5,4.0,6.5,1.8
+30,regenerative,optical_cross_plane,North Sea Wind Farm,35,LYNQ-21,58.076,2.031,LYNQ-22,49.795,3.386,212.6,925.0,15.8,True,True,True,78.5,6.2,4.0,4.2,1.8
+30,regenerative,optical_cross_plane,North Sea Wind Farm,40,LYNQ-21,53.621,2.975,LYNQ-06,49.162,8.693,305.7,634.6,15.6,True,True,True,76.4,13.0,4.0,11.0,1.8
+30,regenerative,optical_cross_plane,North Sea Wind Farm,45,LYNQ-30,57.612,4.122,LYNQ-21,49.371,5.862,144.5,923.5,16.0,False,True,False,,10.8,4.0,8.8,1.8
+30,regenerative,optical_cross_plane,North Sea Wind Farm,50,LYNQ-30,53.156,5.273,LYNQ-05,49.582,11.178,371.9,570.6,15.5,True,True,True,76.6,8.5,4.0,6.5,1.8
+30,regenerative,optical_cross_plane,North Sea Wind Farm,55,LYNQ-29,57.145,6.234,LYNQ-30,48.955,8.357,186.0,921.6,15.9,True,True,True,78.1,6.2,4.0,4.2,1.8
+30,regenerative,optical_cross_plane,North Sea Wind Farm,60,LYNQ-29,52.693,7.593,LYNQ-04,50.009,13.644,483.0,515.1,15.2,True,True,True,77.5,13.0,4.0,11.0,1.8
+30,regenerative,optical_cross_plane,North Sea Wind Farm,65,LYNQ-28,56.677,8.368,LYNQ-29,48.547,10.871,297.8,919.5,15.6,True,True,True,79.6,10.8,4.0,8.8,1.8
+30,regenerative,optical_cross_plane,North Sea Wind Farm,70,LYNQ-18,56.442,-4.556,LYNQ-28,52.234,9.935,498.7,1046.7,15.2,True,True,True,83.9,8.5,4.0,6.5,1.8
+30,regenerative,optical_cross_plane,North Sea Wind Farm,75,LYNQ-27,56.207,10.525,LYNQ-28,48.147,13.404,430.7,917.3,15.3,True,True,True,81.4,6.2,4.0,4.2,1.8
+30,regenerative,optical_cross_plane,North Sea Wind Farm,80,LYNQ-17,55.971,-2.389,LYNQ-18,47.951,0.677,370.0,916.0,15.5,True,True,True,80.6,13.0,4.0,11.0,1.8
+30,regenerative,optical_cross_plane,North Sea Wind Farm,85,LYNQ-16,59.895,-0.319,LYNQ-17,51.553,-0.513,454.8,927.7,15.3,True,True,True,81.9,10.8,4.0,8.8,1.8
+30,regenerative,optical_cross_plane,North Sea Wind Farm,90,LYNQ-16,55.5,-0.2,LYNQ-17,47.565,3.238,252.0,913.5,15.7,True,True,True,78.9,8.5,4.0,6.5,1.8
+30,regenerative,optical_cross_plane,Energy Platform Alpha,0,LYNQ-01,55.5,2.0,LYNQ-19,44.578,8.58,304.1,1300.8,15.6,True,True,True,84.1,13.0,6.0,11.0,1.8
+30,regenerative,optical_cross_plane,Energy Platform Alpha,5,LYNQ-01,59.895,2.119,LYNQ-10,51.553,2.313,195.7,927.7,15.9,True,True,True,78.3,10.8,4.0,8.8,1.8
+30,regenerative,optical_cross_plane,Energy Platform Alpha,10,LYNQ-10,55.971,4.189,LYNQ-09,47.951,1.123,306.6,916.0,15.6,True,True,True,79.7,8.5,4.0,6.5,1.8
+30,regenerative,optical_cross_plane,Energy Platform Alpha,15,LYNQ-23,58.994,-2.087,LYNQ-09,52.006,4.687,209.9,885.4,15.8,True,True,True,78.0,6.2,4.0,4.2,1.8
+30,regenerative,optical_cross_plane,Energy Platform Alpha,20,LYNQ-09,56.442,6.356,LYNQ-08,48.346,3.665,366.0,918.4,15.5,True,True,True,80.5,13.0,4.0,11.0,1.8
+30,regenerative,optical_cross_plane,Energy Platform Alpha,25,LYNQ-22,58.537,-0.039,LYNQ-08,52.463,7.039,81.4,808.3,16.1,True,True,True,75.3,10.8,4.0,8.8,1.8
+30,regenerative,optical_cross_plane,Energy Platform Alpha,30,LYNQ-22,54.089,0.699,LYNQ-07,48.75,6.188,458.2,704.7,15.3,True,True,True,79.3,8.5,4.0,6.5,1.8
+30,regenerative,optical_cross_plane,Energy Platform Alpha,35,LYNQ-21,58.076,2.031,LYNQ-22,49.795,3.386,50.7,925.0,16.2,True,True,True,76.2,6.2,4.0,4.2,1.8
+30,regenerative,optical_cross_plane,Energy Platform Alpha,40,LYNQ-30,61.838,4.907,LYNQ-06,49.162,8.693,453.8,1428.9,15.3,True,False,True,87.7,13.0,4.6,11.0,1.8
+30,regenerative,optical_cross_plane,Energy Platform Alpha,45,LYNQ-30,57.612,4.122,LYNQ-21,49.371,5.862,184.6,923.5,15.9,False,True,False,,10.8,4.0,8.8,1.8
+30,regenerative,optical_cross_plane,Energy Platform Alpha,50,LYNQ-29,61.418,6.822,LYNQ-05,49.582,11.178,476.0,1343.7,15.2,True,False,True,87.0,8.5,4.6,6.5,1.8
+30,regenerative,optical_cross_plane,Energy Platform Alpha,55,LYNQ-29,57.145,6.234,LYNQ-30,48.955,8.357,321.4,921.6,15.6,True,True,True,80.0,6.2,4.0,4.2,1.8
+30,regenerative,optical_cross_plane,Energy Platform Alpha,60,LYNQ-19,56.911,-6.701,LYNQ-29,52.693,7.593,492.3,1026.5,15.2,True,True,True,83.6,13.0,4.0,11.0,1.8
+30,regenerative,optical_cross_plane,Energy Platform Alpha,65,LYNQ-18,60.775,-4.269,LYNQ-29,48.547,10.871,420.8,1663.8,15.4,True,False,True,90.0,10.8,4.6,8.8,1.8
+30,regenerative,optical_cross_plane,Energy Platform Alpha,70,LYNQ-18,56.442,-4.556,LYNQ-28,52.234,9.935,396.8,1046.7,15.4,True,True,True,82.5,8.5,4.0,6.5,1.8
+30,regenerative,optical_cross_plane,Energy Platform Alpha,75,LYNQ-17,60.338,-2.304,LYNQ-28,48.147,13.404,310.0,1687.7,15.6,True,True,True,88.7,6.2,4.0,4.2,1.8
+30,regenerative,optical_cross_plane,Energy Platform Alpha,80,LYNQ-17,55.971,-2.389,LYNQ-18,47.951,0.677,329.2,916.0,15.6,True,True,True,80.0,13.0,4.0,11.0,1.8
+30,regenerative,optical_cross_plane,Energy Platform Alpha,85,LYNQ-16,59.895,-0.319,LYNQ-17,51.553,-0.513,207.5,927.7,15.8,True,True,True,78.4,10.8,4.0,8.8,1.8
+30,regenerative,optical_cross_plane,Energy Platform Alpha,90,LYNQ-16,55.5,-0.2,LYNQ-17,47.565,3.238,312.0,913.5,15.6,True,True,True,79.7,8.5,4.0,6.5,1.8
+30,regenerative,hybrid,North Sea Wind Farm,0,LYNQ-01,55.5,2.0,LYNQ-19,44.578,8.58,135.1,1300.8,16.0,True,True,True,85.8,13.0,5.1,11.0,2.4
+30,regenerative,hybrid,North Sea Wind Farm,5,LYNQ-01,59.895,2.119,LYNQ-10,51.553,2.313,403.0,927.7,15.4,True,True,True,85.2,10.8,4.0,8.8,2.4
+30,regenerative,hybrid,North Sea Wind Farm,10,LYNQ-10,55.971,4.189,LYNQ-09,47.951,1.123,57.8,916.0,16.2,True,True,True,80.2,8.5,4.0,6.5,2.4
+30,regenerative,hybrid,North Sea Wind Farm,15,LYNQ-10,60.338,4.104,LYNQ-09,52.006,4.687,444.6,927.2,15.3,True,True,True,85.7,6.2,4.0,4.2,2.4
+30,regenerative,hybrid,North Sea Wind Farm,20,LYNQ-09,56.442,6.356,LYNQ-08,48.346,3.665,173.0,918.4,15.9,True,True,True,81.8,13.0,4.0,11.0,2.4
+30,regenerative,hybrid,North Sea Wind Farm,25,LYNQ-22,58.537,-0.039,LYNQ-08,52.463,7.039,324.3,808.3,15.6,True,True,True,82.7,10.8,4.0,8.8,2.4
+30,regenerative,hybrid,North Sea Wind Farm,30,LYNQ-08,56.911,8.501,LYNQ-07,48.75,6.188,309.1,920.5,15.6,True,True,True,83.8,8.5,4.0,6.5,2.4
+30,regenerative,hybrid,North Sea Wind Farm,35,LYNQ-21,58.076,2.031,LYNQ-22,49.795,3.386,212.6,925.0,15.8,True,True,True,82.5,6.2,4.0,4.2,2.4
+30,regenerative,hybrid,North Sea Wind Farm,40,LYNQ-21,53.621,2.975,LYNQ-06,49.162,8.693,305.7,634.6,15.6,True,True,True,80.4,13.0,4.0,11.0,2.4
+30,regenerative,hybrid,North Sea Wind Farm,45,LYNQ-30,57.612,4.122,LYNQ-21,49.371,5.862,144.5,923.5,16.0,False,True,False,,10.8,4.0,8.8,2.4
+30,regenerative,hybrid,North Sea Wind Farm,50,LYNQ-30,53.156,5.273,LYNQ-05,49.582,11.178,371.9,570.6,15.5,True,True,True,80.6,8.5,4.0,6.5,2.4
+30,regenerative,hybrid,North Sea Wind Farm,55,LYNQ-29,57.145,6.234,LYNQ-30,48.955,8.357,186.0,921.6,15.9,True,True,True,82.1,6.2,4.0,4.2,2.4
+30,regenerative,hybrid,North Sea Wind Farm,60,LYNQ-29,52.693,7.593,LYNQ-04,50.009,13.644,483.0,515.1,15.2,True,True,True,81.5,13.0,4.0,11.0,2.4
+30,regenerative,hybrid,North Sea Wind Farm,65,LYNQ-28,56.677,8.368,LYNQ-29,48.547,10.871,297.8,919.5,15.6,True,True,True,83.6,10.8,4.0,8.8,2.4
+30,regenerative,hybrid,North Sea Wind Farm,70,LYNQ-18,56.442,-4.556,LYNQ-28,52.234,9.935,498.7,1046.7,15.2,True,True,True,87.9,8.5,4.0,6.5,2.4
+30,regenerative,hybrid,North Sea Wind Farm,75,LYNQ-27,56.207,10.525,LYNQ-28,48.147,13.404,430.7,917.3,15.3,True,True,True,85.4,6.2,4.0,4.2,2.4
+30,regenerative,hybrid,North Sea Wind Farm,80,LYNQ-17,55.971,-2.389,LYNQ-18,47.951,0.677,370.0,916.0,15.5,True,True,True,84.6,13.0,4.0,11.0,2.4
+30,regenerative,hybrid,North Sea Wind Farm,85,LYNQ-16,59.895,-0.319,LYNQ-17,51.553,-0.513,454.8,927.7,15.3,True,True,True,85.9,10.8,4.0,8.8,2.4
+30,regenerative,hybrid,North Sea Wind Farm,90,LYNQ-16,55.5,-0.2,LYNQ-17,47.565,3.238,252.0,913.5,15.7,True,True,True,82.9,8.5,4.0,6.5,2.4
+30,regenerative,hybrid,Energy Platform Alpha,0,LYNQ-01,55.5,2.0,LYNQ-19,44.578,8.58,304.1,1300.8,15.6,True,True,True,88.1,13.0,6.0,11.0,2.4
+30,regenerative,hybrid,Energy Platform Alpha,5,LYNQ-01,59.895,2.119,LYNQ-10,51.553,2.313,195.7,927.7,15.9,True,True,True,82.3,10.8,4.0,8.8,2.4
+30,regenerative,hybrid,Energy Platform Alpha,10,LYNQ-10,55.971,4.189,LYNQ-09,47.951,1.123,306.6,916.0,15.6,True,True,True,83.7,8.5,4.0,6.5,2.4
+30,regenerative,hybrid,Energy Platform Alpha,15,LYNQ-23,58.994,-2.087,LYNQ-09,52.006,4.687,209.9,885.4,15.8,True,True,True,82.0,6.2,4.0,4.2,2.4
+30,regenerative,hybrid,Energy Platform Alpha,20,LYNQ-09,56.442,6.356,LYNQ-08,48.346,3.665,366.0,918.4,15.5,True,True,True,84.5,13.0,4.0,11.0,2.4
+30,regenerative,hybrid,Energy Platform Alpha,25,LYNQ-22,58.537,-0.039,LYNQ-08,52.463,7.039,81.4,808.3,16.1,True,True,True,79.3,10.8,4.0,8.8,2.4
+30,regenerative,hybrid,Energy Platform Alpha,30,LYNQ-22,54.089,0.699,LYNQ-07,48.75,6.188,458.2,704.7,15.3,True,True,True,83.3,8.5,4.0,6.5,2.4
+30,regenerative,hybrid,Energy Platform Alpha,35,LYNQ-21,58.076,2.031,LYNQ-22,49.795,3.386,50.7,925.0,16.2,True,True,True,80.2,6.2,4.0,4.2,2.4
+30,regenerative,hybrid,Energy Platform Alpha,40,LYNQ-30,61.838,4.907,LYNQ-06,49.162,8.693,453.8,1428.9,15.3,True,False,True,91.7,13.0,4.6,11.0,2.4
+30,regenerative,hybrid,Energy Platform Alpha,45,LYNQ-30,57.612,4.122,LYNQ-21,49.371,5.862,184.6,923.5,15.9,False,True,False,,10.8,4.0,8.8,2.4
+30,regenerative,hybrid,Energy Platform Alpha,50,LYNQ-29,61.418,6.822,LYNQ-05,49.582,11.178,476.0,1343.7,15.2,True,False,True,91.0,8.5,4.6,6.5,2.4
+30,regenerative,hybrid,Energy Platform Alpha,55,LYNQ-29,57.145,6.234,LYNQ-30,48.955,8.357,321.4,921.6,15.6,True,True,True,84.0,6.2,4.0,4.2,2.4
+30,regenerative,hybrid,Energy Platform Alpha,60,LYNQ-19,56.911,-6.701,LYNQ-29,52.693,7.593,492.3,1026.5,15.2,True,True,True,87.6,13.0,4.0,11.0,2.4
+30,regenerative,hybrid,Energy Platform Alpha,65,LYNQ-18,60.775,-4.269,LYNQ-29,48.547,10.871,420.8,1663.8,15.4,True,False,True,94.0,10.8,4.6,8.8,2.4
+30,regenerative,hybrid,Energy Platform Alpha,70,LYNQ-18,56.442,-4.556,LYNQ-28,52.234,9.935,396.8,1046.7,15.4,True,True,True,86.5,8.5,4.0,6.5,2.4
+30,regenerative,hybrid,Energy Platform Alpha,75,LYNQ-17,60.338,-2.304,LYNQ-28,48.147,13.404,310.0,1687.7,15.6,True,True,True,92.7,6.2,4.0,4.2,2.4
+30,regenerative,hybrid,Energy Platform Alpha,80,LYNQ-17,55.971,-2.389,LYNQ-18,47.951,0.677,329.2,916.0,15.6,True,True,True,84.0,13.0,4.0,11.0,2.4
+30,regenerative,hybrid,Energy Platform Alpha,85,LYNQ-16,59.895,-0.319,LYNQ-17,51.553,-0.513,207.5,927.7,15.8,True,True,True,82.4,10.8,4.0,8.8,2.4
+30,regenerative,hybrid,Energy Platform Alpha,90,LYNQ-16,55.5,-0.2,LYNQ-17,47.565,3.238,312.0,913.5,15.6,True,True,True,83.7,8.5,4.0,6.5,2.4
+30,functional_split,rf_intra_plane,North Sea Wind Farm,0,LYNQ-01,55.5,2.0,LYNQ-19,44.578,8.58,135.1,1300.8,16.0,True,True,True,102.8,15.5,5.1,11.0,3.4
+30,functional_split,rf_intra_plane,North Sea Wind Farm,5,LYNQ-01,59.895,2.119,LYNQ-10,51.553,2.313,403.0,927.7,15.4,True,True,True,102.2,13.3,4.0,8.8,3.4
+30,functional_split,rf_intra_plane,North Sea Wind Farm,10,LYNQ-10,55.971,4.189,LYNQ-09,47.951,1.123,57.8,916.0,16.2,True,True,True,97.2,11.0,4.0,6.5,3.4
+30,functional_split,rf_intra_plane,North Sea Wind Farm,15,LYNQ-10,60.338,4.104,LYNQ-09,52.006,4.687,444.6,927.2,15.3,True,True,True,102.7,8.7,4.0,4.2,3.4
+30,functional_split,rf_intra_plane,North Sea Wind Farm,20,LYNQ-09,56.442,6.356,LYNQ-08,48.346,3.665,173.0,918.4,15.9,True,True,False,,15.5,4.0,11.0,3.4
+30,functional_split,rf_intra_plane,North Sea Wind Farm,25,LYNQ-22,58.537,-0.039,LYNQ-08,52.463,7.039,324.3,808.3,15.6,True,True,True,99.7,13.3,4.0,8.8,3.4
+30,functional_split,rf_intra_plane,North Sea Wind Farm,30,LYNQ-08,56.911,8.501,LYNQ-07,48.75,6.188,309.1,920.5,15.6,True,True,True,100.8,11.0,4.0,6.5,3.4
+30,functional_split,rf_intra_plane,North Sea Wind Farm,35,LYNQ-21,58.076,2.031,LYNQ-22,49.795,3.386,212.6,925.0,15.8,True,True,True,99.5,8.7,4.0,4.2,3.4
+30,functional_split,rf_intra_plane,North Sea Wind Farm,40,LYNQ-21,53.621,2.975,LYNQ-06,49.162,8.693,305.7,634.6,15.6,True,True,True,97.4,15.5,4.0,11.0,3.4
+30,functional_split,rf_intra_plane,North Sea Wind Farm,45,LYNQ-30,57.612,4.122,LYNQ-21,49.371,5.862,144.5,923.5,16.0,False,True,False,,13.3,4.0,8.8,3.4
+30,functional_split,rf_intra_plane,North Sea Wind Farm,50,LYNQ-30,53.156,5.273,LYNQ-05,49.582,11.178,371.9,570.6,15.5,True,True,True,97.6,11.0,4.0,6.5,3.4
+30,functional_split,rf_intra_plane,North Sea Wind Farm,55,LYNQ-29,57.145,6.234,LYNQ-30,48.955,8.357,186.0,921.6,15.9,True,True,True,99.1,8.7,4.0,4.2,3.4
+30,functional_split,rf_intra_plane,North Sea Wind Farm,60,LYNQ-29,52.693,7.593,LYNQ-04,50.009,13.644,483.0,515.1,15.2,True,True,True,98.5,15.5,4.0,11.0,3.4
+30,functional_split,rf_intra_plane,North Sea Wind Farm,65,LYNQ-28,56.677,8.368,LYNQ-29,48.547,10.871,297.8,919.5,15.6,True,True,False,,13.3,4.0,8.8,3.4
+30,functional_split,rf_intra_plane,North Sea Wind Farm,70,LYNQ-18,56.442,-4.556,LYNQ-28,52.234,9.935,498.7,1046.7,15.2,True,True,True,104.9,11.0,4.0,6.5,3.4
+30,functional_split,rf_intra_plane,North Sea Wind Farm,75,LYNQ-27,56.207,10.525,LYNQ-28,48.147,13.404,430.7,917.3,15.3,True,True,True,102.4,8.7,4.0,4.2,3.4
+30,functional_split,rf_intra_plane,North Sea Wind Farm,80,LYNQ-17,55.971,-2.389,LYNQ-18,47.951,0.677,370.0,916.0,15.5,True,True,True,101.6,15.5,4.0,11.0,3.4
+30,functional_split,rf_intra_plane,North Sea Wind Farm,85,LYNQ-16,59.895,-0.319,LYNQ-17,51.553,-0.513,454.8,927.7,15.3,True,True,True,102.9,13.3,4.0,8.8,3.4
+30,functional_split,rf_intra_plane,North Sea Wind Farm,90,LYNQ-16,55.5,-0.2,LYNQ-17,47.565,3.238,252.0,913.5,15.7,True,True,True,99.9,11.0,4.0,6.5,3.4
+30,functional_split,rf_intra_plane,Energy Platform Alpha,0,LYNQ-01,55.5,2.0,LYNQ-19,44.578,8.58,304.1,1300.8,15.6,True,True,True,105.1,15.5,6.0,11.0,3.4
+30,functional_split,rf_intra_plane,Energy Platform Alpha,5,LYNQ-01,59.895,2.119,LYNQ-10,51.553,2.313,195.7,927.7,15.9,True,True,True,99.3,13.3,4.0,8.8,3.4
+30,functional_split,rf_intra_plane,Energy Platform Alpha,10,LYNQ-10,55.971,4.189,LYNQ-09,47.951,1.123,306.6,916.0,15.6,True,True,True,100.7,11.0,4.0,6.5,3.4
+30,functional_split,rf_intra_plane,Energy Platform Alpha,15,LYNQ-23,58.994,-2.087,LYNQ-09,52.006,4.687,209.9,885.4,15.8,True,True,True,99.0,8.7,4.0,4.2,3.4
+30,functional_split,rf_intra_plane,Energy Platform Alpha,20,LYNQ-09,56.442,6.356,LYNQ-08,48.346,3.665,366.0,918.4,15.5,True,True,False,,15.5,4.0,11.0,3.4
+30,functional_split,rf_intra_plane,Energy Platform Alpha,25,LYNQ-22,58.537,-0.039,LYNQ-08,52.463,7.039,81.4,808.3,16.1,True,True,True,96.3,13.3,4.0,8.8,3.4
+30,functional_split,rf_intra_plane,Energy Platform Alpha,30,LYNQ-22,54.089,0.699,LYNQ-07,48.75,6.188,458.2,704.7,15.3,True,True,True,100.3,11.0,4.0,6.5,3.4
+30,functional_split,rf_intra_plane,Energy Platform Alpha,35,LYNQ-21,58.076,2.031,LYNQ-22,49.795,3.386,50.7,925.0,16.2,True,True,True,97.2,8.7,4.0,4.2,3.4
+30,functional_split,rf_intra_plane,Energy Platform Alpha,40,LYNQ-30,61.838,4.907,LYNQ-06,49.162,8.693,453.8,1428.9,15.3,True,False,True,108.7,15.5,6.5,11.0,3.4
+30,functional_split,rf_intra_plane,Energy Platform Alpha,45,LYNQ-30,57.612,4.122,LYNQ-21,49.371,5.862,184.6,923.5,15.9,False,True,False,,13.3,4.5,8.8,3.4
+30,functional_split,rf_intra_plane,Energy Platform Alpha,50,LYNQ-29,61.418,6.822,LYNQ-05,49.582,11.178,476.0,1343.7,15.2,True,False,True,108.0,11.0,7.0,6.5,3.4
+30,functional_split,rf_intra_plane,Energy Platform Alpha,55,LYNQ-29,57.145,6.234,LYNQ-30,48.955,8.357,321.4,921.6,15.6,True,True,True,101.0,8.7,5.0,4.2,3.4
+30,functional_split,rf_intra_plane,Energy Platform Alpha,60,LYNQ-19,56.911,-6.701,LYNQ-29,52.693,7.593,492.3,1026.5,15.2,True,True,True,104.6,15.5,4.0,11.0,3.4
+30,functional_split,rf_intra_plane,Energy Platform Alpha,65,LYNQ-18,60.775,-4.269,LYNQ-29,48.547,10.871,420.8,1663.8,15.4,True,False,False,,13.3,6.5,8.8,3.4
+30,functional_split,rf_intra_plane,Energy Platform Alpha,70,LYNQ-18,56.442,-4.556,LYNQ-28,52.234,9.935,396.8,1046.7,15.4,True,True,True,103.5,11.0,4.5,6.5,3.4
+30,functional_split,rf_intra_plane,Energy Platform Alpha,75,LYNQ-17,60.338,-2.304,LYNQ-28,48.147,13.404,310.0,1687.7,15.6,True,True,True,109.7,8.7,4.0,4.2,3.4
+30,functional_split,rf_intra_plane,Energy Platform Alpha,80,LYNQ-17,55.971,-2.389,LYNQ-18,47.951,0.677,329.2,916.0,15.6,True,True,True,101.0,15.5,4.0,11.0,3.4
+30,functional_split,rf_intra_plane,Energy Platform Alpha,85,LYNQ-16,59.895,-0.319,LYNQ-17,51.553,-0.513,207.5,927.7,15.8,True,True,True,99.4,13.3,4.0,8.8,3.4
+30,functional_split,rf_intra_plane,Energy Platform Alpha,90,LYNQ-16,55.5,-0.2,LYNQ-17,47.565,3.238,312.0,913.5,15.6,True,True,True,100.7,11.0,4.0,6.5,3.4
+30,functional_split,optical_cross_plane,North Sea Wind Farm,0,LYNQ-01,55.5,2.0,LYNQ-19,44.578,8.58,135.1,1300.8,16.0,True,True,True,93.8,13.0,5.1,11.0,1.8
+30,functional_split,optical_cross_plane,North Sea Wind Farm,5,LYNQ-01,59.895,2.119,LYNQ-10,51.553,2.313,403.0,927.7,15.4,True,True,True,93.2,10.8,4.0,8.8,1.8
+30,functional_split,optical_cross_plane,North Sea Wind Farm,10,LYNQ-10,55.971,4.189,LYNQ-09,47.951,1.123,57.8,916.0,16.2,True,True,True,88.2,8.5,4.0,6.5,1.8
+30,functional_split,optical_cross_plane,North Sea Wind Farm,15,LYNQ-10,60.338,4.104,LYNQ-09,52.006,4.687,444.6,927.2,15.3,True,True,True,93.7,6.2,4.0,4.2,1.8
+30,functional_split,optical_cross_plane,North Sea Wind Farm,20,LYNQ-09,56.442,6.356,LYNQ-08,48.346,3.665,173.0,918.4,15.9,True,True,True,89.8,13.0,4.0,11.0,1.8
+30,functional_split,optical_cross_plane,North Sea Wind Farm,25,LYNQ-22,58.537,-0.039,LYNQ-08,52.463,7.039,324.3,808.3,15.6,True,True,True,90.7,10.8,4.0,8.8,1.8
+30,functional_split,optical_cross_plane,North Sea Wind Farm,30,LYNQ-08,56.911,8.501,LYNQ-07,48.75,6.188,309.1,920.5,15.6,True,True,True,91.8,8.5,4.0,6.5,1.8
+30,functional_split,optical_cross_plane,North Sea Wind Farm,35,LYNQ-21,58.076,2.031,LYNQ-22,49.795,3.386,212.6,925.0,15.8,True,True,True,90.5,6.2,4.0,4.2,1.8
+30,functional_split,optical_cross_plane,North Sea Wind Farm,40,LYNQ-21,53.621,2.975,LYNQ-06,49.162,8.693,305.7,634.6,15.6,True,True,True,88.4,13.0,4.0,11.0,1.8
+30,functional_split,optical_cross_plane,North Sea Wind Farm,45,LYNQ-30,57.612,4.122,LYNQ-21,49.371,5.862,144.5,923.5,16.0,False,True,False,,10.8,4.0,8.8,1.8
+30,functional_split,optical_cross_plane,North Sea Wind Farm,50,LYNQ-30,53.156,5.273,LYNQ-05,49.582,11.178,371.9,570.6,15.5,True,True,True,88.6,8.5,4.0,6.5,1.8
+30,functional_split,optical_cross_plane,North Sea Wind Farm,55,LYNQ-29,57.145,6.234,LYNQ-30,48.955,8.357,186.0,921.6,15.9,True,True,True,90.1,6.2,4.0,4.2,1.8
+30,functional_split,optical_cross_plane,North Sea Wind Farm,60,LYNQ-29,52.693,7.593,LYNQ-04,50.009,13.644,483.0,515.1,15.2,True,True,True,89.5,13.0,4.0,11.0,1.8
+30,functional_split,optical_cross_plane,North Sea Wind Farm,65,LYNQ-28,56.677,8.368,LYNQ-29,48.547,10.871,297.8,919.5,15.6,True,True,True,91.6,10.8,4.0,8.8,1.8
+30,functional_split,optical_cross_plane,North Sea Wind Farm,70,LYNQ-18,56.442,-4.556,LYNQ-28,52.234,9.935,498.7,1046.7,15.2,True,True,True,95.9,8.5,4.0,6.5,1.8
+30,functional_split,optical_cross_plane,North Sea Wind Farm,75,LYNQ-27,56.207,10.525,LYNQ-28,48.147,13.404,430.7,917.3,15.3,True,True,True,93.4,6.2,4.0,4.2,1.8
+30,functional_split,optical_cross_plane,North Sea Wind Farm,80,LYNQ-17,55.971,-2.389,LYNQ-18,47.951,0.677,370.0,916.0,15.5,True,True,True,92.6,13.0,4.0,11.0,1.8
+30,functional_split,optical_cross_plane,North Sea Wind Farm,85,LYNQ-16,59.895,-0.319,LYNQ-17,51.553,-0.513,454.8,927.7,15.3,True,True,True,93.9,10.8,4.0,8.8,1.8
+30,functional_split,optical_cross_plane,North Sea Wind Farm,90,LYNQ-16,55.5,-0.2,LYNQ-17,47.565,3.238,252.0,913.5,15.7,True,True,True,90.9,8.5,4.0,6.5,1.8
+30,functional_split,optical_cross_plane,Energy Platform Alpha,0,LYNQ-01,55.5,2.0,LYNQ-19,44.578,8.58,304.1,1300.8,15.6,True,True,True,96.1,13.0,6.0,11.0,1.8
+30,functional_split,optical_cross_plane,Energy Platform Alpha,5,LYNQ-01,59.895,2.119,LYNQ-10,51.553,2.313,195.7,927.7,15.9,True,True,True,90.3,10.8,4.0,8.8,1.8
+30,functional_split,optical_cross_plane,Energy Platform Alpha,10,LYNQ-10,55.971,4.189,LYNQ-09,47.951,1.123,306.6,916.0,15.6,True,True,True,91.7,8.5,4.0,6.5,1.8
+30,functional_split,optical_cross_plane,Energy Platform Alpha,15,LYNQ-23,58.994,-2.087,LYNQ-09,52.006,4.687,209.9,885.4,15.8,True,True,True,90.0,6.2,4.0,4.2,1.8
+30,functional_split,optical_cross_plane,Energy Platform Alpha,20,LYNQ-09,56.442,6.356,LYNQ-08,48.346,3.665,366.0,918.4,15.5,True,True,True,92.5,13.0,4.0,11.0,1.8
+30,functional_split,optical_cross_plane,Energy Platform Alpha,25,LYNQ-22,58.537,-0.039,LYNQ-08,52.463,7.039,81.4,808.3,16.1,True,True,True,87.3,10.8,4.0,8.8,1.8
+30,functional_split,optical_cross_plane,Energy Platform Alpha,30,LYNQ-22,54.089,0.699,LYNQ-07,48.75,6.188,458.2,704.7,15.3,True,True,True,91.3,8.5,4.0,6.5,1.8
+30,functional_split,optical_cross_plane,Energy Platform Alpha,35,LYNQ-21,58.076,2.031,LYNQ-22,49.795,3.386,50.7,925.0,16.2,True,True,True,88.2,6.2,4.0,4.2,1.8
+30,functional_split,optical_cross_plane,Energy Platform Alpha,40,LYNQ-30,61.838,4.907,LYNQ-06,49.162,8.693,453.8,1428.9,15.3,True,False,True,99.7,13.0,4.6,11.0,1.8
+30,functional_split,optical_cross_plane,Energy Platform Alpha,45,LYNQ-30,57.612,4.122,LYNQ-21,49.371,5.862,184.6,923.5,15.9,False,True,False,,10.8,4.0,8.8,1.8
+30,functional_split,optical_cross_plane,Energy Platform Alpha,50,LYNQ-29,61.418,6.822,LYNQ-05,49.582,11.178,476.0,1343.7,15.2,True,False,True,99.0,8.5,4.6,6.5,1.8
+30,functional_split,optical_cross_plane,Energy Platform Alpha,55,LYNQ-29,57.145,6.234,LYNQ-30,48.955,8.357,321.4,921.6,15.6,True,True,True,92.0,6.2,4.0,4.2,1.8
+30,functional_split,optical_cross_plane,Energy Platform Alpha,60,LYNQ-19,56.911,-6.701,LYNQ-29,52.693,7.593,492.3,1026.5,15.2,True,True,True,95.6,13.0,4.0,11.0,1.8
+30,functional_split,optical_cross_plane,Energy Platform Alpha,65,LYNQ-18,60.775,-4.269,LYNQ-29,48.547,10.871,420.8,1663.8,15.4,True,False,True,102.0,10.8,4.6,8.8,1.8
+30,functional_split,optical_cross_plane,Energy Platform Alpha,70,LYNQ-18,56.442,-4.556,LYNQ-28,52.234,9.935,396.8,1046.7,15.4,True,True,True,94.5,8.5,4.0,6.5,1.8
+30,functional_split,optical_cross_plane,Energy Platform Alpha,75,LYNQ-17,60.338,-2.304,LYNQ-28,48.147,13.404,310.0,1687.7,15.6,True,True,True,100.7,6.2,4.0,4.2,1.8
+30,functional_split,optical_cross_plane,Energy Platform Alpha,80,LYNQ-17,55.971,-2.389,LYNQ-18,47.951,0.677,329.2,916.0,15.6,True,True,True,92.0,13.0,4.0,11.0,1.8
+30,functional_split,optical_cross_plane,Energy Platform Alpha,85,LYNQ-16,59.895,-0.319,LYNQ-17,51.553,-0.513,207.5,927.7,15.8,True,True,True,90.4,10.8,4.0,8.8,1.8
+30,functional_split,optical_cross_plane,Energy Platform Alpha,90,LYNQ-16,55.5,-0.2,LYNQ-17,47.565,3.238,312.0,913.5,15.6,True,True,True,91.7,8.5,4.0,6.5,1.8
+30,functional_split,hybrid,North Sea Wind Farm,0,LYNQ-01,55.5,2.0,LYNQ-19,44.578,8.58,135.1,1300.8,16.0,True,True,True,97.8,13.0,5.1,11.0,2.4
+30,functional_split,hybrid,North Sea Wind Farm,5,LYNQ-01,59.895,2.119,LYNQ-10,51.553,2.313,403.0,927.7,15.4,True,True,True,97.2,10.8,4.0,8.8,2.4
+30,functional_split,hybrid,North Sea Wind Farm,10,LYNQ-10,55.971,4.189,LYNQ-09,47.951,1.123,57.8,916.0,16.2,True,True,True,92.2,8.5,4.0,6.5,2.4
+30,functional_split,hybrid,North Sea Wind Farm,15,LYNQ-10,60.338,4.104,LYNQ-09,52.006,4.687,444.6,927.2,15.3,True,True,True,97.7,6.2,4.0,4.2,2.4
+30,functional_split,hybrid,North Sea Wind Farm,20,LYNQ-09,56.442,6.356,LYNQ-08,48.346,3.665,173.0,918.4,15.9,True,True,True,93.8,13.0,4.0,11.0,2.4
+30,functional_split,hybrid,North Sea Wind Farm,25,LYNQ-22,58.537,-0.039,LYNQ-08,52.463,7.039,324.3,808.3,15.6,True,True,True,94.7,10.8,4.0,8.8,2.4
+30,functional_split,hybrid,North Sea Wind Farm,30,LYNQ-08,56.911,8.501,LYNQ-07,48.75,6.188,309.1,920.5,15.6,True,True,True,95.8,8.5,4.0,6.5,2.4
+30,functional_split,hybrid,North Sea Wind Farm,35,LYNQ-21,58.076,2.031,LYNQ-22,49.795,3.386,212.6,925.0,15.8,True,True,True,94.5,6.2,4.0,4.2,2.4
+30,functional_split,hybrid,North Sea Wind Farm,40,LYNQ-21,53.621,2.975,LYNQ-06,49.162,8.693,305.7,634.6,15.6,True,True,True,92.4,13.0,4.0,11.0,2.4
+30,functional_split,hybrid,North Sea Wind Farm,45,LYNQ-30,57.612,4.122,LYNQ-21,49.371,5.862,144.5,923.5,16.0,False,True,False,,10.8,4.0,8.8,2.4
+30,functional_split,hybrid,North Sea Wind Farm,50,LYNQ-30,53.156,5.273,LYNQ-05,49.582,11.178,371.9,570.6,15.5,True,True,True,92.6,8.5,4.0,6.5,2.4
+30,functional_split,hybrid,North Sea Wind Farm,55,LYNQ-29,57.145,6.234,LYNQ-30,48.955,8.357,186.0,921.6,15.9,True,True,True,94.1,6.2,4.0,4.2,2.4
+30,functional_split,hybrid,North Sea Wind Farm,60,LYNQ-29,52.693,7.593,LYNQ-04,50.009,13.644,483.0,515.1,15.2,True,True,True,93.5,13.0,4.0,11.0,2.4
+30,functional_split,hybrid,North Sea Wind Farm,65,LYNQ-28,56.677,8.368,LYNQ-29,48.547,10.871,297.8,919.5,15.6,True,True,True,95.6,10.8,4.0,8.8,2.4
+30,functional_split,hybrid,North Sea Wind Farm,70,LYNQ-18,56.442,-4.556,LYNQ-28,52.234,9.935,498.7,1046.7,15.2,True,True,True,99.9,8.5,4.0,6.5,2.4
+30,functional_split,hybrid,North Sea Wind Farm,75,LYNQ-27,56.207,10.525,LYNQ-28,48.147,13.404,430.7,917.3,15.3,True,True,True,97.4,6.2,4.0,4.2,2.4
+30,functional_split,hybrid,North Sea Wind Farm,80,LYNQ-17,55.971,-2.389,LYNQ-18,47.951,0.677,370.0,916.0,15.5,True,True,True,96.6,13.0,4.0,11.0,2.4
+30,functional_split,hybrid,North Sea Wind Farm,85,LYNQ-16,59.895,-0.319,LYNQ-17,51.553,-0.513,454.8,927.7,15.3,True,True,True,97.9,10.8,4.0,8.8,2.4
+30,functional_split,hybrid,North Sea Wind Farm,90,LYNQ-16,55.5,-0.2,LYNQ-17,47.565,3.238,252.0,913.5,15.7,True,True,True,94.9,8.5,4.0,6.5,2.4
+30,functional_split,hybrid,Energy Platform Alpha,0,LYNQ-01,55.5,2.0,LYNQ-19,44.578,8.58,304.1,1300.8,15.6,True,True,True,100.1,13.0,6.0,11.0,2.4
+30,functional_split,hybrid,Energy Platform Alpha,5,LYNQ-01,59.895,2.119,LYNQ-10,51.553,2.313,195.7,927.7,15.9,True,True,True,94.3,10.8,4.0,8.8,2.4
+30,functional_split,hybrid,Energy Platform Alpha,10,LYNQ-10,55.971,4.189,LYNQ-09,47.951,1.123,306.6,916.0,15.6,True,True,True,95.7,8.5,4.0,6.5,2.4
+30,functional_split,hybrid,Energy Platform Alpha,15,LYNQ-23,58.994,-2.087,LYNQ-09,52.006,4.687,209.9,885.4,15.8,True,True,True,94.0,6.2,4.0,4.2,2.4
+30,functional_split,hybrid,Energy Platform Alpha,20,LYNQ-09,56.442,6.356,LYNQ-08,48.346,3.665,366.0,918.4,15.5,True,True,True,96.5,13.0,4.0,11.0,2.4
+30,functional_split,hybrid,Energy Platform Alpha,25,LYNQ-22,58.537,-0.039,LYNQ-08,52.463,7.039,81.4,808.3,16.1,True,True,True,91.3,10.8,4.0,8.8,2.4
+30,functional_split,hybrid,Energy Platform Alpha,30,LYNQ-22,54.089,0.699,LYNQ-07,48.75,6.188,458.2,704.7,15.3,True,True,True,95.3,8.5,4.0,6.5,2.4
+30,functional_split,hybrid,Energy Platform Alpha,35,LYNQ-21,58.076,2.031,LYNQ-22,49.795,3.386,50.7,925.0,16.2,True,True,True,92.2,6.2,4.0,4.2,2.4
+30,functional_split,hybrid,Energy Platform Alpha,40,LYNQ-30,61.838,4.907,LYNQ-06,49.162,8.693,453.8,1428.9,15.3,True,False,True,103.7,13.0,4.6,11.0,2.4
+30,functional_split,hybrid,Energy Platform Alpha,45,LYNQ-30,57.612,4.122,LYNQ-21,49.371,5.862,184.6,923.5,15.9,False,True,False,,10.8,4.0,8.8,2.4
+30,functional_split,hybrid,Energy Platform Alpha,50,LYNQ-29,61.418,6.822,LYNQ-05,49.582,11.178,476.0,1343.7,15.2,True,False,True,103.0,8.5,4.6,6.5,2.4
+30,functional_split,hybrid,Energy Platform Alpha,55,LYNQ-29,57.145,6.234,LYNQ-30,48.955,8.357,321.4,921.6,15.6,True,True,True,96.0,6.2,4.0,4.2,2.4
+30,functional_split,hybrid,Energy Platform Alpha,60,LYNQ-19,56.911,-6.701,LYNQ-29,52.693,7.593,492.3,1026.5,15.2,True,True,True,99.6,13.0,4.0,11.0,2.4
+30,functional_split,hybrid,Energy Platform Alpha,65,LYNQ-18,60.775,-4.269,LYNQ-29,48.547,10.871,420.8,1663.8,15.4,True,False,True,106.0,10.8,4.6,8.8,2.4
+30,functional_split,hybrid,Energy Platform Alpha,70,LYNQ-18,56.442,-4.556,LYNQ-28,52.234,9.935,396.8,1046.7,15.4,True,True,True,98.5,8.5,4.0,6.5,2.4
+30,functional_split,hybrid,Energy Platform Alpha,75,LYNQ-17,60.338,-2.304,LYNQ-28,48.147,13.404,310.0,1687.7,15.6,True,True,True,104.7,6.2,4.0,4.2,2.4
+30,functional_split,hybrid,Energy Platform Alpha,80,LYNQ-17,55.971,-2.389,LYNQ-18,47.951,0.677,329.2,916.0,15.6,True,True,True,96.0,13.0,4.0,11.0,2.4
+30,functional_split,hybrid,Energy Platform Alpha,85,LYNQ-16,59.895,-0.319,LYNQ-17,51.553,-0.513,207.5,927.7,15.8,True,True,True,94.4,10.8,4.0,8.8,2.4
+30,functional_split,hybrid,Energy Platform Alpha,90,LYNQ-16,55.5,-0.2,LYNQ-17,47.565,3.238,312.0,913.5,15.6,True,True,True,95.7,8.5,4.0,6.5,2.4
+30,bent_pipe,rf_intra_plane,North Sea Wind Farm,0,LYNQ-01,55.5,2.0,LYNQ-19,44.578,8.58,135.1,1300.8,16.0,True,True,True,110.8,15.5,5.1,11.0,3.4
+30,bent_pipe,rf_intra_plane,North Sea Wind Farm,5,LYNQ-01,59.895,2.119,LYNQ-10,51.553,2.313,403.0,927.7,15.4,True,True,True,110.2,13.3,4.0,8.8,3.4
+30,bent_pipe,rf_intra_plane,North Sea Wind Farm,10,LYNQ-10,55.971,4.189,LYNQ-09,47.951,1.123,57.8,916.0,16.2,True,True,True,105.2,11.0,4.0,6.5,3.4
+30,bent_pipe,rf_intra_plane,North Sea Wind Farm,15,LYNQ-10,60.338,4.104,LYNQ-09,52.006,4.687,444.6,927.2,15.3,True,True,True,110.7,8.7,4.0,4.2,3.4
+30,bent_pipe,rf_intra_plane,North Sea Wind Farm,20,LYNQ-09,56.442,6.356,LYNQ-08,48.346,3.665,173.0,918.4,15.9,True,True,True,106.8,15.5,4.0,11.0,3.4
+30,bent_pipe,rf_intra_plane,North Sea Wind Farm,25,LYNQ-22,58.537,-0.039,LYNQ-08,52.463,7.039,324.3,808.3,15.6,True,True,True,107.7,13.3,4.0,8.8,3.4
+30,bent_pipe,rf_intra_plane,North Sea Wind Farm,30,LYNQ-08,56.911,8.501,LYNQ-07,48.75,6.188,309.1,920.5,15.6,True,True,True,108.8,11.0,4.0,6.5,3.4
+30,bent_pipe,rf_intra_plane,North Sea Wind Farm,35,LYNQ-21,58.076,2.031,LYNQ-22,49.795,3.386,212.6,925.0,15.8,True,True,True,107.5,8.7,4.0,4.2,3.4
+30,bent_pipe,rf_intra_plane,North Sea Wind Farm,40,LYNQ-21,53.621,2.975,LYNQ-06,49.162,8.693,305.7,634.6,15.6,True,True,True,105.4,15.5,4.0,11.0,3.4
+30,bent_pipe,rf_intra_plane,North Sea Wind Farm,45,LYNQ-30,57.612,4.122,LYNQ-21,49.371,5.862,144.5,923.5,16.0,False,True,False,,13.3,4.0,8.8,3.4
+30,bent_pipe,rf_intra_plane,North Sea Wind Farm,50,LYNQ-30,53.156,5.273,LYNQ-05,49.582,11.178,371.9,570.6,15.5,True,True,True,105.6,11.0,4.0,6.5,3.4
+30,bent_pipe,rf_intra_plane,North Sea Wind Farm,55,LYNQ-29,57.145,6.234,LYNQ-30,48.955,8.357,186.0,921.6,15.9,True,True,True,107.1,8.7,4.0,4.2,3.4
+30,bent_pipe,rf_intra_plane,North Sea Wind Farm,60,LYNQ-29,52.693,7.593,LYNQ-04,50.009,13.644,483.0,515.1,15.2,True,True,True,106.5,15.5,4.0,11.0,3.4
+30,bent_pipe,rf_intra_plane,North Sea Wind Farm,65,LYNQ-28,56.677,8.368,LYNQ-29,48.547,10.871,297.8,919.5,15.6,True,True,True,108.6,13.3,4.0,8.8,3.4
+30,bent_pipe,rf_intra_plane,North Sea Wind Farm,70,LYNQ-18,56.442,-4.556,LYNQ-28,52.234,9.935,498.7,1046.7,15.2,True,True,True,112.9,11.0,4.0,6.5,3.4
+30,bent_pipe,rf_intra_plane,North Sea Wind Farm,75,LYNQ-27,56.207,10.525,LYNQ-28,48.147,13.404,430.7,917.3,15.3,True,True,True,110.4,8.7,4.0,4.2,3.4
+30,bent_pipe,rf_intra_plane,North Sea Wind Farm,80,LYNQ-17,55.971,-2.389,LYNQ-18,47.951,0.677,370.0,916.0,15.5,True,True,True,109.6,15.5,4.0,11.0,3.4
+30,bent_pipe,rf_intra_plane,North Sea Wind Farm,85,LYNQ-16,59.895,-0.319,LYNQ-17,51.553,-0.513,454.8,927.7,15.3,True,True,True,110.9,13.3,4.0,8.8,3.4
+30,bent_pipe,rf_intra_plane,North Sea Wind Farm,90,LYNQ-16,55.5,-0.2,LYNQ-17,47.565,3.238,252.0,913.5,15.7,True,True,True,107.9,11.0,4.0,6.5,3.4
+30,bent_pipe,rf_intra_plane,Energy Platform Alpha,0,LYNQ-01,55.5,2.0,LYNQ-19,44.578,8.58,304.1,1300.8,15.6,True,True,True,113.1,15.5,6.0,11.0,3.4
+30,bent_pipe,rf_intra_plane,Energy Platform Alpha,5,LYNQ-01,59.895,2.119,LYNQ-10,51.553,2.313,195.7,927.7,15.9,True,True,True,107.3,13.3,4.0,8.8,3.4
+30,bent_pipe,rf_intra_plane,Energy Platform Alpha,10,LYNQ-10,55.971,4.189,LYNQ-09,47.951,1.123,306.6,916.0,15.6,True,True,True,108.7,11.0,4.0,6.5,3.4
+30,bent_pipe,rf_intra_plane,Energy Platform Alpha,15,LYNQ-23,58.994,-2.087,LYNQ-09,52.006,4.687,209.9,885.4,15.8,True,True,True,107.0,8.7,4.0,4.2,3.4
+30,bent_pipe,rf_intra_plane,Energy Platform Alpha,20,LYNQ-09,56.442,6.356,LYNQ-08,48.346,3.665,366.0,918.4,15.5,True,True,True,109.5,15.5,4.0,11.0,3.4
+30,bent_pipe,rf_intra_plane,Energy Platform Alpha,25,LYNQ-22,58.537,-0.039,LYNQ-08,52.463,7.039,81.4,808.3,16.1,True,True,True,104.3,13.3,4.0,8.8,3.4
+30,bent_pipe,rf_intra_plane,Energy Platform Alpha,30,LYNQ-22,54.089,0.699,LYNQ-07,48.75,6.188,458.2,704.7,15.3,True,True,True,108.3,11.0,4.0,6.5,3.4
+30,bent_pipe,rf_intra_plane,Energy Platform Alpha,35,LYNQ-21,58.076,2.031,LYNQ-22,49.795,3.386,50.7,925.0,16.2,True,True,True,105.2,8.7,4.0,4.2,3.4
+30,bent_pipe,rf_intra_plane,Energy Platform Alpha,40,LYNQ-30,61.838,4.907,LYNQ-06,49.162,8.693,453.8,1428.9,15.3,True,False,False,,15.5,6.5,11.0,3.4
+30,bent_pipe,rf_intra_plane,Energy Platform Alpha,45,LYNQ-30,57.612,4.122,LYNQ-21,49.371,5.862,184.6,923.5,15.9,False,True,False,,13.3,4.5,8.8,3.4
+30,bent_pipe,rf_intra_plane,Energy Platform Alpha,50,LYNQ-29,61.418,6.822,LYNQ-05,49.582,11.178,476.0,1343.7,15.2,True,False,False,,11.0,7.0,6.5,3.4
+30,bent_pipe,rf_intra_plane,Energy Platform Alpha,55,LYNQ-29,57.145,6.234,LYNQ-30,48.955,8.357,321.4,921.6,15.6,True,True,True,109.0,8.7,5.0,4.2,3.4
+30,bent_pipe,rf_intra_plane,Energy Platform Alpha,60,LYNQ-19,56.911,-6.701,LYNQ-29,52.693,7.593,492.3,1026.5,15.2,True,True,True,112.6,15.5,4.0,11.0,3.4
+30,bent_pipe,rf_intra_plane,Energy Platform Alpha,65,LYNQ-18,60.775,-4.269,LYNQ-29,48.547,10.871,420.8,1663.8,15.4,True,False,False,,13.3,6.5,8.8,3.4
+30,bent_pipe,rf_intra_plane,Energy Platform Alpha,70,LYNQ-18,56.442,-4.556,LYNQ-28,52.234,9.935,396.8,1046.7,15.4,True,True,True,111.5,11.0,4.5,6.5,3.4
+30,bent_pipe,rf_intra_plane,Energy Platform Alpha,75,LYNQ-17,60.338,-2.304,LYNQ-28,48.147,13.404,310.0,1687.7,15.6,True,True,True,117.7,8.7,4.0,4.2,3.4
+30,bent_pipe,rf_intra_plane,Energy Platform Alpha,80,LYNQ-17,55.971,-2.389,LYNQ-18,47.951,0.677,329.2,916.0,15.6,True,True,True,109.0,15.5,4.0,11.0,3.4
+30,bent_pipe,rf_intra_plane,Energy Platform Alpha,85,LYNQ-16,59.895,-0.319,LYNQ-17,51.553,-0.513,207.5,927.7,15.8,True,True,True,107.4,13.3,4.0,8.8,3.4
+30,bent_pipe,rf_intra_plane,Energy Platform Alpha,90,LYNQ-16,55.5,-0.2,LYNQ-17,47.565,3.238,312.0,913.5,15.6,True,True,True,108.7,11.0,4.0,6.5,3.4
+30,bent_pipe,optical_cross_plane,North Sea Wind Farm,0,LYNQ-01,55.5,2.0,LYNQ-19,44.578,8.58,135.1,1300.8,16.0,True,True,True,110.8,13.0,5.1,11.0,1.8
+30,bent_pipe,optical_cross_plane,North Sea Wind Farm,5,LYNQ-01,59.895,2.119,LYNQ-10,51.553,2.313,403.0,927.7,15.4,True,True,True,110.2,10.8,4.0,8.8,1.8
+30,bent_pipe,optical_cross_plane,North Sea Wind Farm,10,LYNQ-10,55.971,4.189,LYNQ-09,47.951,1.123,57.8,916.0,16.2,True,True,True,105.2,8.5,4.0,6.5,1.8
+30,bent_pipe,optical_cross_plane,North Sea Wind Farm,15,LYNQ-10,60.338,4.104,LYNQ-09,52.006,4.687,444.6,927.2,15.3,True,True,True,110.7,6.2,4.0,4.2,1.8
+30,bent_pipe,optical_cross_plane,North Sea Wind Farm,20,LYNQ-09,56.442,6.356,LYNQ-08,48.346,3.665,173.0,918.4,15.9,True,True,True,106.8,13.0,4.0,11.0,1.8
+30,bent_pipe,optical_cross_plane,North Sea Wind Farm,25,LYNQ-22,58.537,-0.039,LYNQ-08,52.463,7.039,324.3,808.3,15.6,True,True,True,107.7,10.8,4.0,8.8,1.8
+30,bent_pipe,optical_cross_plane,North Sea Wind Farm,30,LYNQ-08,56.911,8.501,LYNQ-07,48.75,6.188,309.1,920.5,15.6,True,True,True,108.8,8.5,4.0,6.5,1.8
+30,bent_pipe,optical_cross_plane,North Sea Wind Farm,35,LYNQ-21,58.076,2.031,LYNQ-22,49.795,3.386,212.6,925.0,15.8,True,True,True,107.5,6.2,4.0,4.2,1.8
+30,bent_pipe,optical_cross_plane,North Sea Wind Farm,40,LYNQ-21,53.621,2.975,LYNQ-06,49.162,8.693,305.7,634.6,15.6,True,True,True,105.4,13.0,4.0,11.0,1.8
+30,bent_pipe,optical_cross_plane,North Sea Wind Farm,45,LYNQ-30,57.612,4.122,LYNQ-21,49.371,5.862,144.5,923.5,16.0,False,True,False,,10.8,4.0,8.8,1.8
+30,bent_pipe,optical_cross_plane,North Sea Wind Farm,50,LYNQ-30,53.156,5.273,LYNQ-05,49.582,11.178,371.9,570.6,15.5,True,True,True,105.6,8.5,4.0,6.5,1.8
+30,bent_pipe,optical_cross_plane,North Sea Wind Farm,55,LYNQ-29,57.145,6.234,LYNQ-30,48.955,8.357,186.0,921.6,15.9,True,True,True,107.1,6.2,4.0,4.2,1.8
+30,bent_pipe,optical_cross_plane,North Sea Wind Farm,60,LYNQ-29,52.693,7.593,LYNQ-04,50.009,13.644,483.0,515.1,15.2,True,True,True,106.5,13.0,4.0,11.0,1.8
+30,bent_pipe,optical_cross_plane,North Sea Wind Farm,65,LYNQ-28,56.677,8.368,LYNQ-29,48.547,10.871,297.8,919.5,15.6,True,True,True,108.6,10.8,4.0,8.8,1.8
+30,bent_pipe,optical_cross_plane,North Sea Wind Farm,70,LYNQ-18,56.442,-4.556,LYNQ-28,52.234,9.935,498.7,1046.7,15.2,True,True,True,112.9,8.5,4.0,6.5,1.8
+30,bent_pipe,optical_cross_plane,North Sea Wind Farm,75,LYNQ-27,56.207,10.525,LYNQ-28,48.147,13.404,430.7,917.3,15.3,True,True,True,110.4,6.2,4.0,4.2,1.8
+30,bent_pipe,optical_cross_plane,North Sea Wind Farm,80,LYNQ-17,55.971,-2.389,LYNQ-18,47.951,0.677,370.0,916.0,15.5,True,True,True,109.6,13.0,4.0,11.0,1.8
+30,bent_pipe,optical_cross_plane,North Sea Wind Farm,85,LYNQ-16,59.895,-0.319,LYNQ-17,51.553,-0.513,454.8,927.7,15.3,True,True,True,110.9,10.8,4.0,8.8,1.8
+30,bent_pipe,optical_cross_plane,North Sea Wind Farm,90,LYNQ-16,55.5,-0.2,LYNQ-17,47.565,3.238,252.0,913.5,15.7,True,True,True,107.9,8.5,4.0,6.5,1.8
+30,bent_pipe,optical_cross_plane,Energy Platform Alpha,0,LYNQ-01,55.5,2.0,LYNQ-19,44.578,8.58,304.1,1300.8,15.6,True,True,True,113.1,13.0,6.0,11.0,1.8
+30,bent_pipe,optical_cross_plane,Energy Platform Alpha,5,LYNQ-01,59.895,2.119,LYNQ-10,51.553,2.313,195.7,927.7,15.9,True,True,True,107.3,10.8,4.0,8.8,1.8
+30,bent_pipe,optical_cross_plane,Energy Platform Alpha,10,LYNQ-10,55.971,4.189,LYNQ-09,47.951,1.123,306.6,916.0,15.6,True,True,True,108.7,8.5,4.0,6.5,1.8
+30,bent_pipe,optical_cross_plane,Energy Platform Alpha,15,LYNQ-23,58.994,-2.087,LYNQ-09,52.006,4.687,209.9,885.4,15.8,True,True,True,107.0,6.2,4.0,4.2,1.8
+30,bent_pipe,optical_cross_plane,Energy Platform Alpha,20,LYNQ-09,56.442,6.356,LYNQ-08,48.346,3.665,366.0,918.4,15.5,True,True,True,109.5,13.0,4.0,11.0,1.8
+30,bent_pipe,optical_cross_plane,Energy Platform Alpha,25,LYNQ-22,58.537,-0.039,LYNQ-08,52.463,7.039,81.4,808.3,16.1,True,True,True,104.3,10.8,4.0,8.8,1.8
+30,bent_pipe,optical_cross_plane,Energy Platform Alpha,30,LYNQ-22,54.089,0.699,LYNQ-07,48.75,6.188,458.2,704.7,15.3,True,True,True,108.3,8.5,4.0,6.5,1.8
+30,bent_pipe,optical_cross_plane,Energy Platform Alpha,35,LYNQ-21,58.076,2.031,LYNQ-22,49.795,3.386,50.7,925.0,16.2,True,True,True,105.2,6.2,4.0,4.2,1.8
+30,bent_pipe,optical_cross_plane,Energy Platform Alpha,40,LYNQ-30,61.838,4.907,LYNQ-06,49.162,8.693,453.8,1428.9,15.3,True,False,False,,13.0,6.5,11.0,1.8
+30,bent_pipe,optical_cross_plane,Energy Platform Alpha,45,LYNQ-30,57.612,4.122,LYNQ-21,49.371,5.862,184.6,923.5,15.9,False,True,False,,10.8,4.5,8.8,1.8
+30,bent_pipe,optical_cross_plane,Energy Platform Alpha,50,LYNQ-29,61.418,6.822,LYNQ-05,49.582,11.178,476.0,1343.7,15.2,True,False,False,,8.5,7.0,6.5,1.8
+30,bent_pipe,optical_cross_plane,Energy Platform Alpha,55,LYNQ-29,57.145,6.234,LYNQ-30,48.955,8.357,321.4,921.6,15.6,True,True,True,109.0,6.2,5.0,4.2,1.8
+30,bent_pipe,optical_cross_plane,Energy Platform Alpha,60,LYNQ-19,56.911,-6.701,LYNQ-29,52.693,7.593,492.3,1026.5,15.2,True,True,True,112.6,13.0,4.0,11.0,1.8
+30,bent_pipe,optical_cross_plane,Energy Platform Alpha,65,LYNQ-18,60.775,-4.269,LYNQ-29,48.547,10.871,420.8,1663.8,15.4,True,False,False,,10.8,6.5,8.8,1.8
+30,bent_pipe,optical_cross_plane,Energy Platform Alpha,70,LYNQ-18,56.442,-4.556,LYNQ-28,52.234,9.935,396.8,1046.7,15.4,True,True,True,111.5,8.5,4.5,6.5,1.8
+30,bent_pipe,optical_cross_plane,Energy Platform Alpha,75,LYNQ-17,60.338,-2.304,LYNQ-28,48.147,13.404,310.0,1687.7,15.6,True,True,True,117.7,6.2,4.0,4.2,1.8
+30,bent_pipe,optical_cross_plane,Energy Platform Alpha,80,LYNQ-17,55.971,-2.389,LYNQ-18,47.951,0.677,329.2,916.0,15.6,True,True,True,109.0,13.0,4.0,11.0,1.8
+30,bent_pipe,optical_cross_plane,Energy Platform Alpha,85,LYNQ-16,59.895,-0.319,LYNQ-17,51.553,-0.513,207.5,927.7,15.8,True,True,True,107.4,10.8,4.0,8.8,1.8
+30,bent_pipe,optical_cross_plane,Energy Platform Alpha,90,LYNQ-16,55.5,-0.2,LYNQ-17,47.565,3.238,312.0,913.5,15.6,True,True,True,108.7,8.5,4.0,6.5,1.8
+30,bent_pipe,hybrid,North Sea Wind Farm,0,LYNQ-01,55.5,2.0,LYNQ-19,44.578,8.58,135.1,1300.8,16.0,True,True,True,110.8,13.0,5.1,11.0,2.4
+30,bent_pipe,hybrid,North Sea Wind Farm,5,LYNQ-01,59.895,2.119,LYNQ-10,51.553,2.313,403.0,927.7,15.4,True,True,True,110.2,10.8,4.0,8.8,2.4
+30,bent_pipe,hybrid,North Sea Wind Farm,10,LYNQ-10,55.971,4.189,LYNQ-09,47.951,1.123,57.8,916.0,16.2,True,True,True,105.2,8.5,4.0,6.5,2.4
+30,bent_pipe,hybrid,North Sea Wind Farm,15,LYNQ-10,60.338,4.104,LYNQ-09,52.006,4.687,444.6,927.2,15.3,True,True,True,110.7,6.2,4.0,4.2,2.4
+30,bent_pipe,hybrid,North Sea Wind Farm,20,LYNQ-09,56.442,6.356,LYNQ-08,48.346,3.665,173.0,918.4,15.9,True,True,True,106.8,13.0,4.0,11.0,2.4
+30,bent_pipe,hybrid,North Sea Wind Farm,25,LYNQ-22,58.537,-0.039,LYNQ-08,52.463,7.039,324.3,808.3,15.6,True,True,True,107.7,10.8,4.0,8.8,2.4
+30,bent_pipe,hybrid,North Sea Wind Farm,30,LYNQ-08,56.911,8.501,LYNQ-07,48.75,6.188,309.1,920.5,15.6,True,True,True,108.8,8.5,4.0,6.5,2.4
+30,bent_pipe,hybrid,North Sea Wind Farm,35,LYNQ-21,58.076,2.031,LYNQ-22,49.795,3.386,212.6,925.0,15.8,True,True,True,107.5,6.2,4.0,4.2,2.4
+30,bent_pipe,hybrid,North Sea Wind Farm,40,LYNQ-21,53.621,2.975,LYNQ-06,49.162,8.693,305.7,634.6,15.6,True,True,True,105.4,13.0,4.0,11.0,2.4
+30,bent_pipe,hybrid,North Sea Wind Farm,45,LYNQ-30,57.612,4.122,LYNQ-21,49.371,5.862,144.5,923.5,16.0,False,True,False,,10.8,4.0,8.8,2.4
+30,bent_pipe,hybrid,North Sea Wind Farm,50,LYNQ-30,53.156,5.273,LYNQ-05,49.582,11.178,371.9,570.6,15.5,True,True,True,105.6,8.5,4.0,6.5,2.4
+30,bent_pipe,hybrid,North Sea Wind Farm,55,LYNQ-29,57.145,6.234,LYNQ-30,48.955,8.357,186.0,921.6,15.9,True,True,True,107.1,6.2,4.0,4.2,2.4
+30,bent_pipe,hybrid,North Sea Wind Farm,60,LYNQ-29,52.693,7.593,LYNQ-04,50.009,13.644,483.0,515.1,15.2,True,True,True,106.5,13.0,4.0,11.0,2.4
+30,bent_pipe,hybrid,North Sea Wind Farm,65,LYNQ-28,56.677,8.368,LYNQ-29,48.547,10.871,297.8,919.5,15.6,True,True,True,108.6,10.8,4.0,8.8,2.4
+30,bent_pipe,hybrid,North Sea Wind Farm,70,LYNQ-18,56.442,-4.556,LYNQ-28,52.234,9.935,498.7,1046.7,15.2,True,True,True,112.9,8.5,4.0,6.5,2.4
+30,bent_pipe,hybrid,North Sea Wind Farm,75,LYNQ-27,56.207,10.525,LYNQ-28,48.147,13.404,430.7,917.3,15.3,True,True,True,110.4,6.2,4.0,4.2,2.4
+30,bent_pipe,hybrid,North Sea Wind Farm,80,LYNQ-17,55.971,-2.389,LYNQ-18,47.951,0.677,370.0,916.0,15.5,True,True,True,109.6,13.0,4.0,11.0,2.4
+30,bent_pipe,hybrid,North Sea Wind Farm,85,LYNQ-16,59.895,-0.319,LYNQ-17,51.553,-0.513,454.8,927.7,15.3,True,True,True,110.9,10.8,4.0,8.8,2.4
+30,bent_pipe,hybrid,North Sea Wind Farm,90,LYNQ-16,55.5,-0.2,LYNQ-17,47.565,3.238,252.0,913.5,15.7,True,True,True,107.9,8.5,4.0,6.5,2.4
+30,bent_pipe,hybrid,Energy Platform Alpha,0,LYNQ-01,55.5,2.0,LYNQ-19,44.578,8.58,304.1,1300.8,15.6,True,True,True,113.1,13.0,6.0,11.0,2.4
+30,bent_pipe,hybrid,Energy Platform Alpha,5,LYNQ-01,59.895,2.119,LYNQ-10,51.553,2.313,195.7,927.7,15.9,True,True,True,107.3,10.8,4.0,8.8,2.4
+30,bent_pipe,hybrid,Energy Platform Alpha,10,LYNQ-10,55.971,4.189,LYNQ-09,47.951,1.123,306.6,916.0,15.6,True,True,True,108.7,8.5,4.0,6.5,2.4
+30,bent_pipe,hybrid,Energy Platform Alpha,15,LYNQ-23,58.994,-2.087,LYNQ-09,52.006,4.687,209.9,885.4,15.8,True,True,True,107.0,6.2,4.0,4.2,2.4
+30,bent_pipe,hybrid,Energy Platform Alpha,20,LYNQ-09,56.442,6.356,LYNQ-08,48.346,3.665,366.0,918.4,15.5,True,True,True,109.5,13.0,4.0,11.0,2.4
+30,bent_pipe,hybrid,Energy Platform Alpha,25,LYNQ-22,58.537,-0.039,LYNQ-08,52.463,7.039,81.4,808.3,16.1,True,True,True,104.3,10.8,4.0,8.8,2.4
+30,bent_pipe,hybrid,Energy Platform Alpha,30,LYNQ-22,54.089,0.699,LYNQ-07,48.75,6.188,458.2,704.7,15.3,True,True,True,108.3,8.5,4.0,6.5,2.4
+30,bent_pipe,hybrid,Energy Platform Alpha,35,LYNQ-21,58.076,2.031,LYNQ-22,49.795,3.386,50.7,925.0,16.2,True,True,True,105.2,6.2,4.0,4.2,2.4
+30,bent_pipe,hybrid,Energy Platform Alpha,40,LYNQ-30,61.838,4.907,LYNQ-06,49.162,8.693,453.8,1428.9,15.3,True,False,False,,13.0,6.5,11.0,2.4
+30,bent_pipe,hybrid,Energy Platform Alpha,45,LYNQ-30,57.612,4.122,LYNQ-21,49.371,5.862,184.6,923.5,15.9,False,True,False,,10.8,4.5,8.8,2.4
+30,bent_pipe,hybrid,Energy Platform Alpha,50,LYNQ-29,61.418,6.822,LYNQ-05,49.582,11.178,476.0,1343.7,15.2,True,False,False,,8.5,7.0,6.5,2.4
+30,bent_pipe,hybrid,Energy Platform Alpha,55,LYNQ-29,57.145,6.234,LYNQ-30,48.955,8.357,321.4,921.6,15.6,True,True,True,109.0,6.2,5.0,4.2,2.4
+30,bent_pipe,hybrid,Energy Platform Alpha,60,LYNQ-19,56.911,-6.701,LYNQ-29,52.693,7.593,492.3,1026.5,15.2,True,True,True,112.6,13.0,4.0,11.0,2.4
+30,bent_pipe,hybrid,Energy Platform Alpha,65,LYNQ-18,60.775,-4.269,LYNQ-29,48.547,10.871,420.8,1663.8,15.4,True,False,False,,10.8,6.5,8.8,2.4
+30,bent_pipe,hybrid,Energy Platform Alpha,70,LYNQ-18,56.442,-4.556,LYNQ-28,52.234,9.935,396.8,1046.7,15.4,True,True,True,111.5,8.5,4.5,6.5,2.4
+30,bent_pipe,hybrid,Energy Platform Alpha,75,LYNQ-17,60.338,-2.304,LYNQ-28,48.147,13.404,310.0,1687.7,15.6,True,True,True,117.7,6.2,4.0,4.2,2.4
+30,bent_pipe,hybrid,Energy Platform Alpha,80,LYNQ-17,55.971,-2.389,LYNQ-18,47.951,0.677,329.2,916.0,15.6,True,True,True,109.0,13.0,4.0,11.0,2.4
+30,bent_pipe,hybrid,Energy Platform Alpha,85,LYNQ-16,59.895,-0.319,LYNQ-17,51.553,-0.513,207.5,927.7,15.8,True,True,True,107.4,10.8,4.0,8.8,2.4
+30,bent_pipe,hybrid,Energy Platform Alpha,90,LYNQ-16,55.5,-0.2,LYNQ-17,47.565,3.238,312.0,913.5,15.6,True,True,True,108.7,8.5,4.0,6.5,2.4
+48,regenerative,rf_intra_plane,North Sea Wind Farm,0,LYNQ-01,55.5,2.0,LYNQ-23,46.467,6.71,135.1,1056.5,16.0,True,True,True,82.9,8.5,4.0,4.0,3.4
+48,regenerative,rf_intra_plane,North Sea Wind Farm,5,LYNQ-12,52.924,2.769,LYNQ-23,50.225,11.002,384.2,642.7,15.4,True,True,True,81.6,6.3,4.0,1.8,3.4
+48,regenerative,rf_intra_plane,North Sea Wind Farm,10,LYNQ-12,57.379,4.025,LYNQ-11,50.443,2.889,118.0,774.8,16.0,True,True,True,79.4,6.0,4.0,1.5,3.4
+48,regenerative,rf_intra_plane,North Sea Wind Farm,15,LYNQ-11,54.793,5.275,LYNQ-10,48.147,2.396,204.3,765.3,15.8,True,True,True,80.5,6.0,4.0,1.5,3.4
+48,regenerative,rf_intra_plane,North Sea Wind Farm,20,LYNQ-11,59.221,5.703,LYNQ-10,52.234,5.865,343.8,777.0,15.5,True,True,True,82.6,8.5,4.0,4.0,3.4
+48,regenerative,rf_intra_plane,North Sea Wind Farm,25,LYNQ-10,56.677,7.432,LYNQ-09,49.795,5.814,240.9,772.7,15.8,True,True,True,81.1,6.3,4.0,1.8,3.4
+48,regenerative,rf_intra_plane,North Sea Wind Farm,30,LYNQ-37,58.307,0.993,LYNQ-08,47.565,5.162,266.3,1226.1,15.7,True,True,True,86.7,6.0,4.0,1.5,3.4
+48,regenerative,rf_intra_plane,North Sea Wind Farm,35,LYNQ-37,53.855,1.834,LYNQ-38,47.375,5.325,298.1,761.2,15.6,True,True,True,81.8,6.0,4.0,1.5,3.4
+48,regenerative,rf_intra_plane,North Sea Wind Farm,40,LYNQ-48,56.442,2.844,LYNQ-37,49.582,4.622,44.6,771.9,16.2,True,True,True,78.3,8.5,4.0,4.0,3.4
+48,regenerative,rf_intra_plane,North Sea Wind Farm,45,LYNQ-47,58.994,4.513,LYNQ-48,52.006,4.513,299.5,777.0,15.6,True,True,True,82.0,6.3,4.0,1.8,3.4
+48,regenerative,rf_intra_plane,North Sea Wind Farm,50,LYNQ-47,54.558,5.044,LYNQ-48,47.951,8.077,220.4,764.2,15.8,True,True,True,80.7,6.0,4.0,1.5,3.4
+48,regenerative,rf_intra_plane,North Sea Wind Farm,55,LYNQ-46,57.145,6.234,LYNQ-47,50.225,7.531,186.0,774.2,15.9,True,True,True,80.3,6.0,4.0,1.5,3.4
+48,regenerative,rf_intra_plane,North Sea Wind Farm,60,LYNQ-34,56.911,-2.035,LYNQ-46,52.693,7.593,347.1,773.9,15.5,True,True,True,82.6,8.5,4.0,4.0,3.4
+48,regenerative,rf_intra_plane,North Sea Wind Farm,65,LYNQ-45,55.264,8.303,LYNQ-46,48.547,10.871,320.5,767.3,15.6,True,True,True,82.1,6.3,4.0,1.8,3.4
+48,regenerative,rf_intra_plane,North Sea Wind Farm,70,LYNQ-33,55.029,0.078,LYNQ-34,48.346,2.802,262.5,766.3,15.7,True,True,True,81.3,6.0,4.0,1.5,3.4
+48,regenerative,rf_intra_plane,North Sea Wind Farm,75,LYNQ-32,57.612,1.388,LYNQ-33,50.662,2.362,192.0,775.4,15.9,True,True,True,80.4,6.0,4.0,1.5,3.4
+48,regenerative,rf_intra_plane,North Sea Wind Farm,80,LYNQ-32,53.156,2.54,LYNQ-33,46.822,6.478,361.0,758.2,15.5,True,True,True,82.6,8.5,4.0,4.0,3.4
+48,regenerative,rf_intra_plane,North Sea Wind Farm,85,LYNQ-31,55.736,3.369,LYNQ-32,48.955,5.624,69.2,769.3,16.1,True,True,True,78.6,6.3,4.0,1.8,3.4
+48,regenerative,rf_intra_plane,North Sea Wind Farm,90,LYNQ-30,58.307,4.86,LYNQ-31,51.328,5.348,231.4,776.7,15.8,True,True,True,81.0,6.0,4.0,1.5,3.4
+48,regenerative,rf_intra_plane,Energy Platform Alpha,0,LYNQ-01,55.5,2.0,LYNQ-23,46.467,6.71,304.1,1056.5,15.6,True,True,True,85.3,8.5,4.5,4.0,3.4
+48,regenerative,rf_intra_plane,Energy Platform Alpha,5,LYNQ-01,59.895,2.119,LYNQ-23,50.225,11.002,195.7,1212.6,15.9,True,True,True,85.6,6.3,4.0,1.8,3.4
+48,regenerative,rf_intra_plane,Energy Platform Alpha,10,LYNQ-12,57.379,4.025,LYNQ-11,50.443,2.889,190.7,774.8,15.9,True,True,True,80.4,6.0,4.0,1.5,3.4
+48,regenerative,rf_intra_plane,Energy Platform Alpha,15,LYNQ-39,57.612,-2.478,LYNQ-10,48.147,2.396,226.9,1101.4,15.8,True,True,True,84.7,6.0,4.0,1.5,3.4
+48,regenerative,rf_intra_plane,Energy Platform Alpha,20,LYNQ-38,60.117,-0.514,LYNQ-10,52.234,5.865,234.5,960.3,15.8,True,True,True,83.2,8.5,4.0,4.0,3.4
+48,regenerative,rf_intra_plane,Energy Platform Alpha,25,LYNQ-38,55.736,-0.497,LYNQ-09,49.795,5.814,292.6,784.6,15.6,True,True,True,82.0,6.3,4.0,1.8,3.4
+48,regenerative,rf_intra_plane,Energy Platform Alpha,30,LYNQ-37,58.307,0.993,LYNQ-08,47.565,5.162,17.0,1226.1,16.3,True,True,True,83.2,6.0,4.0,1.5,3.4
+48,regenerative,rf_intra_plane,Energy Platform Alpha,35,LYNQ-48,60.775,3.131,LYNQ-38,47.375,5.325,306.3,1496.7,15.6,True,True,True,90.4,6.0,4.0,1.5,3.4
+48,regenerative,rf_intra_plane,Energy Platform Alpha,40,LYNQ-48,56.442,2.844,LYNQ-37,49.582,4.622,219.0,771.9,15.8,True,True,True,80.8,8.5,4.0,4.0,3.4
+48,regenerative,rf_intra_plane,Energy Platform Alpha,45,LYNQ-47,58.994,4.513,LYNQ-48,52.006,4.513,211.3,777.0,15.8,True,True,True,80.7,6.3,4.0,1.8,3.4
+48,regenerative,rf_intra_plane,Energy Platform Alpha,50,LYNQ-35,58.766,-3.799,LYNQ-48,47.951,8.077,297.2,1433.2,15.6,True,True,True,89.6,6.0,4.0,1.5,3.4
+48,regenerative,rf_intra_plane,Energy Platform Alpha,55,LYNQ-46,57.145,6.234,LYNQ-47,50.225,7.531,321.4,774.2,15.6,True,True,True,82.2,6.0,4.0,1.5,3.4
+48,regenerative,rf_intra_plane,Energy Platform Alpha,60,LYNQ-34,56.911,-2.035,LYNQ-46,52.693,7.593,240.3,773.9,15.8,True,True,True,81.1,8.5,4.0,4.0,3.4
+48,regenerative,rf_intra_plane,Energy Platform Alpha,65,LYNQ-33,59.447,-0.247,LYNQ-46,48.547,10.871,161.7,1409.0,15.9,True,True,True,87.4,6.3,4.0,1.8,3.4
+48,regenerative,rf_intra_plane,Energy Platform Alpha,70,LYNQ-33,55.029,0.078,LYNQ-34,48.346,2.802,359.2,766.3,15.5,True,True,True,82.7,6.0,4.0,1.5,3.4
+48,regenerative,rf_intra_plane,Energy Platform Alpha,75,LYNQ-32,57.612,1.388,LYNQ-33,50.662,2.362,66.3,775.4,16.2,True,True,True,78.7,6.0,4.0,1.5,3.4
+48,regenerative,rf_intra_plane,Energy Platform Alpha,80,LYNQ-31,60.117,3.352,LYNQ-33,46.822,6.478,245.9,1492.3,15.8,True,True,True,89.6,8.5,4.0,4.0,3.4
+48,regenerative,rf_intra_plane,Energy Platform Alpha,85,LYNQ-31,55.736,3.369,LYNQ-32,48.955,5.624,303.9,769.3,15.6,True,True,True,81.9,6.3,4.0,1.8,3.4
+48,regenerative,rf_intra_plane,Energy Platform Alpha,90,LYNQ-30,58.307,4.86,LYNQ-31,51.328,5.348,214.4,776.7,15.8,True,True,True,80.8,6.0,4.0,1.5,3.4
+48,regenerative,optical_cross_plane,North Sea Wind Farm,0,LYNQ-01,55.5,2.0,LYNQ-23,46.467,6.71,135.1,1056.5,16.0,True,True,True,73.9,6.0,4.0,4.0,1.8
+48,regenerative,optical_cross_plane,North Sea Wind Farm,5,LYNQ-12,52.924,2.769,LYNQ-23,50.225,11.002,384.2,642.7,15.4,True,True,True,72.6,3.8,4.0,1.8,1.8
+48,regenerative,optical_cross_plane,North Sea Wind Farm,10,LYNQ-12,57.379,4.025,LYNQ-11,50.443,2.889,118.0,774.8,16.0,True,True,True,70.4,3.5,4.0,1.5,1.8
+48,regenerative,optical_cross_plane,North Sea Wind Farm,15,LYNQ-11,54.793,5.275,LYNQ-10,48.147,2.396,204.3,765.3,15.8,True,True,True,71.5,3.5,4.0,1.5,1.8
+48,regenerative,optical_cross_plane,North Sea Wind Farm,20,LYNQ-11,59.221,5.703,LYNQ-10,52.234,5.865,343.8,777.0,15.5,True,True,True,73.6,6.0,4.0,4.0,1.8
+48,regenerative,optical_cross_plane,North Sea Wind Farm,25,LYNQ-10,56.677,7.432,LYNQ-09,49.795,5.814,240.9,772.7,15.8,True,True,True,72.1,3.8,4.0,1.8,1.8
+48,regenerative,optical_cross_plane,North Sea Wind Farm,30,LYNQ-37,58.307,0.993,LYNQ-08,47.565,5.162,266.3,1226.1,15.7,True,True,True,77.7,3.5,4.0,1.5,1.8
+48,regenerative,optical_cross_plane,North Sea Wind Farm,35,LYNQ-37,53.855,1.834,LYNQ-38,47.375,5.325,298.1,761.2,15.6,True,True,True,72.8,3.5,4.0,1.5,1.8
+48,regenerative,optical_cross_plane,North Sea Wind Farm,40,LYNQ-48,56.442,2.844,LYNQ-37,49.582,4.622,44.6,771.9,16.2,True,True,True,69.3,6.0,4.0,4.0,1.8
+48,regenerative,optical_cross_plane,North Sea Wind Farm,45,LYNQ-47,58.994,4.513,LYNQ-48,52.006,4.513,299.5,777.0,15.6,True,True,True,73.0,3.8,4.0,1.8,1.8
+48,regenerative,optical_cross_plane,North Sea Wind Farm,50,LYNQ-47,54.558,5.044,LYNQ-48,47.951,8.077,220.4,764.2,15.8,True,True,True,71.7,3.5,4.0,1.5,1.8
+48,regenerative,optical_cross_plane,North Sea Wind Farm,55,LYNQ-46,57.145,6.234,LYNQ-47,50.225,7.531,186.0,774.2,15.9,True,True,True,71.3,3.5,4.0,1.5,1.8
+48,regenerative,optical_cross_plane,North Sea Wind Farm,60,LYNQ-34,56.911,-2.035,LYNQ-46,52.693,7.593,347.1,773.9,15.5,True,True,True,73.6,6.0,4.0,4.0,1.8
+48,regenerative,optical_cross_plane,North Sea Wind Farm,65,LYNQ-45,55.264,8.303,LYNQ-46,48.547,10.871,320.5,767.3,15.6,True,True,True,73.1,3.8,4.0,1.8,1.8
+48,regenerative,optical_cross_plane,North Sea Wind Farm,70,LYNQ-33,55.029,0.078,LYNQ-34,48.346,2.802,262.5,766.3,15.7,True,True,True,72.3,3.5,4.0,1.5,1.8
+48,regenerative,optical_cross_plane,North Sea Wind Farm,75,LYNQ-32,57.612,1.388,LYNQ-33,50.662,2.362,192.0,775.4,15.9,True,True,True,71.4,3.5,4.0,1.5,1.8
+48,regenerative,optical_cross_plane,North Sea Wind Farm,80,LYNQ-32,53.156,2.54,LYNQ-33,46.822,6.478,361.0,758.2,15.5,True,True,True,73.6,6.0,4.0,4.0,1.8
+48,regenerative,optical_cross_plane,North Sea Wind Farm,85,LYNQ-31,55.736,3.369,LYNQ-32,48.955,5.624,69.2,769.3,16.1,True,True,True,69.6,3.8,4.0,1.8,1.8
+48,regenerative,optical_cross_plane,North Sea Wind Farm,90,LYNQ-30,58.307,4.86,LYNQ-31,51.328,5.348,231.4,776.7,15.8,True,True,True,72.0,3.5,4.0,1.5,1.8
+48,regenerative,optical_cross_plane,Energy Platform Alpha,0,LYNQ-01,55.5,2.0,LYNQ-23,46.467,6.71,304.1,1056.5,15.6,True,True,True,76.3,6.0,4.5,4.0,1.8
+48,regenerative,optical_cross_plane,Energy Platform Alpha,5,LYNQ-01,59.895,2.119,LYNQ-23,50.225,11.002,195.7,1212.6,15.9,True,True,True,76.6,3.8,4.0,1.8,1.8
+48,regenerative,optical_cross_plane,Energy Platform Alpha,10,LYNQ-12,57.379,4.025,LYNQ-11,50.443,2.889,190.7,774.8,15.9,True,True,True,71.4,3.5,4.0,1.5,1.8
+48,regenerative,optical_cross_plane,Energy Platform Alpha,15,LYNQ-39,57.612,-2.478,LYNQ-10,48.147,2.396,226.9,1101.4,15.8,True,True,True,75.7,3.5,4.0,1.5,1.8
+48,regenerative,optical_cross_plane,Energy Platform Alpha,20,LYNQ-38,60.117,-0.514,LYNQ-10,52.234,5.865,234.5,960.3,15.8,True,True,True,74.2,6.0,4.0,4.0,1.8
+48,regenerative,optical_cross_plane,Energy Platform Alpha,25,LYNQ-38,55.736,-0.497,LYNQ-09,49.795,5.814,292.6,784.6,15.6,True,True,True,73.0,3.8,4.0,1.8,1.8
+48,regenerative,optical_cross_plane,Energy Platform Alpha,30,LYNQ-37,58.307,0.993,LYNQ-08,47.565,5.162,17.0,1226.1,16.3,True,True,True,74.2,3.5,4.0,1.5,1.8
+48,regenerative,optical_cross_plane,Energy Platform Alpha,35,LYNQ-48,60.775,3.131,LYNQ-38,47.375,5.325,306.3,1496.7,15.6,True,True,True,81.4,3.5,4.0,1.5,1.8
+48,regenerative,optical_cross_plane,Energy Platform Alpha,40,LYNQ-48,56.442,2.844,LYNQ-37,49.582,4.622,219.0,771.9,15.8,True,True,True,71.8,6.0,4.0,4.0,1.8
+48,regenerative,optical_cross_plane,Energy Platform Alpha,45,LYNQ-47,58.994,4.513,LYNQ-48,52.006,4.513,211.3,777.0,15.8,True,True,True,71.7,3.8,4.0,1.8,1.8
+48,regenerative,optical_cross_plane,Energy Platform Alpha,50,LYNQ-35,58.766,-3.799,LYNQ-48,47.951,8.077,297.2,1433.2,15.6,True,True,True,80.6,3.5,4.0,1.5,1.8
+48,regenerative,optical_cross_plane,Energy Platform Alpha,55,LYNQ-46,57.145,6.234,LYNQ-47,50.225,7.531,321.4,774.2,15.6,True,True,True,73.2,3.5,4.0,1.5,1.8
+48,regenerative,optical_cross_plane,Energy Platform Alpha,60,LYNQ-34,56.911,-2.035,LYNQ-46,52.693,7.593,240.3,773.9,15.8,True,True,True,72.1,6.0,4.0,4.0,1.8
+48,regenerative,optical_cross_plane,Energy Platform Alpha,65,LYNQ-33,59.447,-0.247,LYNQ-46,48.547,10.871,161.7,1409.0,15.9,True,True,True,78.4,3.8,4.0,1.8,1.8
+48,regenerative,optical_cross_plane,Energy Platform Alpha,70,LYNQ-33,55.029,0.078,LYNQ-34,48.346,2.802,359.2,766.3,15.5,True,True,True,73.7,3.5,4.0,1.5,1.8
+48,regenerative,optical_cross_plane,Energy Platform Alpha,75,LYNQ-32,57.612,1.388,LYNQ-33,50.662,2.362,66.3,775.4,16.2,True,True,True,69.7,3.5,4.0,1.5,1.8
+48,regenerative,optical_cross_plane,Energy Platform Alpha,80,LYNQ-31,60.117,3.352,LYNQ-33,46.822,6.478,245.9,1492.3,15.8,True,True,True,80.6,6.0,4.0,4.0,1.8
+48,regenerative,optical_cross_plane,Energy Platform Alpha,85,LYNQ-31,55.736,3.369,LYNQ-32,48.955,5.624,303.9,769.3,15.6,True,True,True,72.9,3.8,4.0,1.8,1.8
+48,regenerative,optical_cross_plane,Energy Platform Alpha,90,LYNQ-30,58.307,4.86,LYNQ-31,51.328,5.348,214.4,776.7,15.8,True,True,True,71.8,3.5,4.0,1.5,1.8
+48,regenerative,hybrid,North Sea Wind Farm,0,LYNQ-01,55.5,2.0,LYNQ-23,46.467,6.71,135.1,1056.5,16.0,True,True,True,77.9,6.0,4.0,4.0,2.4
+48,regenerative,hybrid,North Sea Wind Farm,5,LYNQ-12,52.924,2.769,LYNQ-23,50.225,11.002,384.2,642.7,15.4,True,True,True,76.6,3.8,4.0,1.8,2.4
+48,regenerative,hybrid,North Sea Wind Farm,10,LYNQ-12,57.379,4.025,LYNQ-11,50.443,2.889,118.0,774.8,16.0,True,True,True,74.4,3.5,4.0,1.5,2.4
+48,regenerative,hybrid,North Sea Wind Farm,15,LYNQ-11,54.793,5.275,LYNQ-10,48.147,2.396,204.3,765.3,15.8,True,True,True,75.5,3.5,4.0,1.5,2.4
+48,regenerative,hybrid,North Sea Wind Farm,20,LYNQ-11,59.221,5.703,LYNQ-10,52.234,5.865,343.8,777.0,15.5,True,True,True,77.6,6.0,4.0,4.0,2.4
+48,regenerative,hybrid,North Sea Wind Farm,25,LYNQ-10,56.677,7.432,LYNQ-09,49.795,5.814,240.9,772.7,15.8,True,True,True,76.1,3.8,4.0,1.8,2.4
+48,regenerative,hybrid,North Sea Wind Farm,30,LYNQ-37,58.307,0.993,LYNQ-08,47.565,5.162,266.3,1226.1,15.7,True,True,True,81.7,3.5,4.0,1.5,2.4
+48,regenerative,hybrid,North Sea Wind Farm,35,LYNQ-37,53.855,1.834,LYNQ-38,47.375,5.325,298.1,761.2,15.6,True,True,True,76.8,3.5,4.0,1.5,2.4
+48,regenerative,hybrid,North Sea Wind Farm,40,LYNQ-48,56.442,2.844,LYNQ-37,49.582,4.622,44.6,771.9,16.2,True,True,True,73.3,6.0,4.0,4.0,2.4
+48,regenerative,hybrid,North Sea Wind Farm,45,LYNQ-47,58.994,4.513,LYNQ-48,52.006,4.513,299.5,777.0,15.6,True,True,True,77.0,3.8,4.0,1.8,2.4
+48,regenerative,hybrid,North Sea Wind Farm,50,LYNQ-47,54.558,5.044,LYNQ-48,47.951,8.077,220.4,764.2,15.8,True,True,True,75.7,3.5,4.0,1.5,2.4
+48,regenerative,hybrid,North Sea Wind Farm,55,LYNQ-46,57.145,6.234,LYNQ-47,50.225,7.531,186.0,774.2,15.9,True,True,True,75.3,3.5,4.0,1.5,2.4
+48,regenerative,hybrid,North Sea Wind Farm,60,LYNQ-34,56.911,-2.035,LYNQ-46,52.693,7.593,347.1,773.9,15.5,True,True,True,77.6,6.0,4.0,4.0,2.4
+48,regenerative,hybrid,North Sea Wind Farm,65,LYNQ-45,55.264,8.303,LYNQ-46,48.547,10.871,320.5,767.3,15.6,True,True,True,77.1,3.8,4.0,1.8,2.4
+48,regenerative,hybrid,North Sea Wind Farm,70,LYNQ-33,55.029,0.078,LYNQ-34,48.346,2.802,262.5,766.3,15.7,True,True,True,76.3,3.5,4.0,1.5,2.4
+48,regenerative,hybrid,North Sea Wind Farm,75,LYNQ-32,57.612,1.388,LYNQ-33,50.662,2.362,192.0,775.4,15.9,True,True,True,75.4,3.5,4.0,1.5,2.4
+48,regenerative,hybrid,North Sea Wind Farm,80,LYNQ-32,53.156,2.54,LYNQ-33,46.822,6.478,361.0,758.2,15.5,True,True,True,77.6,6.0,4.0,4.0,2.4
+48,regenerative,hybrid,North Sea Wind Farm,85,LYNQ-31,55.736,3.369,LYNQ-32,48.955,5.624,69.2,769.3,16.1,True,True,True,73.6,3.8,4.0,1.8,2.4
+48,regenerative,hybrid,North Sea Wind Farm,90,LYNQ-30,58.307,4.86,LYNQ-31,51.328,5.348,231.4,776.7,15.8,True,True,True,76.0,3.5,4.0,1.5,2.4
+48,regenerative,hybrid,Energy Platform Alpha,0,LYNQ-01,55.5,2.0,LYNQ-23,46.467,6.71,304.1,1056.5,15.6,True,True,True,80.3,6.0,4.5,4.0,2.4
+48,regenerative,hybrid,Energy Platform Alpha,5,LYNQ-01,59.895,2.119,LYNQ-23,50.225,11.002,195.7,1212.6,15.9,True,True,True,80.6,3.8,4.0,1.8,2.4
+48,regenerative,hybrid,Energy Platform Alpha,10,LYNQ-12,57.379,4.025,LYNQ-11,50.443,2.889,190.7,774.8,15.9,True,True,True,75.4,3.5,4.0,1.5,2.4
+48,regenerative,hybrid,Energy Platform Alpha,15,LYNQ-39,57.612,-2.478,LYNQ-10,48.147,2.396,226.9,1101.4,15.8,True,True,True,79.7,3.5,4.0,1.5,2.4
+48,regenerative,hybrid,Energy Platform Alpha,20,LYNQ-38,60.117,-0.514,LYNQ-10,52.234,5.865,234.5,960.3,15.8,True,True,True,78.2,6.0,4.0,4.0,2.4
+48,regenerative,hybrid,Energy Platform Alpha,25,LYNQ-38,55.736,-0.497,LYNQ-09,49.795,5.814,292.6,784.6,15.6,True,True,True,77.0,3.8,4.0,1.8,2.4
+48,regenerative,hybrid,Energy Platform Alpha,30,LYNQ-37,58.307,0.993,LYNQ-08,47.565,5.162,17.0,1226.1,16.3,True,True,True,78.2,3.5,4.0,1.5,2.4
+48,regenerative,hybrid,Energy Platform Alpha,35,LYNQ-48,60.775,3.131,LYNQ-38,47.375,5.325,306.3,1496.7,15.6,True,True,True,85.4,3.5,4.0,1.5,2.4
+48,regenerative,hybrid,Energy Platform Alpha,40,LYNQ-48,56.442,2.844,LYNQ-37,49.582,4.622,219.0,771.9,15.8,True,True,True,75.8,6.0,4.0,4.0,2.4
+48,regenerative,hybrid,Energy Platform Alpha,45,LYNQ-47,58.994,4.513,LYNQ-48,52.006,4.513,211.3,777.0,15.8,True,True,True,75.7,3.8,4.0,1.8,2.4
+48,regenerative,hybrid,Energy Platform Alpha,50,LYNQ-35,58.766,-3.799,LYNQ-48,47.951,8.077,297.2,1433.2,15.6,True,True,True,84.6,3.5,4.0,1.5,2.4
+48,regenerative,hybrid,Energy Platform Alpha,55,LYNQ-46,57.145,6.234,LYNQ-47,50.225,7.531,321.4,774.2,15.6,True,True,True,77.2,3.5,4.0,1.5,2.4
+48,regenerative,hybrid,Energy Platform Alpha,60,LYNQ-34,56.911,-2.035,LYNQ-46,52.693,7.593,240.3,773.9,15.8,True,True,True,76.1,6.0,4.0,4.0,2.4
+48,regenerative,hybrid,Energy Platform Alpha,65,LYNQ-33,59.447,-0.247,LYNQ-46,48.547,10.871,161.7,1409.0,15.9,True,True,True,82.4,3.8,4.0,1.8,2.4
+48,regenerative,hybrid,Energy Platform Alpha,70,LYNQ-33,55.029,0.078,LYNQ-34,48.346,2.802,359.2,766.3,15.5,True,True,True,77.7,3.5,4.0,1.5,2.4
+48,regenerative,hybrid,Energy Platform Alpha,75,LYNQ-32,57.612,1.388,LYNQ-33,50.662,2.362,66.3,775.4,16.2,True,True,True,73.7,3.5,4.0,1.5,2.4
+48,regenerative,hybrid,Energy Platform Alpha,80,LYNQ-31,60.117,3.352,LYNQ-33,46.822,6.478,245.9,1492.3,15.8,True,True,True,84.6,6.0,4.0,4.0,2.4
+48,regenerative,hybrid,Energy Platform Alpha,85,LYNQ-31,55.736,3.369,LYNQ-32,48.955,5.624,303.9,769.3,15.6,True,True,True,76.9,3.8,4.0,1.8,2.4
+48,regenerative,hybrid,Energy Platform Alpha,90,LYNQ-30,58.307,4.86,LYNQ-31,51.328,5.348,214.4,776.7,15.8,True,True,True,75.8,3.5,4.0,1.5,2.4
+48,functional_split,rf_intra_plane,North Sea Wind Farm,0,LYNQ-01,55.5,2.0,LYNQ-23,46.467,6.71,135.1,1056.5,16.0,True,True,True,94.9,8.5,4.0,4.0,3.4
+48,functional_split,rf_intra_plane,North Sea Wind Farm,5,LYNQ-12,52.924,2.769,LYNQ-23,50.225,11.002,384.2,642.7,15.4,True,True,True,93.6,6.3,4.0,1.8,3.4
+48,functional_split,rf_intra_plane,North Sea Wind Farm,10,LYNQ-12,57.379,4.025,LYNQ-11,50.443,2.889,118.0,774.8,16.0,True,True,True,91.4,6.0,4.0,1.5,3.4
+48,functional_split,rf_intra_plane,North Sea Wind Farm,15,LYNQ-11,54.793,5.275,LYNQ-10,48.147,2.396,204.3,765.3,15.8,True,True,True,92.5,6.0,4.0,1.5,3.4
+48,functional_split,rf_intra_plane,North Sea Wind Farm,20,LYNQ-11,59.221,5.703,LYNQ-10,52.234,5.865,343.8,777.0,15.5,True,True,True,94.6,8.5,4.0,4.0,3.4
+48,functional_split,rf_intra_plane,North Sea Wind Farm,25,LYNQ-10,56.677,7.432,LYNQ-09,49.795,5.814,240.9,772.7,15.8,True,True,True,93.1,6.3,4.0,1.8,3.4
+48,functional_split,rf_intra_plane,North Sea Wind Farm,30,LYNQ-37,58.307,0.993,LYNQ-08,47.565,5.162,266.3,1226.1,15.7,True,True,True,98.7,6.0,4.0,1.5,3.4
+48,functional_split,rf_intra_plane,North Sea Wind Farm,35,LYNQ-37,53.855,1.834,LYNQ-38,47.375,5.325,298.1,761.2,15.6,True,True,True,93.8,6.0,4.0,1.5,3.4
+48,functional_split,rf_intra_plane,North Sea Wind Farm,40,LYNQ-48,56.442,2.844,LYNQ-37,49.582,4.622,44.6,771.9,16.2,True,True,True,90.3,8.5,4.0,4.0,3.4
+48,functional_split,rf_intra_plane,North Sea Wind Farm,45,LYNQ-47,58.994,4.513,LYNQ-48,52.006,4.513,299.5,777.0,15.6,True,True,True,94.0,6.3,4.0,1.8,3.4
+48,functional_split,rf_intra_plane,North Sea Wind Farm,50,LYNQ-47,54.558,5.044,LYNQ-48,47.951,8.077,220.4,764.2,15.8,True,True,True,92.7,6.0,4.0,1.5,3.4
+48,functional_split,rf_intra_plane,North Sea Wind Farm,55,LYNQ-46,57.145,6.234,LYNQ-47,50.225,7.531,186.0,774.2,15.9,True,True,True,92.3,6.0,4.0,1.5,3.4
+48,functional_split,rf_intra_plane,North Sea Wind Farm,60,LYNQ-34,56.911,-2.035,LYNQ-46,52.693,7.593,347.1,773.9,15.5,True,True,True,94.6,8.5,4.0,4.0,3.4
+48,functional_split,rf_intra_plane,North Sea Wind Farm,65,LYNQ-45,55.264,8.303,LYNQ-46,48.547,10.871,320.5,767.3,15.6,True,True,True,94.1,6.3,4.0,1.8,3.4
+48,functional_split,rf_intra_plane,North Sea Wind Farm,70,LYNQ-33,55.029,0.078,LYNQ-34,48.346,2.802,262.5,766.3,15.7,True,True,True,93.3,6.0,4.0,1.5,3.4
+48,functional_split,rf_intra_plane,North Sea Wind Farm,75,LYNQ-32,57.612,1.388,LYNQ-33,50.662,2.362,192.0,775.4,15.9,True,True,True,92.4,6.0,4.0,1.5,3.4
+48,functional_split,rf_intra_plane,North Sea Wind Farm,80,LYNQ-32,53.156,2.54,LYNQ-33,46.822,6.478,361.0,758.2,15.5,True,True,True,94.6,8.5,4.0,4.0,3.4
+48,functional_split,rf_intra_plane,North Sea Wind Farm,85,LYNQ-31,55.736,3.369,LYNQ-32,48.955,5.624,69.2,769.3,16.1,True,True,True,90.6,6.3,4.0,1.8,3.4
+48,functional_split,rf_intra_plane,North Sea Wind Farm,90,LYNQ-30,58.307,4.86,LYNQ-31,51.328,5.348,231.4,776.7,15.8,True,True,True,93.0,6.0,4.0,1.5,3.4
+48,functional_split,rf_intra_plane,Energy Platform Alpha,0,LYNQ-01,55.5,2.0,LYNQ-23,46.467,6.71,304.1,1056.5,15.6,True,True,True,97.3,8.5,4.5,4.0,3.4
+48,functional_split,rf_intra_plane,Energy Platform Alpha,5,LYNQ-01,59.895,2.119,LYNQ-23,50.225,11.002,195.7,1212.6,15.9,True,True,True,97.6,6.3,4.0,1.8,3.4
+48,functional_split,rf_intra_plane,Energy Platform Alpha,10,LYNQ-12,57.379,4.025,LYNQ-11,50.443,2.889,190.7,774.8,15.9,True,True,True,92.4,6.0,4.0,1.5,3.4
+48,functional_split,rf_intra_plane,Energy Platform Alpha,15,LYNQ-39,57.612,-2.478,LYNQ-10,48.147,2.396,226.9,1101.4,15.8,True,True,True,96.7,6.0,4.0,1.5,3.4
+48,functional_split,rf_intra_plane,Energy Platform Alpha,20,LYNQ-38,60.117,-0.514,LYNQ-10,52.234,5.865,234.5,960.3,15.8,True,True,True,95.2,8.5,4.0,4.0,3.4
+48,functional_split,rf_intra_plane,Energy Platform Alpha,25,LYNQ-38,55.736,-0.497,LYNQ-09,49.795,5.814,292.6,784.6,15.6,True,True,True,94.0,6.3,4.0,1.8,3.4
+48,functional_split,rf_intra_plane,Energy Platform Alpha,30,LYNQ-37,58.307,0.993,LYNQ-08,47.565,5.162,17.0,1226.1,16.3,True,True,True,95.2,6.0,4.0,1.5,3.4
+48,functional_split,rf_intra_plane,Energy Platform Alpha,35,LYNQ-48,60.775,3.131,LYNQ-38,47.375,5.325,306.3,1496.7,15.6,True,True,True,102.4,6.0,4.0,1.5,3.4
+48,functional_split,rf_intra_plane,Energy Platform Alpha,40,LYNQ-48,56.442,2.844,LYNQ-37,49.582,4.622,219.0,771.9,15.8,True,True,True,92.8,8.5,4.0,4.0,3.4
+48,functional_split,rf_intra_plane,Energy Platform Alpha,45,LYNQ-47,58.994,4.513,LYNQ-48,52.006,4.513,211.3,777.0,15.8,True,True,True,92.7,6.3,4.0,1.8,3.4
+48,functional_split,rf_intra_plane,Energy Platform Alpha,50,LYNQ-35,58.766,-3.799,LYNQ-48,47.951,8.077,297.2,1433.2,15.6,True,True,True,101.6,6.0,4.0,1.5,3.4
+48,functional_split,rf_intra_plane,Energy Platform Alpha,55,LYNQ-46,57.145,6.234,LYNQ-47,50.225,7.531,321.4,774.2,15.6,True,True,True,94.2,6.0,4.0,1.5,3.4
+48,functional_split,rf_intra_plane,Energy Platform Alpha,60,LYNQ-34,56.911,-2.035,LYNQ-46,52.693,7.593,240.3,773.9,15.8,True,True,True,93.1,8.5,4.0,4.0,3.4
+48,functional_split,rf_intra_plane,Energy Platform Alpha,65,LYNQ-33,59.447,-0.247,LYNQ-46,48.547,10.871,161.7,1409.0,15.9,True,True,True,99.4,6.3,4.0,1.8,3.4
+48,functional_split,rf_intra_plane,Energy Platform Alpha,70,LYNQ-33,55.029,0.078,LYNQ-34,48.346,2.802,359.2,766.3,15.5,True,True,True,94.7,6.0,4.0,1.5,3.4
+48,functional_split,rf_intra_plane,Energy Platform Alpha,75,LYNQ-32,57.612,1.388,LYNQ-33,50.662,2.362,66.3,775.4,16.2,True,True,True,90.7,6.0,4.0,1.5,3.4
+48,functional_split,rf_intra_plane,Energy Platform Alpha,80,LYNQ-31,60.117,3.352,LYNQ-33,46.822,6.478,245.9,1492.3,15.8,True,True,True,101.6,8.5,4.0,4.0,3.4
+48,functional_split,rf_intra_plane,Energy Platform Alpha,85,LYNQ-31,55.736,3.369,LYNQ-32,48.955,5.624,303.9,769.3,15.6,True,True,True,93.9,6.3,4.0,1.8,3.4
+48,functional_split,rf_intra_plane,Energy Platform Alpha,90,LYNQ-30,58.307,4.86,LYNQ-31,51.328,5.348,214.4,776.7,15.8,True,True,True,92.8,6.0,4.0,1.5,3.4
+48,functional_split,optical_cross_plane,North Sea Wind Farm,0,LYNQ-01,55.5,2.0,LYNQ-23,46.467,6.71,135.1,1056.5,16.0,True,True,True,85.9,6.0,4.0,4.0,1.8
+48,functional_split,optical_cross_plane,North Sea Wind Farm,5,LYNQ-12,52.924,2.769,LYNQ-23,50.225,11.002,384.2,642.7,15.4,True,True,True,84.6,3.8,4.0,1.8,1.8
+48,functional_split,optical_cross_plane,North Sea Wind Farm,10,LYNQ-12,57.379,4.025,LYNQ-11,50.443,2.889,118.0,774.8,16.0,True,True,True,82.4,3.5,4.0,1.5,1.8
+48,functional_split,optical_cross_plane,North Sea Wind Farm,15,LYNQ-11,54.793,5.275,LYNQ-10,48.147,2.396,204.3,765.3,15.8,True,True,True,83.5,3.5,4.0,1.5,1.8
+48,functional_split,optical_cross_plane,North Sea Wind Farm,20,LYNQ-11,59.221,5.703,LYNQ-10,52.234,5.865,343.8,777.0,15.5,True,True,True,85.6,6.0,4.0,4.0,1.8
+48,functional_split,optical_cross_plane,North Sea Wind Farm,25,LYNQ-10,56.677,7.432,LYNQ-09,49.795,5.814,240.9,772.7,15.8,True,True,True,84.1,3.8,4.0,1.8,1.8
+48,functional_split,optical_cross_plane,North Sea Wind Farm,30,LYNQ-37,58.307,0.993,LYNQ-08,47.565,5.162,266.3,1226.1,15.7,True,True,True,89.7,3.5,4.0,1.5,1.8
+48,functional_split,optical_cross_plane,North Sea Wind Farm,35,LYNQ-37,53.855,1.834,LYNQ-38,47.375,5.325,298.1,761.2,15.6,True,True,True,84.8,3.5,4.0,1.5,1.8
+48,functional_split,optical_cross_plane,North Sea Wind Farm,40,LYNQ-48,56.442,2.844,LYNQ-37,49.582,4.622,44.6,771.9,16.2,True,True,True,81.3,6.0,4.0,4.0,1.8
+48,functional_split,optical_cross_plane,North Sea Wind Farm,45,LYNQ-47,58.994,4.513,LYNQ-48,52.006,4.513,299.5,777.0,15.6,True,True,True,85.0,3.8,4.0,1.8,1.8
+48,functional_split,optical_cross_plane,North Sea Wind Farm,50,LYNQ-47,54.558,5.044,LYNQ-48,47.951,8.077,220.4,764.2,15.8,True,True,True,83.7,3.5,4.0,1.5,1.8
+48,functional_split,optical_cross_plane,North Sea Wind Farm,55,LYNQ-46,57.145,6.234,LYNQ-47,50.225,7.531,186.0,774.2,15.9,True,True,True,83.3,3.5,4.0,1.5,1.8
+48,functional_split,optical_cross_plane,North Sea Wind Farm,60,LYNQ-34,56.911,-2.035,LYNQ-46,52.693,7.593,347.1,773.9,15.5,True,True,True,85.6,6.0,4.0,4.0,1.8
+48,functional_split,optical_cross_plane,North Sea Wind Farm,65,LYNQ-45,55.264,8.303,LYNQ-46,48.547,10.871,320.5,767.3,15.6,True,True,True,85.1,3.8,4.0,1.8,1.8
+48,functional_split,optical_cross_plane,North Sea Wind Farm,70,LYNQ-33,55.029,0.078,LYNQ-34,48.346,2.802,262.5,766.3,15.7,True,True,True,84.3,3.5,4.0,1.5,1.8
+48,functional_split,optical_cross_plane,North Sea Wind Farm,75,LYNQ-32,57.612,1.388,LYNQ-33,50.662,2.362,192.0,775.4,15.9,True,True,True,83.4,3.5,4.0,1.5,1.8
+48,functional_split,optical_cross_plane,North Sea Wind Farm,80,LYNQ-32,53.156,2.54,LYNQ-33,46.822,6.478,361.0,758.2,15.5,True,True,True,85.6,6.0,4.0,4.0,1.8
+48,functional_split,optical_cross_plane,North Sea Wind Farm,85,LYNQ-31,55.736,3.369,LYNQ-32,48.955,5.624,69.2,769.3,16.1,True,True,True,81.6,3.8,4.0,1.8,1.8
+48,functional_split,optical_cross_plane,North Sea Wind Farm,90,LYNQ-30,58.307,4.86,LYNQ-31,51.328,5.348,231.4,776.7,15.8,True,True,True,84.0,3.5,4.0,1.5,1.8
+48,functional_split,optical_cross_plane,Energy Platform Alpha,0,LYNQ-01,55.5,2.0,LYNQ-23,46.467,6.71,304.1,1056.5,15.6,True,True,True,88.3,6.0,4.5,4.0,1.8
+48,functional_split,optical_cross_plane,Energy Platform Alpha,5,LYNQ-01,59.895,2.119,LYNQ-23,50.225,11.002,195.7,1212.6,15.9,True,True,True,88.6,3.8,4.0,1.8,1.8
+48,functional_split,optical_cross_plane,Energy Platform Alpha,10,LYNQ-12,57.379,4.025,LYNQ-11,50.443,2.889,190.7,774.8,15.9,True,True,True,83.4,3.5,4.0,1.5,1.8
+48,functional_split,optical_cross_plane,Energy Platform Alpha,15,LYNQ-39,57.612,-2.478,LYNQ-10,48.147,2.396,226.9,1101.4,15.8,True,True,True,87.7,3.5,4.0,1.5,1.8
+48,functional_split,optical_cross_plane,Energy Platform Alpha,20,LYNQ-38,60.117,-0.514,LYNQ-10,52.234,5.865,234.5,960.3,15.8,True,True,True,86.2,6.0,4.0,4.0,1.8
+48,functional_split,optical_cross_plane,Energy Platform Alpha,25,LYNQ-38,55.736,-0.497,LYNQ-09,49.795,5.814,292.6,784.6,15.6,True,True,True,85.0,3.8,4.0,1.8,1.8
+48,functional_split,optical_cross_plane,Energy Platform Alpha,30,LYNQ-37,58.307,0.993,LYNQ-08,47.565,5.162,17.0,1226.1,16.3,True,True,True,86.2,3.5,4.0,1.5,1.8
+48,functional_split,optical_cross_plane,Energy Platform Alpha,35,LYNQ-48,60.775,3.131,LYNQ-38,47.375,5.325,306.3,1496.7,15.6,True,True,True,93.4,3.5,4.0,1.5,1.8
+48,functional_split,optical_cross_plane,Energy Platform Alpha,40,LYNQ-48,56.442,2.844,LYNQ-37,49.582,4.622,219.0,771.9,15.8,True,True,True,83.8,6.0,4.0,4.0,1.8
+48,functional_split,optical_cross_plane,Energy Platform Alpha,45,LYNQ-47,58.994,4.513,LYNQ-48,52.006,4.513,211.3,777.0,15.8,True,True,True,83.7,3.8,4.0,1.8,1.8
+48,functional_split,optical_cross_plane,Energy Platform Alpha,50,LYNQ-35,58.766,-3.799,LYNQ-48,47.951,8.077,297.2,1433.2,15.6,True,True,True,92.6,3.5,4.0,1.5,1.8
+48,functional_split,optical_cross_plane,Energy Platform Alpha,55,LYNQ-46,57.145,6.234,LYNQ-47,50.225,7.531,321.4,774.2,15.6,True,True,True,85.2,3.5,4.0,1.5,1.8
+48,functional_split,optical_cross_plane,Energy Platform Alpha,60,LYNQ-34,56.911,-2.035,LYNQ-46,52.693,7.593,240.3,773.9,15.8,True,True,True,84.1,6.0,4.0,4.0,1.8
+48,functional_split,optical_cross_plane,Energy Platform Alpha,65,LYNQ-33,59.447,-0.247,LYNQ-46,48.547,10.871,161.7,1409.0,15.9,True,True,True,90.4,3.8,4.0,1.8,1.8
+48,functional_split,optical_cross_plane,Energy Platform Alpha,70,LYNQ-33,55.029,0.078,LYNQ-34,48.346,2.802,359.2,766.3,15.5,True,True,True,85.7,3.5,4.0,1.5,1.8
+48,functional_split,optical_cross_plane,Energy Platform Alpha,75,LYNQ-32,57.612,1.388,LYNQ-33,50.662,2.362,66.3,775.4,16.2,True,True,True,81.7,3.5,4.0,1.5,1.8
+48,functional_split,optical_cross_plane,Energy Platform Alpha,80,LYNQ-31,60.117,3.352,LYNQ-33,46.822,6.478,245.9,1492.3,15.8,True,True,True,92.6,6.0,4.0,4.0,1.8
+48,functional_split,optical_cross_plane,Energy Platform Alpha,85,LYNQ-31,55.736,3.369,LYNQ-32,48.955,5.624,303.9,769.3,15.6,True,True,True,84.9,3.8,4.0,1.8,1.8
+48,functional_split,optical_cross_plane,Energy Platform Alpha,90,LYNQ-30,58.307,4.86,LYNQ-31,51.328,5.348,214.4,776.7,15.8,True,True,True,83.8,3.5,4.0,1.5,1.8
+48,functional_split,hybrid,North Sea Wind Farm,0,LYNQ-01,55.5,2.0,LYNQ-23,46.467,6.71,135.1,1056.5,16.0,True,True,True,89.9,6.0,4.0,4.0,2.4
+48,functional_split,hybrid,North Sea Wind Farm,5,LYNQ-12,52.924,2.769,LYNQ-23,50.225,11.002,384.2,642.7,15.4,True,True,True,88.6,3.8,4.0,1.8,2.4
+48,functional_split,hybrid,North Sea Wind Farm,10,LYNQ-12,57.379,4.025,LYNQ-11,50.443,2.889,118.0,774.8,16.0,True,True,True,86.4,3.5,4.0,1.5,2.4
+48,functional_split,hybrid,North Sea Wind Farm,15,LYNQ-11,54.793,5.275,LYNQ-10,48.147,2.396,204.3,765.3,15.8,True,True,True,87.5,3.5,4.0,1.5,2.4
+48,functional_split,hybrid,North Sea Wind Farm,20,LYNQ-11,59.221,5.703,LYNQ-10,52.234,5.865,343.8,777.0,15.5,True,True,True,89.6,6.0,4.0,4.0,2.4
+48,functional_split,hybrid,North Sea Wind Farm,25,LYNQ-10,56.677,7.432,LYNQ-09,49.795,5.814,240.9,772.7,15.8,True,True,True,88.1,3.8,4.0,1.8,2.4
+48,functional_split,hybrid,North Sea Wind Farm,30,LYNQ-37,58.307,0.993,LYNQ-08,47.565,5.162,266.3,1226.1,15.7,True,True,True,93.7,3.5,4.0,1.5,2.4
+48,functional_split,hybrid,North Sea Wind Farm,35,LYNQ-37,53.855,1.834,LYNQ-38,47.375,5.325,298.1,761.2,15.6,True,True,True,88.8,3.5,4.0,1.5,2.4
+48,functional_split,hybrid,North Sea Wind Farm,40,LYNQ-48,56.442,2.844,LYNQ-37,49.582,4.622,44.6,771.9,16.2,True,True,True,85.3,6.0,4.0,4.0,2.4
+48,functional_split,hybrid,North Sea Wind Farm,45,LYNQ-47,58.994,4.513,LYNQ-48,52.006,4.513,299.5,777.0,15.6,True,True,True,89.0,3.8,4.0,1.8,2.4
+48,functional_split,hybrid,North Sea Wind Farm,50,LYNQ-47,54.558,5.044,LYNQ-48,47.951,8.077,220.4,764.2,15.8,True,True,True,87.7,3.5,4.0,1.5,2.4
+48,functional_split,hybrid,North Sea Wind Farm,55,LYNQ-46,57.145,6.234,LYNQ-47,50.225,7.531,186.0,774.2,15.9,True,True,True,87.3,3.5,4.0,1.5,2.4
+48,functional_split,hybrid,North Sea Wind Farm,60,LYNQ-34,56.911,-2.035,LYNQ-46,52.693,7.593,347.1,773.9,15.5,True,True,True,89.6,6.0,4.0,4.0,2.4
+48,functional_split,hybrid,North Sea Wind Farm,65,LYNQ-45,55.264,8.303,LYNQ-46,48.547,10.871,320.5,767.3,15.6,True,True,True,89.1,3.8,4.0,1.8,2.4
+48,functional_split,hybrid,North Sea Wind Farm,70,LYNQ-33,55.029,0.078,LYNQ-34,48.346,2.802,262.5,766.3,15.7,True,True,True,88.3,3.5,4.0,1.5,2.4
+48,functional_split,hybrid,North Sea Wind Farm,75,LYNQ-32,57.612,1.388,LYNQ-33,50.662,2.362,192.0,775.4,15.9,True,True,True,87.4,3.5,4.0,1.5,2.4
+48,functional_split,hybrid,North Sea Wind Farm,80,LYNQ-32,53.156,2.54,LYNQ-33,46.822,6.478,361.0,758.2,15.5,True,True,True,89.6,6.0,4.0,4.0,2.4
+48,functional_split,hybrid,North Sea Wind Farm,85,LYNQ-31,55.736,3.369,LYNQ-32,48.955,5.624,69.2,769.3,16.1,True,True,True,85.6,3.8,4.0,1.8,2.4
+48,functional_split,hybrid,North Sea Wind Farm,90,LYNQ-30,58.307,4.86,LYNQ-31,51.328,5.348,231.4,776.7,15.8,True,True,True,88.0,3.5,4.0,1.5,2.4
+48,functional_split,hybrid,Energy Platform Alpha,0,LYNQ-01,55.5,2.0,LYNQ-23,46.467,6.71,304.1,1056.5,15.6,True,True,True,92.3,6.0,4.5,4.0,2.4
+48,functional_split,hybrid,Energy Platform Alpha,5,LYNQ-01,59.895,2.119,LYNQ-23,50.225,11.002,195.7,1212.6,15.9,True,True,True,92.6,3.8,4.0,1.8,2.4
+48,functional_split,hybrid,Energy Platform Alpha,10,LYNQ-12,57.379,4.025,LYNQ-11,50.443,2.889,190.7,774.8,15.9,True,True,True,87.4,3.5,4.0,1.5,2.4
+48,functional_split,hybrid,Energy Platform Alpha,15,LYNQ-39,57.612,-2.478,LYNQ-10,48.147,2.396,226.9,1101.4,15.8,True,True,True,91.7,3.5,4.0,1.5,2.4
+48,functional_split,hybrid,Energy Platform Alpha,20,LYNQ-38,60.117,-0.514,LYNQ-10,52.234,5.865,234.5,960.3,15.8,True,True,True,90.2,6.0,4.0,4.0,2.4
+48,functional_split,hybrid,Energy Platform Alpha,25,LYNQ-38,55.736,-0.497,LYNQ-09,49.795,5.814,292.6,784.6,15.6,True,True,True,89.0,3.8,4.0,1.8,2.4
+48,functional_split,hybrid,Energy Platform Alpha,30,LYNQ-37,58.307,0.993,LYNQ-08,47.565,5.162,17.0,1226.1,16.3,True,True,True,90.2,3.5,4.0,1.5,2.4
+48,functional_split,hybrid,Energy Platform Alpha,35,LYNQ-48,60.775,3.131,LYNQ-38,47.375,5.325,306.3,1496.7,15.6,True,True,True,97.4,3.5,4.0,1.5,2.4
+48,functional_split,hybrid,Energy Platform Alpha,40,LYNQ-48,56.442,2.844,LYNQ-37,49.582,4.622,219.0,771.9,15.8,True,True,True,87.8,6.0,4.0,4.0,2.4
+48,functional_split,hybrid,Energy Platform Alpha,45,LYNQ-47,58.994,4.513,LYNQ-48,52.006,4.513,211.3,777.0,15.8,True,True,True,87.7,3.8,4.0,1.8,2.4
+48,functional_split,hybrid,Energy Platform Alpha,50,LYNQ-35,58.766,-3.799,LYNQ-48,47.951,8.077,297.2,1433.2,15.6,True,True,True,96.6,3.5,4.0,1.5,2.4
+48,functional_split,hybrid,Energy Platform Alpha,55,LYNQ-46,57.145,6.234,LYNQ-47,50.225,7.531,321.4,774.2,15.6,True,True,True,89.2,3.5,4.0,1.5,2.4
+48,functional_split,hybrid,Energy Platform Alpha,60,LYNQ-34,56.911,-2.035,LYNQ-46,52.693,7.593,240.3,773.9,15.8,True,True,True,88.1,6.0,4.0,4.0,2.4
+48,functional_split,hybrid,Energy Platform Alpha,65,LYNQ-33,59.447,-0.247,LYNQ-46,48.547,10.871,161.7,1409.0,15.9,True,True,True,94.4,3.8,4.0,1.8,2.4
+48,functional_split,hybrid,Energy Platform Alpha,70,LYNQ-33,55.029,0.078,LYNQ-34,48.346,2.802,359.2,766.3,15.5,True,True,True,89.7,3.5,4.0,1.5,2.4
+48,functional_split,hybrid,Energy Platform Alpha,75,LYNQ-32,57.612,1.388,LYNQ-33,50.662,2.362,66.3,775.4,16.2,True,True,True,85.7,3.5,4.0,1.5,2.4
+48,functional_split,hybrid,Energy Platform Alpha,80,LYNQ-31,60.117,3.352,LYNQ-33,46.822,6.478,245.9,1492.3,15.8,True,True,True,96.6,6.0,4.0,4.0,2.4
+48,functional_split,hybrid,Energy Platform Alpha,85,LYNQ-31,55.736,3.369,LYNQ-32,48.955,5.624,303.9,769.3,15.6,True,True,True,88.9,3.8,4.0,1.8,2.4
+48,functional_split,hybrid,Energy Platform Alpha,90,LYNQ-30,58.307,4.86,LYNQ-31,51.328,5.348,214.4,776.7,15.8,True,True,True,87.8,3.5,4.0,1.5,2.4
+48,bent_pipe,rf_intra_plane,North Sea Wind Farm,0,LYNQ-01,55.5,2.0,LYNQ-23,46.467,6.71,135.1,1056.5,16.0,True,True,True,102.9,8.5,4.0,4.0,3.4
+48,bent_pipe,rf_intra_plane,North Sea Wind Farm,5,LYNQ-12,52.924,2.769,LYNQ-23,50.225,11.002,384.2,642.7,15.4,True,True,True,101.6,6.3,4.0,1.8,3.4
+48,bent_pipe,rf_intra_plane,North Sea Wind Farm,10,LYNQ-12,57.379,4.025,LYNQ-11,50.443,2.889,118.0,774.8,16.0,True,True,True,99.4,6.0,4.0,1.5,3.4
+48,bent_pipe,rf_intra_plane,North Sea Wind Farm,15,LYNQ-11,54.793,5.275,LYNQ-10,48.147,2.396,204.3,765.3,15.8,True,True,True,100.5,6.0,4.0,1.5,3.4
+48,bent_pipe,rf_intra_plane,North Sea Wind Farm,20,LYNQ-11,59.221,5.703,LYNQ-10,52.234,5.865,343.8,777.0,15.5,True,True,True,102.6,8.5,4.0,4.0,3.4
+48,bent_pipe,rf_intra_plane,North Sea Wind Farm,25,LYNQ-10,56.677,7.432,LYNQ-09,49.795,5.814,240.9,772.7,15.8,True,True,True,101.1,6.3,4.0,1.8,3.4
+48,bent_pipe,rf_intra_plane,North Sea Wind Farm,30,LYNQ-37,58.307,0.993,LYNQ-08,47.565,5.162,266.3,1226.1,15.7,True,True,True,106.7,6.0,4.0,1.5,3.4
+48,bent_pipe,rf_intra_plane,North Sea Wind Farm,35,LYNQ-37,53.855,1.834,LYNQ-38,47.375,5.325,298.1,761.2,15.6,True,True,True,101.8,6.0,4.0,1.5,3.4
+48,bent_pipe,rf_intra_plane,North Sea Wind Farm,40,LYNQ-48,56.442,2.844,LYNQ-37,49.582,4.622,44.6,771.9,16.2,True,True,True,98.3,8.5,4.0,4.0,3.4
+48,bent_pipe,rf_intra_plane,North Sea Wind Farm,45,LYNQ-47,58.994,4.513,LYNQ-48,52.006,4.513,299.5,777.0,15.6,True,True,True,102.0,6.3,4.0,1.8,3.4
+48,bent_pipe,rf_intra_plane,North Sea Wind Farm,50,LYNQ-47,54.558,5.044,LYNQ-48,47.951,8.077,220.4,764.2,15.8,True,True,True,100.7,6.0,4.0,1.5,3.4
+48,bent_pipe,rf_intra_plane,North Sea Wind Farm,55,LYNQ-46,57.145,6.234,LYNQ-47,50.225,7.531,186.0,774.2,15.9,True,True,True,100.3,6.0,4.0,1.5,3.4
+48,bent_pipe,rf_intra_plane,North Sea Wind Farm,60,LYNQ-34,56.911,-2.035,LYNQ-46,52.693,7.593,347.1,773.9,15.5,True,True,True,102.6,8.5,4.0,4.0,3.4
+48,bent_pipe,rf_intra_plane,North Sea Wind Farm,65,LYNQ-45,55.264,8.303,LYNQ-46,48.547,10.871,320.5,767.3,15.6,True,True,True,102.1,6.3,4.0,1.8,3.4
+48,bent_pipe,rf_intra_plane,North Sea Wind Farm,70,LYNQ-33,55.029,0.078,LYNQ-34,48.346,2.802,262.5,766.3,15.7,True,True,True,101.3,6.0,4.0,1.5,3.4
+48,bent_pipe,rf_intra_plane,North Sea Wind Farm,75,LYNQ-32,57.612,1.388,LYNQ-33,50.662,2.362,192.0,775.4,15.9,True,True,True,100.4,6.0,4.0,1.5,3.4
+48,bent_pipe,rf_intra_plane,North Sea Wind Farm,80,LYNQ-32,53.156,2.54,LYNQ-33,46.822,6.478,361.0,758.2,15.5,True,True,True,102.6,8.5,4.0,4.0,3.4
+48,bent_pipe,rf_intra_plane,North Sea Wind Farm,85,LYNQ-31,55.736,3.369,LYNQ-32,48.955,5.624,69.2,769.3,16.1,True,True,True,98.6,6.3,4.0,1.8,3.4
+48,bent_pipe,rf_intra_plane,North Sea Wind Farm,90,LYNQ-30,58.307,4.86,LYNQ-31,51.328,5.348,231.4,776.7,15.8,True,True,True,101.0,6.0,4.0,1.5,3.4
+48,bent_pipe,rf_intra_plane,Energy Platform Alpha,0,LYNQ-01,55.5,2.0,LYNQ-23,46.467,6.71,304.1,1056.5,15.6,True,True,True,105.3,8.5,4.5,4.0,3.4
+48,bent_pipe,rf_intra_plane,Energy Platform Alpha,5,LYNQ-01,59.895,2.119,LYNQ-23,50.225,11.002,195.7,1212.6,15.9,True,True,True,105.6,6.3,4.0,1.8,3.4
+48,bent_pipe,rf_intra_plane,Energy Platform Alpha,10,LYNQ-12,57.379,4.025,LYNQ-11,50.443,2.889,190.7,774.8,15.9,True,True,True,100.4,6.0,4.0,1.5,3.4
+48,bent_pipe,rf_intra_plane,Energy Platform Alpha,15,LYNQ-39,57.612,-2.478,LYNQ-10,48.147,2.396,226.9,1101.4,15.8,True,True,True,104.7,6.0,4.0,1.5,3.4
+48,bent_pipe,rf_intra_plane,Energy Platform Alpha,20,LYNQ-38,60.117,-0.514,LYNQ-10,52.234,5.865,234.5,960.3,15.8,True,True,True,103.2,8.5,4.0,4.0,3.4
+48,bent_pipe,rf_intra_plane,Energy Platform Alpha,25,LYNQ-38,55.736,-0.497,LYNQ-09,49.795,5.814,292.6,784.6,15.6,True,True,True,102.0,6.3,4.0,1.8,3.4
+48,bent_pipe,rf_intra_plane,Energy Platform Alpha,30,LYNQ-37,58.307,0.993,LYNQ-08,47.565,5.162,17.0,1226.1,16.3,True,True,True,103.2,6.0,4.0,1.5,3.4
+48,bent_pipe,rf_intra_plane,Energy Platform Alpha,35,LYNQ-48,60.775,3.131,LYNQ-38,47.375,5.325,306.3,1496.7,15.6,True,True,True,110.4,6.0,4.0,1.5,3.4
+48,bent_pipe,rf_intra_plane,Energy Platform Alpha,40,LYNQ-48,56.442,2.844,LYNQ-37,49.582,4.622,219.0,771.9,15.8,True,True,True,100.8,8.5,4.0,4.0,3.4
+48,bent_pipe,rf_intra_plane,Energy Platform Alpha,45,LYNQ-47,58.994,4.513,LYNQ-48,52.006,4.513,211.3,777.0,15.8,True,True,True,100.7,6.3,4.0,1.8,3.4
+48,bent_pipe,rf_intra_plane,Energy Platform Alpha,50,LYNQ-35,58.766,-3.799,LYNQ-48,47.951,8.077,297.2,1433.2,15.6,True,True,True,109.6,6.0,4.0,1.5,3.4
+48,bent_pipe,rf_intra_plane,Energy Platform Alpha,55,LYNQ-46,57.145,6.234,LYNQ-47,50.225,7.531,321.4,774.2,15.6,True,True,True,102.2,6.0,4.0,1.5,3.4
+48,bent_pipe,rf_intra_plane,Energy Platform Alpha,60,LYNQ-34,56.911,-2.035,LYNQ-46,52.693,7.593,240.3,773.9,15.8,True,True,True,101.1,8.5,4.0,4.0,3.4
+48,bent_pipe,rf_intra_plane,Energy Platform Alpha,65,LYNQ-33,59.447,-0.247,LYNQ-46,48.547,10.871,161.7,1409.0,15.9,True,True,True,107.4,6.3,4.0,1.8,3.4
+48,bent_pipe,rf_intra_plane,Energy Platform Alpha,70,LYNQ-33,55.029,0.078,LYNQ-34,48.346,2.802,359.2,766.3,15.5,True,True,True,102.7,6.0,4.0,1.5,3.4
+48,bent_pipe,rf_intra_plane,Energy Platform Alpha,75,LYNQ-32,57.612,1.388,LYNQ-33,50.662,2.362,66.3,775.4,16.2,True,True,True,98.7,6.0,4.0,1.5,3.4
+48,bent_pipe,rf_intra_plane,Energy Platform Alpha,80,LYNQ-31,60.117,3.352,LYNQ-33,46.822,6.478,245.9,1492.3,15.8,True,True,True,109.6,8.5,4.0,4.0,3.4
+48,bent_pipe,rf_intra_plane,Energy Platform Alpha,85,LYNQ-31,55.736,3.369,LYNQ-32,48.955,5.624,303.9,769.3,15.6,True,True,True,101.9,6.3,4.0,1.8,3.4
+48,bent_pipe,rf_intra_plane,Energy Platform Alpha,90,LYNQ-30,58.307,4.86,LYNQ-31,51.328,5.348,214.4,776.7,15.8,True,True,True,100.8,6.0,4.0,1.5,3.4
+48,bent_pipe,optical_cross_plane,North Sea Wind Farm,0,LYNQ-01,55.5,2.0,LYNQ-23,46.467,6.71,135.1,1056.5,16.0,True,True,True,102.9,6.0,4.0,4.0,1.8
+48,bent_pipe,optical_cross_plane,North Sea Wind Farm,5,LYNQ-12,52.924,2.769,LYNQ-23,50.225,11.002,384.2,642.7,15.4,True,True,True,101.6,3.8,4.0,1.8,1.8
+48,bent_pipe,optical_cross_plane,North Sea Wind Farm,10,LYNQ-12,57.379,4.025,LYNQ-11,50.443,2.889,118.0,774.8,16.0,True,True,True,99.4,3.5,4.0,1.5,1.8
+48,bent_pipe,optical_cross_plane,North Sea Wind Farm,15,LYNQ-11,54.793,5.275,LYNQ-10,48.147,2.396,204.3,765.3,15.8,True,True,True,100.5,3.5,4.0,1.5,1.8
+48,bent_pipe,optical_cross_plane,North Sea Wind Farm,20,LYNQ-11,59.221,5.703,LYNQ-10,52.234,5.865,343.8,777.0,15.5,True,True,True,102.6,6.0,4.0,4.0,1.8
+48,bent_pipe,optical_cross_plane,North Sea Wind Farm,25,LYNQ-10,56.677,7.432,LYNQ-09,49.795,5.814,240.9,772.7,15.8,True,True,True,101.1,3.8,4.0,1.8,1.8
+48,bent_pipe,optical_cross_plane,North Sea Wind Farm,30,LYNQ-37,58.307,0.993,LYNQ-08,47.565,5.162,266.3,1226.1,15.7,True,True,True,106.7,3.5,4.0,1.5,1.8
+48,bent_pipe,optical_cross_plane,North Sea Wind Farm,35,LYNQ-37,53.855,1.834,LYNQ-38,47.375,5.325,298.1,761.2,15.6,True,True,True,101.8,3.5,4.0,1.5,1.8
+48,bent_pipe,optical_cross_plane,North Sea Wind Farm,40,LYNQ-48,56.442,2.844,LYNQ-37,49.582,4.622,44.6,771.9,16.2,True,True,True,98.3,6.0,4.0,4.0,1.8
+48,bent_pipe,optical_cross_plane,North Sea Wind Farm,45,LYNQ-47,58.994,4.513,LYNQ-48,52.006,4.513,299.5,777.0,15.6,True,True,True,102.0,3.8,4.0,1.8,1.8
+48,bent_pipe,optical_cross_plane,North Sea Wind Farm,50,LYNQ-47,54.558,5.044,LYNQ-48,47.951,8.077,220.4,764.2,15.8,True,True,True,100.7,3.5,4.0,1.5,1.8
+48,bent_pipe,optical_cross_plane,North Sea Wind Farm,55,LYNQ-46,57.145,6.234,LYNQ-47,50.225,7.531,186.0,774.2,15.9,True,True,True,100.3,3.5,4.0,1.5,1.8
+48,bent_pipe,optical_cross_plane,North Sea Wind Farm,60,LYNQ-34,56.911,-2.035,LYNQ-46,52.693,7.593,347.1,773.9,15.5,True,True,True,102.6,6.0,4.0,4.0,1.8
+48,bent_pipe,optical_cross_plane,North Sea Wind Farm,65,LYNQ-45,55.264,8.303,LYNQ-46,48.547,10.871,320.5,767.3,15.6,True,True,True,102.1,3.8,4.0,1.8,1.8
+48,bent_pipe,optical_cross_plane,North Sea Wind Farm,70,LYNQ-33,55.029,0.078,LYNQ-34,48.346,2.802,262.5,766.3,15.7,True,True,True,101.3,3.5,4.0,1.5,1.8
+48,bent_pipe,optical_cross_plane,North Sea Wind Farm,75,LYNQ-32,57.612,1.388,LYNQ-33,50.662,2.362,192.0,775.4,15.9,True,True,True,100.4,3.5,4.0,1.5,1.8
+48,bent_pipe,optical_cross_plane,North Sea Wind Farm,80,LYNQ-32,53.156,2.54,LYNQ-33,46.822,6.478,361.0,758.2,15.5,True,True,True,102.6,6.0,4.0,4.0,1.8
+48,bent_pipe,optical_cross_plane,North Sea Wind Farm,85,LYNQ-31,55.736,3.369,LYNQ-32,48.955,5.624,69.2,769.3,16.1,True,True,True,98.6,3.8,4.0,1.8,1.8
+48,bent_pipe,optical_cross_plane,North Sea Wind Farm,90,LYNQ-30,58.307,4.86,LYNQ-31,51.328,5.348,231.4,776.7,15.8,True,True,True,101.0,3.5,4.0,1.5,1.8
+48,bent_pipe,optical_cross_plane,Energy Platform Alpha,0,LYNQ-01,55.5,2.0,LYNQ-23,46.467,6.71,304.1,1056.5,15.6,True,True,True,105.3,6.0,4.5,4.0,1.8
+48,bent_pipe,optical_cross_plane,Energy Platform Alpha,5,LYNQ-01,59.895,2.119,LYNQ-23,50.225,11.002,195.7,1212.6,15.9,True,True,True,105.6,3.8,4.0,1.8,1.8
+48,bent_pipe,optical_cross_plane,Energy Platform Alpha,10,LYNQ-12,57.379,4.025,LYNQ-11,50.443,2.889,190.7,774.8,15.9,True,True,True,100.4,3.5,4.0,1.5,1.8
+48,bent_pipe,optical_cross_plane,Energy Platform Alpha,15,LYNQ-39,57.612,-2.478,LYNQ-10,48.147,2.396,226.9,1101.4,15.8,True,True,True,104.7,3.5,4.0,1.5,1.8
+48,bent_pipe,optical_cross_plane,Energy Platform Alpha,20,LYNQ-38,60.117,-0.514,LYNQ-10,52.234,5.865,234.5,960.3,15.8,True,True,True,103.2,6.0,4.0,4.0,1.8
+48,bent_pipe,optical_cross_plane,Energy Platform Alpha,25,LYNQ-38,55.736,-0.497,LYNQ-09,49.795,5.814,292.6,784.6,15.6,True,True,True,102.0,3.8,4.0,1.8,1.8
+48,bent_pipe,optical_cross_plane,Energy Platform Alpha,30,LYNQ-37,58.307,0.993,LYNQ-08,47.565,5.162,17.0,1226.1,16.3,True,True,True,103.2,3.5,4.0,1.5,1.8
+48,bent_pipe,optical_cross_plane,Energy Platform Alpha,35,LYNQ-48,60.775,3.131,LYNQ-38,47.375,5.325,306.3,1496.7,15.6,True,True,True,110.4,3.5,4.0,1.5,1.8
+48,bent_pipe,optical_cross_plane,Energy Platform Alpha,40,LYNQ-48,56.442,2.844,LYNQ-37,49.582,4.622,219.0,771.9,15.8,True,True,True,100.8,6.0,4.0,4.0,1.8
+48,bent_pipe,optical_cross_plane,Energy Platform Alpha,45,LYNQ-47,58.994,4.513,LYNQ-48,52.006,4.513,211.3,777.0,15.8,True,True,True,100.7,3.8,4.0,1.8,1.8
+48,bent_pipe,optical_cross_plane,Energy Platform Alpha,50,LYNQ-35,58.766,-3.799,LYNQ-48,47.951,8.077,297.2,1433.2,15.6,True,True,True,109.6,3.5,4.0,1.5,1.8
+48,bent_pipe,optical_cross_plane,Energy Platform Alpha,55,LYNQ-46,57.145,6.234,LYNQ-47,50.225,7.531,321.4,774.2,15.6,True,True,True,102.2,3.5,4.0,1.5,1.8
+48,bent_pipe,optical_cross_plane,Energy Platform Alpha,60,LYNQ-34,56.911,-2.035,LYNQ-46,52.693,7.593,240.3,773.9,15.8,True,True,True,101.1,6.0,4.0,4.0,1.8
+48,bent_pipe,optical_cross_plane,Energy Platform Alpha,65,LYNQ-33,59.447,-0.247,LYNQ-46,48.547,10.871,161.7,1409.0,15.9,True,True,True,107.4,3.8,4.0,1.8,1.8
+48,bent_pipe,optical_cross_plane,Energy Platform Alpha,70,LYNQ-33,55.029,0.078,LYNQ-34,48.346,2.802,359.2,766.3,15.5,True,True,True,102.7,3.5,4.0,1.5,1.8
+48,bent_pipe,optical_cross_plane,Energy Platform Alpha,75,LYNQ-32,57.612,1.388,LYNQ-33,50.662,2.362,66.3,775.4,16.2,True,True,True,98.7,3.5,4.0,1.5,1.8
+48,bent_pipe,optical_cross_plane,Energy Platform Alpha,80,LYNQ-31,60.117,3.352,LYNQ-33,46.822,6.478,245.9,1492.3,15.8,True,True,True,109.6,6.0,4.0,4.0,1.8
+48,bent_pipe,optical_cross_plane,Energy Platform Alpha,85,LYNQ-31,55.736,3.369,LYNQ-32,48.955,5.624,303.9,769.3,15.6,True,True,True,101.9,3.8,4.0,1.8,1.8
+48,bent_pipe,optical_cross_plane,Energy Platform Alpha,90,LYNQ-30,58.307,4.86,LYNQ-31,51.328,5.348,214.4,776.7,15.8,True,True,True,100.8,3.5,4.0,1.5,1.8
+48,bent_pipe,hybrid,North Sea Wind Farm,0,LYNQ-01,55.5,2.0,LYNQ-23,46.467,6.71,135.1,1056.5,16.0,True,True,True,102.9,6.0,4.0,4.0,2.4
+48,bent_pipe,hybrid,North Sea Wind Farm,5,LYNQ-12,52.924,2.769,LYNQ-23,50.225,11.002,384.2,642.7,15.4,True,True,True,101.6,3.8,4.0,1.8,2.4
+48,bent_pipe,hybrid,North Sea Wind Farm,10,LYNQ-12,57.379,4.025,LYNQ-11,50.443,2.889,118.0,774.8,16.0,True,True,True,99.4,3.5,4.0,1.5,2.4
+48,bent_pipe,hybrid,North Sea Wind Farm,15,LYNQ-11,54.793,5.275,LYNQ-10,48.147,2.396,204.3,765.3,15.8,True,True,True,100.5,3.5,4.0,1.5,2.4
+48,bent_pipe,hybrid,North Sea Wind Farm,20,LYNQ-11,59.221,5.703,LYNQ-10,52.234,5.865,343.8,777.0,15.5,True,True,True,102.6,6.0,4.0,4.0,2.4
+48,bent_pipe,hybrid,North Sea Wind Farm,25,LYNQ-10,56.677,7.432,LYNQ-09,49.795,5.814,240.9,772.7,15.8,True,True,True,101.1,3.8,4.0,1.8,2.4
+48,bent_pipe,hybrid,North Sea Wind Farm,30,LYNQ-37,58.307,0.993,LYNQ-08,47.565,5.162,266.3,1226.1,15.7,True,True,True,106.7,3.5,4.0,1.5,2.4
+48,bent_pipe,hybrid,North Sea Wind Farm,35,LYNQ-37,53.855,1.834,LYNQ-38,47.375,5.325,298.1,761.2,15.6,True,True,True,101.8,3.5,4.0,1.5,2.4
+48,bent_pipe,hybrid,North Sea Wind Farm,40,LYNQ-48,56.442,2.844,LYNQ-37,49.582,4.622,44.6,771.9,16.2,True,True,True,98.3,6.0,4.0,4.0,2.4
+48,bent_pipe,hybrid,North Sea Wind Farm,45,LYNQ-47,58.994,4.513,LYNQ-48,52.006,4.513,299.5,777.0,15.6,True,True,True,102.0,3.8,4.0,1.8,2.4
+48,bent_pipe,hybrid,North Sea Wind Farm,50,LYNQ-47,54.558,5.044,LYNQ-48,47.951,8.077,220.4,764.2,15.8,True,True,True,100.7,3.5,4.0,1.5,2.4
+48,bent_pipe,hybrid,North Sea Wind Farm,55,LYNQ-46,57.145,6.234,LYNQ-47,50.225,7.531,186.0,774.2,15.9,True,True,True,100.3,3.5,4.0,1.5,2.4
+48,bent_pipe,hybrid,North Sea Wind Farm,60,LYNQ-34,56.911,-2.035,LYNQ-46,52.693,7.593,347.1,773.9,15.5,True,True,True,102.6,6.0,4.0,4.0,2.4
+48,bent_pipe,hybrid,North Sea Wind Farm,65,LYNQ-45,55.264,8.303,LYNQ-46,48.547,10.871,320.5,767.3,15.6,True,True,True,102.1,3.8,4.0,1.8,2.4
+48,bent_pipe,hybrid,North Sea Wind Farm,70,LYNQ-33,55.029,0.078,LYNQ-34,48.346,2.802,262.5,766.3,15.7,True,True,True,101.3,3.5,4.0,1.5,2.4
+48,bent_pipe,hybrid,North Sea Wind Farm,75,LYNQ-32,57.612,1.388,LYNQ-33,50.662,2.362,192.0,775.4,15.9,True,True,True,100.4,3.5,4.0,1.5,2.4
+48,bent_pipe,hybrid,North Sea Wind Farm,80,LYNQ-32,53.156,2.54,LYNQ-33,46.822,6.478,361.0,758.2,15.5,True,True,True,102.6,6.0,4.0,4.0,2.4
+48,bent_pipe,hybrid,North Sea Wind Farm,85,LYNQ-31,55.736,3.369,LYNQ-32,48.955,5.624,69.2,769.3,16.1,True,True,True,98.6,3.8,4.0,1.8,2.4
+48,bent_pipe,hybrid,North Sea Wind Farm,90,LYNQ-30,58.307,4.86,LYNQ-31,51.328,5.348,231.4,776.7,15.8,True,True,True,101.0,3.5,4.0,1.5,2.4
+48,bent_pipe,hybrid,Energy Platform Alpha,0,LYNQ-01,55.5,2.0,LYNQ-23,46.467,6.71,304.1,1056.5,15.6,True,True,True,105.3,6.0,4.5,4.0,2.4
+48,bent_pipe,hybrid,Energy Platform Alpha,5,LYNQ-01,59.895,2.119,LYNQ-23,50.225,11.002,195.7,1212.6,15.9,True,True,True,105.6,3.8,4.0,1.8,2.4
+48,bent_pipe,hybrid,Energy Platform Alpha,10,LYNQ-12,57.379,4.025,LYNQ-11,50.443,2.889,190.7,774.8,15.9,True,True,True,100.4,3.5,4.0,1.5,2.4
+48,bent_pipe,hybrid,Energy Platform Alpha,15,LYNQ-39,57.612,-2.478,LYNQ-10,48.147,2.396,226.9,1101.4,15.8,True,True,True,104.7,3.5,4.0,1.5,2.4
+48,bent_pipe,hybrid,Energy Platform Alpha,20,LYNQ-38,60.117,-0.514,LYNQ-10,52.234,5.865,234.5,960.3,15.8,True,True,True,103.2,6.0,4.0,4.0,2.4
+48,bent_pipe,hybrid,Energy Platform Alpha,25,LYNQ-38,55.736,-0.497,LYNQ-09,49.795,5.814,292.6,784.6,15.6,True,True,True,102.0,3.8,4.0,1.8,2.4
+48,bent_pipe,hybrid,Energy Platform Alpha,30,LYNQ-37,58.307,0.993,LYNQ-08,47.565,5.162,17.0,1226.1,16.3,True,True,True,103.2,3.5,4.0,1.5,2.4
+48,bent_pipe,hybrid,Energy Platform Alpha,35,LYNQ-48,60.775,3.131,LYNQ-38,47.375,5.325,306.3,1496.7,15.6,True,True,True,110.4,3.5,4.0,1.5,2.4
+48,bent_pipe,hybrid,Energy Platform Alpha,40,LYNQ-48,56.442,2.844,LYNQ-37,49.582,4.622,219.0,771.9,15.8,True,True,True,100.8,6.0,4.0,4.0,2.4
+48,bent_pipe,hybrid,Energy Platform Alpha,45,LYNQ-47,58.994,4.513,LYNQ-48,52.006,4.513,211.3,777.0,15.8,True,True,True,100.7,3.8,4.0,1.8,2.4
+48,bent_pipe,hybrid,Energy Platform Alpha,50,LYNQ-35,58.766,-3.799,LYNQ-48,47.951,8.077,297.2,1433.2,15.6,True,True,True,109.6,3.5,4.0,1.5,2.4
+48,bent_pipe,hybrid,Energy Platform Alpha,55,LYNQ-46,57.145,6.234,LYNQ-47,50.225,7.531,321.4,774.2,15.6,True,True,True,102.2,3.5,4.0,1.5,2.4
+48,bent_pipe,hybrid,Energy Platform Alpha,60,LYNQ-34,56.911,-2.035,LYNQ-46,52.693,7.593,240.3,773.9,15.8,True,True,True,101.1,6.0,4.0,4.0,2.4
+48,bent_pipe,hybrid,Energy Platform Alpha,65,LYNQ-33,59.447,-0.247,LYNQ-46,48.547,10.871,161.7,1409.0,15.9,True,True,True,107.4,3.8,4.0,1.8,2.4
+48,bent_pipe,hybrid,Energy Platform Alpha,70,LYNQ-33,55.029,0.078,LYNQ-34,48.346,2.802,359.2,766.3,15.5,True,True,True,102.7,3.5,4.0,1.5,2.4
+48,bent_pipe,hybrid,Energy Platform Alpha,75,LYNQ-32,57.612,1.388,LYNQ-33,50.662,2.362,66.3,775.4,16.2,True,True,True,98.7,3.5,4.0,1.5,2.4
+48,bent_pipe,hybrid,Energy Platform Alpha,80,LYNQ-31,60.117,3.352,LYNQ-33,46.822,6.478,245.9,1492.3,15.8,True,True,True,109.6,6.0,4.0,4.0,2.4
+48,bent_pipe,hybrid,Energy Platform Alpha,85,LYNQ-31,55.736,3.369,LYNQ-32,48.955,5.624,303.9,769.3,15.6,True,True,True,101.9,3.8,4.0,1.8,2.4
+48,bent_pipe,hybrid,Energy Platform Alpha,90,LYNQ-30,58.307,4.86,LYNQ-31,51.328,5.348,214.4,776.7,15.8,True,True,True,100.8,3.5,4.0,1.5,2.4
