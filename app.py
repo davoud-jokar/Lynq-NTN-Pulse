@@ -119,7 +119,7 @@ def map_figure(tracks, row, c, view, edges, meta):
     elif view == "Global map":
         geo.update(projection_type="natural earth")
     else:
-        geo.update(projection_type="mercator",lonaxis=dict(range=[-24,30],showgrid=True,gridcolor="#203449"),lataxis=dict(range=[43,72],showgrid=True,gridcolor="#203449"))
+        geo.update(projection_type="mercator",lonaxis=dict(range=[-40,40],showgrid=True,gridcolor="#203449"),lataxis=dict(range=[40,76],showgrid=True,gridcolor="#203449"))
     fig.update_layout(height=540,geo=geo,margin=dict(l=0,r=0,t=5,b=5),paper_bgcolor="rgba(0,0,0,0)",font=dict(color="#c7d6e8"),legend=dict(orientation="h",y=-.06,font=dict(size=10)),uirevision=f"{view}-{c.fleet_size}")
     return fig
 
@@ -150,7 +150,7 @@ def evidence_zip(results, packets, tracks, meta, comparison=None):
 with st.sidebar:
     st.markdown("## Mission parameters")
     st.caption("Each control changes the same model used by the map and KPIs.")
-    fleet=st.selectbox("Synthetic fleet",[12,30,48],key="fleet")
+    fleet=st.selectbox("Constellation",[12,48,96],format_func={12:"12 sats · 3×4 (today scale)",48:"48 sats · 4×12 (Gen-2)",96:"96 sats · 8×12"}.get,key="fleet")
     arch=st.selectbox("Payload architecture",list(ARCH_LABELS),format_func=ARCH_LABELS.get,key="architecture")
     topology=st.selectbox("Candidate ISL topology",list(TOPOLOGY_LABELS),format_func=TOPOLOGY_LABELS.get,key="topology",help="Bent-pipe does not switch packets over ISLs in this reference design.")
     terminal=st.selectbox("Offshore terminal",list(engine.TERMINALS),key="terminal")
@@ -160,10 +160,10 @@ with st.sidebar:
     view=st.radio("Map view",["North Sea map","Global map","3D globe"],key="view")
     with st.expander("Model assumptions"):
         duration=st.selectbox("Simulation duration (minutes)",[90,180,360],index=1)
-        deadline=st.number_input("Alarm target (ms)",min_value=10.0,max_value=1000.0,value=150.0,step=10.0)
+        deadline=st.number_input("Alarm target (ms)",min_value=100.0,max_value=10000.0,value=2000.0,step=100.0)
         buffer_enabled=st.checkbox("Assume onboard store-and-forward support",value=True,help="Requires established sessions and explicit payload support. Used only for the full gNB design.")
         forecast_guard=st.checkbox("Check future contacts before storing onboard",value=True,help="Keep data at the terminal unless the satellite has an earlier modeled egress before the deadline. Uses the known synthetic horizon, without reserving future capacity.")
-        st.caption("550 km · 87° inclination · 10° elevation mask · 30-second samples. Remaining assumptions are in the evidence export.")
+        st.caption("550 km · 87° · Walker-star · 10° elevation mask · 30-second samples · 200-byte alarm over a 10 kbps NB-IoT-class link. Remaining assumptions are in the evidence export.")
 
 config=engine.Config(fleet_size=fleet,architecture=arch,isl_topology=topology,terminal=terminal,local_enabled=local,alternative_enabled=alternative,duration_min=duration,alarm_deadline_ms=deadline,allow_onboard_store=buffer_enabled,forecast_storage_guard=forecast_guard)
 with st.spinner("Computing contact geometry and packet queues…"):
@@ -200,8 +200,8 @@ else:
     tone="green" if row.telemetry_state=="delivered" else "red" if "overflow" in row.telemetry_state else "amber"
     reason=f"New telemetry packet {row.telemetry_packet_id}: {row.telemetry_state.replace('_',' ')}. Buffers shown include earlier packets."
 
-st.markdown("<div class='brandline'><div class='brand'>✦ LYNQ <span>NTN-PULSE</span></div><div class='mission-chip'>OQ ANYPOINT-NTN · MODEL 3.0</div></div><div class='hero'>Every signal, the right path.</div><div class='sub'>North Sea offshore energy · regenerative NTN policy demonstrator</div>",unsafe_allow_html=True)
-st.markdown("<div class='explain'><b>Synthetic simulation:</b> geometry and queues are calculated. Link rates, processing delays and payload support are assumptions. No OQ flight validation or completed MeluXina run is claimed.</div>",unsafe_allow_html=True)
+st.markdown("<div class='brandline'><div class='brand'>✦ LYNQ <span>NTN-PULSE</span></div><div class='mission-chip'>OQ ANYPOINT-NTN · MODEL 3.1</div></div><div class='hero'>Every signal, the right path.</div><div class='sub'>Offshore energy · onboard gNB with RF inter-satellite rings · sovereign landing in Luxembourg</div>",unsafe_allow_html=True)
+st.markdown("<div class='explain'><b>First-order model:</b> orbital geometry, routes and queues are computed; link rates and processing delays are stated assumptions.</div>",unsafe_allow_html=True)
 chain=[edges[0]["a"]]+[e["b"] for e in edges] if edges else [terminal,"No transfer at this sample"]
 if edges and edges[-1]["b"] in engine.GATEWAYS:
     chain.append("EU core / application (assumed)")

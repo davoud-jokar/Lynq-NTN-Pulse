@@ -17,7 +17,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-MODEL_VERSION = "3.0.0"
+MODEL_VERSION = "3.1.0"
 R_EARTH = 6371.0  # km; spherical Earth
 MU = 398600.4418  # km^3/s^2
 OMEGA = 7.2921150e-5  # rad/s
@@ -25,11 +25,14 @@ C_KM_S = 299792.458
 TERMINALS = {
     "North Sea Wind Farm": {"lat": 56.35, "lon": 3.55},
     "Energy Platform Alpha": {"lat": 58.20, "lon": 1.20},
+    "Barents Sea platform": {"lat": 72.00, "lon": 30.00},
+    "Mid-Atlantic vessel": {"lat": 45.00, "lon": -30.00},
 }
 GATEWAYS = {
     "Local GW (NL)": {"lat": 51.75, "lon": 4.10},
     "Alternative GW (LU)": {"lat": 49.61, "lon": 6.13},
 }
+LAYOUTS = {12: (3, 1), 30: (3, 1), 48: (4, 1), 96: (8, 4)}  # fleet: (planes, Walker phase factor)
 ARCHITECTURES = ("regenerative", "functional_split", "bent_pipe")
 TOPOLOGIES = ("hybrid", "rf_intra_plane", "optical_cross_plane")
 
@@ -50,7 +53,7 @@ class Config:
     isl_clearance_km: float = 80.0
     max_isl_range_km: float = 5000.0
     optical_links_per_sat: int = 2
-    service_rate_mbps: float = 0.256
+    service_rate_mbps: float = 0.01
     feeder_rate_mbps: float = 10.0
     rf_rate_mbps: float = 4.0
     optical_rate_mbps: float = 100.0
@@ -60,9 +63,9 @@ class Config:
     split_transport_budget_ms: float = 20.0  # scenario F1 transport target, not a 3GPP limit
     split_transport_pdu_bytes: int = 1500
     service_carrier_ghz: float = 2.0  # calculation frequency, not a licensed band claim
-    alarm_bytes: int = 1024
-    alarm_deadline_ms: float = 150.0
-    telemetry_mb_per_min: float = 0.20
+    alarm_bytes: int = 200
+    alarm_deadline_ms: float = 2000.0
+    telemetry_mb_per_min: float = 0.01
     telemetry_deadline_min: float = 90.0
     ground_buffer_mb: float = 64.0
     onboard_buffer_mb_per_sat: float = 64.0
@@ -70,8 +73,8 @@ class Config:
     forecast_storage_guard: bool = True
 
     def __post_init__(self):
-        if self.fleet_size not in (12, 30, 48):
-            raise ValueError("Choose a synthetic 12, 30 or 48 satellite design.")
+        if self.fleet_size not in LAYOUTS:
+            raise ValueError("Choose a synthetic 12, 30, 48 or 96 satellite design.")
         if self.architecture not in ARCHITECTURES or self.isl_topology not in TOPOLOGIES:
             raise ValueError("Unknown architecture or topology.")
         if self.terminal not in TERMINALS:
@@ -97,13 +100,13 @@ def ground_xyz(lat: float, lon: float) -> np.ndarray:
 
 def circular_positions(c: Config, seconds: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
     """Circular two-body positions in ECEF. Synthetic epoch: ECI=ECEF at t=0."""
-    planes = 4 if c.fleet_size == 48 else 3
+    planes, phase = LAYOUTS[c.fleet_size]
     per = c.fleet_size // planes
     p = np.repeat(np.arange(planes), per)
     slot = np.tile(np.arange(per), planes)
     radius = R_EARTH + c.altitude_km
-    raan = 2 * np.pi * p / planes
-    u = 2 * np.pi * slot / per + 2 * np.pi * p / c.fleet_size
+    raan = np.pi * p / planes  # Walker-star: near-polar planes spread over 180 deg
+    u = 2 * np.pi * slot / per + 2 * np.pi * phase * p / c.fleet_size
     u = u + np.asarray(seconds).reshape(-1, 1) * np.sqrt(MU / radius ** 3)
     inc = np.radians(c.inclination_deg)
     x = radius * (np.cos(raan) * np.cos(u) - np.sin(raan) * np.sin(u) * np.cos(inc))
@@ -159,7 +162,7 @@ def snapshot(c: Config, xyz: np.ndarray, planes: np.ndarray, velocity: np.ndarra
                     e = _edge(names[i], names[j], "RF ISL", distance, c.rf_rate_mbps)
                     graph[names[i]].append(e)
                     graph[names[j]].append(_edge(names[j], names[i], e["kind"], distance, e["rate_mbps"]))
-            elif planes[i] != planes[j] and c.isl_topology in ("optical_cross_plane", "hybrid"):
+            elif abs(int(planes[i]) - int(planes[j])) == 1 and c.isl_topology in ("optical_cross_plane", "hybrid"):
                 candidates.append((distance, i, j))
     # Deterministic candidate optical contacts, at most N terminals per satellite.
     degree = np.zeros(len(xyz), dtype=int)
@@ -437,12 +440,12 @@ def metadata(c: Config) -> dict:
     central = np.arccos(R_EARTH / (R_EARTH + c.altitude_km) * np.cos(np.radians(c.min_elevation_deg))) - np.radians(c.min_elevation_deg)
     return {"project": "Lynq NTN-Pulse", "model_version": MODEL_VERSION, "engine_sha256": code_fingerprint(),
             "status": "Synthetic geometry and packet-policy demonstrator; not OQ-validated",
-            "config": asdict(c), "planes": 4 if c.fleet_size == 48 else 3, "phase_factor": 1,
+            "config": asdict(c), "planes": LAYOUTS[c.fleet_size][0], "phase_factor": LAYOUTS[c.fleet_size][1],
             "synthetic_epoch": "ECI and ECEF aligned at t=0; no real observation date",
             "footprint_ground_radius_km": float(R_EARTH * central),
             "assumptions": [
                 "Circular two-body orbits, rotating spherical Earth, no perturbations or terrain masks.",
-                "12/30/48 are synthetic trial layouts, not confirmed OQ deployments or expansion plans.",
+                "Walker-star layouts (planes spread over 180 deg): 12 = 3x4 (today-scale), 48 = 4x12 (OQ Gen-2 size), 96 = 8x12. Synthetic, not confirmed OQ orbital slots.",
                 "Links require elevation/clearance/range and scenario permissions. These are geometric candidate links, not verified RF/optical link budgets.",
                 "RF links join neighbouring slots in one plane; optical contacts use nearest feasible cross-plane pairs with a degree cap. PAT time and optical weather are excluded.",
                 "All architectures use identical orbit geometry, service rates, gateway permissions and base processing assumptions. Bent-pipe can choose either eligible visible gateway.",
@@ -485,7 +488,7 @@ def write_evidence(output: Path, configs: list[Config]) -> None:
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=Path(__file__).resolve().parent / "data_v3")
-    parser.add_argument("--fleet", type=int, choices=(12, 30, 48), default=12)
+    parser.add_argument("--fleet", type=int, choices=tuple(LAYOUTS), default=12)
     parser.add_argument("--duration-min", type=int, default=180)
     parser.add_argument("--step-s", type=int, default=30)
     parser.add_argument("--sweep", action="store_true", help="Compare all 27 fleet/architecture/topology combinations.")
@@ -493,7 +496,7 @@ def main():
     base = Config(fleet_size=args.fleet, duration_min=args.duration_min, step_s=args.step_s)
     configs = [replace(base, architecture=a) for a in ARCHITECTURES]
     if args.sweep:
-        configs = [replace(base, fleet_size=f, architecture=a, isl_topology=t) for f in (12, 30, 48) for a in ARCHITECTURES for t in TOPOLOGIES]
+        configs = [replace(base, fleet_size=f, architecture=a, isl_topology=t) for f in LAYOUTS for a in ARCHITECTURES for t in TOPOLOGIES]
     write_evidence(args.output, configs)
 
 

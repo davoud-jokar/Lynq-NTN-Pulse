@@ -1,0 +1,4 @@
+scenario_id,fleet_size,architecture,isl_topology,terminal,local_enabled,alternative_enabled,sampled_terminal_access_pct,sampled_route_access_pct,alarm_target_success_pct,mean_active_path_delay_ms,telemetry_packets_generated,telemetry_packets_delivered,telemetry_packets_pending,telemetry_packets_expired,telemetry_packets_overflow,mean_delivered_telemetry_delay_min,max_onboard_queue_mb,max_ground_queue_mb,mass_balance_error_mb
+case_000,48,regenerative,hybrid,North Sea Wind Farm,False,True,91.38888888888889,75.0,75.0,210.96227759527832,360,360,0,0,0,0.3886560522743017,0.04,0.02,0.0
+case_001,48,functional_split,hybrid,North Sea Wind Farm,False,True,91.38888888888889,61.94444444444444,61.94444444444444,208.1970917800923,360,360,0,0,0,0.8189402817498864,0.0,0.06,0.0
+case_002,48,bent_pipe,hybrid,North Sea Wind Farm,False,True,91.38888888888889,61.66666666666667,61.66666666666667,208.1232149098636,360,360,0,0,0,0.8439356074438835,0.0,0.06,0.0

@@ -1,4 +1,4 @@
-# Lynq NTN-Pulse — model 3.0
+# Lynq NTN-Pulse — model 3.1
 
 Team Lynq: Davoud Jokar, Ines Bouissou, Gambhir Sharma, Maryam Amini.
 
@@ -35,13 +35,13 @@ The dashboard computes through `engine.py`. It does **not** require `engine.py` 
 
 ## Scope and assumptions
 
-- Trial shells: 12 satellites / 3 planes, 30 / 3, 48 / 4; 550 km, 87° inclination, phase factor 1. These are hypothetical layouts, **not confirmed OQ fleet plans**. Plane count also changes, so the layouts do not isolate the effect of satellite count.
+- Walker-star shells (planes spread over 180°): 12 = 3×4 (today scale), 48 = 4×12 (OQ Gen-2 size), 96 = 8×12; 550 km, 87°. At 550 km an in-plane RF ring needs ≥9 satellites per plane, so only 48 and 96 close rings. Optical cross-plane links connect adjacent planes only (none across the counter-rotating seam). Synthetic layouts, not confirmed OQ orbital slots.
 - Epoch: ECI and ECEF aligned at t=0; no claimed observation date. The Earth radius is 6371 km, gravitational parameter 398600.4418 km³/s², rotation 7.2921150e-5 rad/s. No perturbations, atmosphere or terrain.
 - A ground contact requires elevation ≥10°. ISLs require ≤5000 km and a chord clearing Earth by ≥80 km. RF joins adjacent slots in a plane. Optical links join the nearest eligible cross-plane pairs with at most two optical contacts per satellite. Pointing/acquisition, hardware duty cycles, power and link margins are not modeled.
 - The two gateways and permission toggles are hypothetical. Eligibility combines assumed operating permission and operational status; geometry is checked separately. The full 5G core remains on the ground.
 - All architectures share the same service/feeder rates and base RAN/core processing costs. Regenerative processing does not receive a hard-coded latency or availability advantage. Split RAN has a configurable 20 ms F1 transport target for a 1500-byte reference PDU, an engineering scenario assumption rather than a universal 3GPP requirement.
-- Default link rates: service 0.256 Mbps, feeder 10 Mbps, RF ISL 4 Mbps, optical 100 Mbps. RAN processing 20 ms, core/IP processing 20 ms, ISL switching 1 ms/hop. These assumptions require OQ review. The 2 GHz Doppler calculation frequency is not a licence or band-allocation claim.
-- Model sampling is 30 seconds. Contacts remain frozen during each sample. The model probes one 1024-byte alarm and generates one telemetry packet per step, corresponding to 0.2 MB/min, with a 90-minute telemetry deadline. MB is decimal, 1 MB = 1,000,000 bytes.
+- Default link rates: service 0.01 Mbps (NB-IoT-class standard module), feeder 10 Mbps, RF ISL 4 Mbps, optical 100 Mbps. RAN processing 20 ms, core/IP processing 20 ms, ISL switching 1 ms/hop. These assumptions require OQ review. The 2 GHz Doppler calculation frequency is not a licence or band-allocation claim.
+- Model sampling is 30 seconds. Contacts remain frozen during each sample. The model probes one 200-byte alarm (2 s target) and generates one telemetry packet per step, corresponding to 0.01 MB/min, with a 90-minute telemetry deadline. MB is decimal, 1 MB = 1,000,000 bytes.
 - One terminal workload per run. There is no multi-terminal traffic contention, fading, HARQ, beam scheduling, modem, authentication handshake, handover interruption or detailed RF/optical link-budget model. Candidate routes are optimistic transport scenarios, not demonstrated service availability.
 - Each transfer reserves byte capacity on all used links for that time step. Alarms have priority; older onboard telemetry is serviced before terminal backlog. Packets are atomic application messages in this simplified model.
 - Only the full regenerative case may buffer onboard, and only when the corresponding option is enabled. This assumes an already established session, authentication continuity and supported payload storage. A gNB alone does not supply a complete disconnected core.
@@ -52,7 +52,7 @@ The dashboard computes through `engine.py`. It does **not** require `engine.py` 
 ## Three short demonstrations
 
 1. **Alternate gateway:** select 12 satellites, bent-pipe, local gateway off, LU on; click “Find a direct path.” This explicitly shows that a blocked local gateway does not automatically defeat a transparent network.
-2. **Actual ISL path:** select 48 satellites, full onboard gNB, hybrid topology, local off, LU on; click “Find an ISL path.” Every drawn hop is in the modeled graph. The default 12-satellite run has no selected ISL route; do not manufacture one for a pitch.
+2. **Actual ISL path:** select 48 sats · 4×12 (Gen-2), full onboard gNB, Barents Sea platform or Mid-Atlantic vessel, local off, LU on; click “Find an ISL path.” Every drawn hop is in the modeled graph. With 12 satellites (4 per plane) no in-plane ring can close, so no ISL route exists.
 3. **No route and buffering:** turn both gateways off. Alarms have no delay value because delivery is unavailable. With the forecast guard on, telemetry remains at the terminal because no future gateway egress exists in that run. Restore LU and use “Find an onboard queue” to inspect a genuine modeled store-and-forward transfer.
 
 Use the screenshot or recording you capture on your own system for the venue backup. The app does not claim a completed MeluXina benchmark.
@@ -77,7 +77,7 @@ The default CLI compares the three architectures at one North Sea terminal, 12 s
 | `scenario_summary_v3.csv` | Per-scenario counts and conditional delay summaries |
 | `model_metadata_v3.json` | Input parameters, assumptions, version and engine SHA-256 |
 
-The included `data_v3` is a newly executed 180-minute example. Its sample percentages must not be mixed with the earlier independent 24-hour geometry screen used in the presentation. Neither is an OQ flight result. In the included case, all three architectures have the same sampled alarm success rate; buffering changes telemetry delay. More satellites or regeneration do not guarantee a better result in every layout.
+The included `data_v3` is a 180-minute example for the 48-satellite (4×12) Gen-2 layout at the North Sea terminal with only the Luxembourg gateway eligible. It is not an OQ flight result.
 
 ## Validation
 
